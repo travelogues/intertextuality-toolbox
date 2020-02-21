@@ -3,12 +3,13 @@ package travelogues.intertextuality.ner
 import edu.stanford.nlp.pipeline.{CoreDocument, StanfordCoreNLP}
 import edu.stanford.nlp.util.StringUtils
 import edu.stanford.nlp.ling.{CoreAnnotations, CoreLabel}
-import java.io.File
 import org.slf4j.LoggerFactory
 import scala.collection.JavaConverters._
-import scala.io.Source
 
 object App {
+
+  // TODO replace with CLI arg
+  private val SOURCE_FOLDER = "../../../sample-data/two-related"
 
   private val log = LoggerFactory.getLogger(this.getClass)
 
@@ -25,49 +26,26 @@ object App {
     pipeline
   }
 
-  def loadDocuments(folder: String) = {
-    val dir = new File(folder)
-    if (dir.exists && dir.isDirectory) {
-      dir.listFiles.filter{ f => 
-        f.isFile && f.getName.endsWith(".txt")
-      }.toList
-    } else {
-      List.empty[File]
-    }
-  }
-
-  def loadText(f: File) =
-    Source.fromFile(f).getLines().mkString("\n")
-
-  def normalize(text: String) = 
-    text.replaceAll("/", " ")
-        .replaceAll("\\-\\\\n", "")
-        .replaceAll("[,.!?:;]\\\\n", "")
-        .replaceAll("\\n", "")
-
-  def split(text: String) = text.split("\\.").map(_.trim).filter(_.length > 0)
+  /** Shorthand **/
+  private def getTag(label: CoreLabel) = label.get(classOf[CoreAnnotations.NamedEntityTagAnnotation])
 
   def main(args: Array[String]): Unit = {
-    val FOLDER = "../../../sample-data/two-related"
+    Utils.loadDocuments(SOURCE_FOLDER).par.map { f => 
+      val normalizedText = Utils.normalize(Utils.loadText(f))
 
-    loadDocuments(FOLDER).map { f => 
-
-      val normalizedText = normalize(loadText(f))
-
-      split(normalizedText).par.map { chunk => 
+      Utils.splitOnPeriod(normalizedText).par.map { chunk =>
+        
+        // NER using Stanford 
         val document = new CoreDocument(chunk)
         pipeline.annotate(document)
 
-        def getTag(label: CoreLabel) = label.get(classOf[CoreAnnotations.NamedEntityTagAnnotation])
-
+        // Loop through tokens and perform some minimal cleanup
         val tokens = document.tokens().asScala.foldLeft(Seq.empty[Entity]) { (result, token) =>
           val entity = Entity.fromToken(token)
-
           result.headOption match {
             case Some(prev) if prev.tag == entity.tag =>
               // Append to previous phrase if entity tag is the same
               prev.append(entity) +: result.tail
-
 
             case _ =>
               // Either this is the first token or a new phrase
@@ -76,6 +54,8 @@ object App {
         }
 
         val entities = tokens.filter(_.tag != "O")
+
+        // TODO write to file
         if (entities.size > 0)
           println(entities)
       }
@@ -83,4 +63,3 @@ object App {
   }
 
 }
-
