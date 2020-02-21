@@ -3,7 +3,17 @@
 This repository contains scripts and helpers to study intextual relations in the 
 books of the [Travelogues Corpus](https://github.com/travelogues/travelogues-corpus).
 
-__Work in progres__
+__!!! Work in progres !!!__
+
+## Tools
+
+The tools folder contains scripts and helpers for studying intertextual relations between texts.
+
+- `text-reuse` contains code to detect verbatim re-use
+- `spatial-focus` contains tools for geocoding and studying the spatial focus of texts
+- `topics` contains helpers for topic modelling 
+
+Detailed descriptions can be found in the README files in the specific subfolders.
 
 ## Sample Data
 
@@ -16,16 +26,6 @@ The `sample-data` folder contains useful test material, sampled from the corpus.
   [AC10232182](http://data.onb.ac.at/rec/AC10232182), [AC10307407](http://data.onb.ac.at/rec/AC10307407))
 - `near-duplicates` are two selected texts that are known to be near duplicates, i.e. contain a high amount
   of text re-use
-
-## Tools
-
-The tools folder contains scripts and helpers for studying intertextual relations between texts.
-
-- `text-reuse` contains code to detect verbatim re-use
-- `spatial-focus` contains tools for geocoding and studying the spatial focus of texts
-- `topics` contains helpers for topic modelling 
-
-Detailed descriptions can be found in the README files in the specific subfolders.
 
 ## Examples
 
