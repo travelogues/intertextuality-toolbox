@@ -58,6 +58,15 @@ object App {
         // TODO write to file
         if (entities.size > 0)
           println(entities)
+
+        /*
+          {
+            "sentence": "...",
+            "tokens": [
+              { "chars": "...", "label": "....", "offset": 123 }
+            ]
+          }
+        */
       }
     }
   }
