@@ -41,6 +41,10 @@ object App {
     val sourceFolder = args.headOption.getOrElse(DEFAULT_SOURCE_FOLDER)
     println(s"Reading from folder ${sourceFolder}")
 
+    // Keep track of progress
+    var total = 0;
+    var ctr = 0;
+
     try {
       Utils.loadDocuments(sourceFolder).par.map { f => 
         // Each source document gets its own JSON result file
@@ -50,9 +54,7 @@ object App {
         val normalizedText = Utils.normalize(Utils.loadText(f))
         val sentences = Utils.splitOnPeriod(normalizedText)
 
-        // TODO track progress
-        val total = sentences.size
-        var ctr = 0;
+        total += sentences.size
 
         sentences.map { chunk =>
           
@@ -75,8 +77,6 @@ object App {
           }
 
           val entities = tokens.filter(_.tag != "O")
-
-          // TODO write to file
           if (entities.size > 0) {
             val asJson = Json.obj(
               "sentence" -> chunk,
@@ -90,7 +90,7 @@ object App {
           }
 
           ctr += 1
-          print(s"${ctr} / ${total}\r")
+          print(s"Parsed ${ctr} / ${total} chunks\r")
         }
 
         out.close()
