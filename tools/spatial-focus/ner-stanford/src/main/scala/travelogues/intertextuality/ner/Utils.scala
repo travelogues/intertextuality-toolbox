@@ -1,6 +1,6 @@
 package travelogues.intertextuality.ner
 
-import java.io.File
+import java.io.{File, PrintWriter}
 import scala.io.Source
 
 final case class NotFoundException(private val msg: String = "") 
@@ -33,5 +33,14 @@ object Utils {
 
   /** Split on period and remove empty lines **/
   def splitOnPeriod(text: String) = text.split("\\.").map(_.trim).filter(_.length > 0)
+
+  /** Gets a PrintWriter to the outfile, first removing the file if it exists already **/
+  def openOutfile(path: String): PrintWriter = {
+    val f = new File(path)
+    if (f.exists)
+      f.delete()
+
+    new PrintWriter(new File(path))
+  }
 
 }

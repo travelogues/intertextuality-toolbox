@@ -4,6 +4,7 @@ import edu.stanford.nlp.pipeline.{CoreDocument, StanfordCoreNLP}
 import edu.stanford.nlp.util.StringUtils
 import edu.stanford.nlp.ling.{CoreAnnotations, CoreLabel}
 import org.slf4j.LoggerFactory
+import play.api.libs.json.Json
 import scala.collection.JavaConverters._
 
 /** Runs NER on all .txt files in the given folder. Run the tool via sbt:
@@ -14,6 +15,8 @@ import scala.collection.JavaConverters._
 object App {
 
   private val DEFAULT_SOURCE_FOLDER = "../../../sample-data/two-related"
+
+  private val DEFAULT_OUTFILE_PATTERN = "../../../examples/stanford-ner-out-XXXX.jsonl"
 
   private val log = LoggerFactory.getLogger(this.getClass)
 
@@ -40,9 +43,18 @@ object App {
 
     try {
       Utils.loadDocuments(sourceFolder).par.map { f => 
-        val normalizedText = Utils.normalize(Utils.loadText(f))
+        // Each source document gets its own JSON result file
+        // TODO use CLI argument
+        val out = Utils.openOutfile(DEFAULT_OUTFILE_PATTERN.replaceAll("XXXX", f.getName))
 
-        Utils.splitOnPeriod(normalizedText).par.map { chunk =>
+        val normalizedText = Utils.normalize(Utils.loadText(f))
+        val sentences = Utils.splitOnPeriod(normalizedText)
+
+        // TODO track progress
+        val total = sentences.size
+        var ctr = 0;
+
+        sentences.map { chunk =>
           
           // NER using Stanford 
           val document = new CoreDocument(chunk)
@@ -65,18 +77,23 @@ object App {
           val entities = tokens.filter(_.tag != "O")
 
           // TODO write to file
-          if (entities.size > 0)
-            println(entities)
+          if (entities.size > 0) {
+            val asJson = Json.obj(
+              "sentence" -> chunk,
+              "tokens" -> entities.map(e => Json.obj(
+                "chars" -> e.chars,
+                "tag" -> e.tag,
+                "offset" -> e.offset
+              )))
+            
+            out.write(s"${Json.stringify(asJson)}\n")
+          }
 
-          /*
-            {
-              "sentence": "...",
-              "tokens": [
-                { "chars": "...", "label": "....", "offset": 123 }
-              ]
-            }
-          */
+          ctr += 1
+          print(s"${ctr} / ${total}\r")
         }
+
+        out.close()
       }
     } catch { 
       case e: NotFoundException => println(s"Folder not found: ${sourceFolder}")
