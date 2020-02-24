@@ -3,7 +3,7 @@
 This repository contains scripts and helpers to study intextual relations in the 
 books of the [Travelogues Corpus](https://github.com/travelogues/travelogues-corpus).
 
-__!!! Work in progres !!!__
+__!!! Work in progress !!!__
 
 ## Tools
 
