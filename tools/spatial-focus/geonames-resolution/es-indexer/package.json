@@ -1,0 +1,16 @@
+{
+  "name": "es-indexer",
+  "version": "0.0.1",
+  "description": "A node utility to build the georesolution index",
+  "scripts": {
+    "delete_index": "curl -XDELETE http://localhost:9200/geonames",
+    "init_index": "curl -XPUT http://localhost:9200/geonames -d @mappings.json -H \"Content-Type: application/json\"",
+    "build_index": "node --max-old-space-size=8192 src/buildIndex.js"
+  },
+  "author": "Rainer Simon <rainer.simon@ait.ac.at>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "read-each-line-sync": "^1.0.5"
+  }
+}
