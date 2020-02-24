@@ -17,6 +17,8 @@ const chunkArray = (arr, n) => {
     index += n;
   }
 
+  // Remainder
+  chunked.push(arr.slice(index));
   return chunked;
 }
 
@@ -24,7 +26,8 @@ const app = async function() {
   console.log('Reading from file');
 
   const lines = fs.readFileSync(GAZETTEER_PATH, 'utf-8')
-    .split('\n');
+    .split('\n')
+    .filter(function(str) { return str.trim().length > 0 });
 
   const chunks = chunkArray(lines, MAX_PARALLEL_REQUESTS);
 
