@@ -3,6 +3,9 @@ package travelogues.intertextuality.ner
 import java.io.File
 import scala.io.Source
 
+final case class NotFoundException(private val msg: String = "") 
+  extends Exception(msg)
+
 object Utils {
 
   /** Load all txts from a folder **/
@@ -13,7 +16,7 @@ object Utils {
         f.isFile && f.getName.endsWith(".txt")
       }.toList
     } else {
-      List.empty[File]
+      throw new NotFoundException
     }
   }
 

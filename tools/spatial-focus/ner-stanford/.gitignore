@@ -1,1 +1,4 @@
 **/target
+.ensime*
+ensime*
+pc.stdout.log
