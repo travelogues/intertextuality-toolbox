@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "properties": {
+      "@id":    { "type": "keyword" },  
+      "type":  { "type": "keyword"  },
+      "properties":   { 
+        "properties": {
+          "title": { "type": "text" },
+          "ccodes": { "type": "keyword" }
+        }
+      },
+      "names": {
+        "properties": {
+          "toponym": { "type": "text" }
+        }
+      },
+      "geometry": { "type": "geo_shape" }
+    }
+  }
+}
