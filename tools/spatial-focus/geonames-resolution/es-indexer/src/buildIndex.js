@@ -1,35 +1,37 @@
 const axios = require('axios');
-const fs = require('fs')
+const fs = require('fs');
+const { indexRecords } = require('./bulk');
 
-// TODO make a proper config file
-const GAZETTEER_PATH = '/home/simonr/Workspaces/pelagios/recogito-geonames-packager/output/geonames_AT.lpf.jsonl';
-const INDEX_PATH = 'http://localhost:9200/geonames';
+const { 
+  GAZETTEER_PATH, 
+  MAX_PARALLEL_REQUESTS
+} = require('./config.json');
 
-/** Indexes one document **/
-const writeToIndex = function(record) {  
-  try {
-    return axios.post(`${INDEX_PATH}/_doc/`, record, {
-      headers: { 'Content-Type': 'application/json' },
-      maxContentLength: Infinity,
-      maxBodyLength: Infinity
-    });
-  } catch(error) {
-    console.log(`Error indexing ${record}`);
-    console.log(error);
-    return Promise.reject(error);
+/** Helper: chunk array into batches of size N **/
+const chunkArray = (arr, n) => {
+  const chunked = [];
+  
+  let index = 0;
+  while (index < arr.length) {
+    chunked.push(arr.slice(index, n + index));
+    index += n;
   }
+
+  return chunked;
 }
 
 const app = async function() {
   console.log('Reading from file');
 
-  let lines = fs.readFileSync(GAZETTEER_PATH, 'utf-8')
+  const lines = fs.readFileSync(GAZETTEER_PATH, 'utf-8')
     .split('\n');
 
-  for (const line of lines) {
+  const chunks = chunkArray(lines, MAX_PARALLEL_REQUESTS);
+
+  for (const chunk of chunks) {
     try {
-      const record = JSON.parse(line);
-      await writeToIndex(record);
+      const records = chunk.map(function(str) { return JSON.parse(str); });
+      await indexRecords(records);
     } catch(e) {
       console.log(e);
     }
