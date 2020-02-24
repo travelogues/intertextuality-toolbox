@@ -1,4 +1,4 @@
-name := "stanford-ner-trial"
+name := "geonames-resolution"
 
 organization := "ait.ac.at"
 
@@ -10,8 +10,5 @@ ensimeIgnoreScalaMismatch in ThisBuild := true
 
 libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play-json" % "2.8.1",
-  "edu.stanford.nlp" % "stanford-corenlp" % "3.9.1",
-  "edu.stanford.nlp" % "stanford-corenlp" % "3.9.1" classifier "models",
-  "edu.stanford.nlp" % "stanford-corenlp" % "3.9.1" classifier "models-german",
   "ch.qos.logback" % "logback-classic" % "1.2.3"
 )
