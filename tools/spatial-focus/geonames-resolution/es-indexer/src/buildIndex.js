@@ -13,12 +13,11 @@ const chunkArray = (arr, n) => {
   
   let index = 0;
   while (index < arr.length) {
-    chunked.push(arr.slice(index, n + index));
+    const nextChunk = arr.slice(index, n + index)
+    chunked.push(nextChunk);
     index += n;
   }
 
-  // Remainder
-  chunked.push(arr.slice(index));
   return chunked;
 }
 
