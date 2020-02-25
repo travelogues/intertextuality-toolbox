@@ -6,7 +6,12 @@
       "properties":   { 
         "properties": {
           "title": { "type": "text" },
-          "ccodes": { "type": "keyword" }
+          "ccodes": { "type": "keyword" },
+          "admin_codes": { "type": "keyword" },
+          "feature_class": { "type": "keyword" },
+          "feature_code": { "type": "keyword" },
+          "population": { "type": "long" },
+          "elevation": { "type": "integer" }
         }
       },
       "names": {

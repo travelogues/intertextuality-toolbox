@@ -1,5 +1,5 @@
 {
-  "GAZETTEER_PATH": "/home/simonr/Workspaces/pelagios/recogito-geonames-packager/output/geonames_AT.lpf.jsonl",
+  "GAZETTEER_PATH": "/home/simonr/Workspaces/pelagios/recogito-geonames-packager/output/geonames_full.lpf.jsonl",
   "INDEX_HOST": "http://localhost:9200/",
   "INDEX_NAME": "geonames",
   "MAX_PARALLEL_REQUESTS": 100
