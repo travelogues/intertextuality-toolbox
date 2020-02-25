@@ -5,7 +5,8 @@
   "scripts": {
     "delete_index": "curl -XDELETE http://localhost:9200/geonames",
     "init_index": "curl -XPUT http://localhost:9200/geonames -d @mappings.json -H \"Content-Type: application/json\"",
-    "build_index": "node --max-old-space-size=8192 src/buildIndex.js"
+    "build_index": "node --max-old-space-size=8192 src/buildIndex.js",
+    "query": "node src/query.js"
   },
   "author": "Rainer Simon <rainer.simon@ait.ac.at>",
   "license": "BSD-3-Clause",

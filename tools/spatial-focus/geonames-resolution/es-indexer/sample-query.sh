@@ -11,5 +11,5 @@ curl -XPOST "http://localhost:9200/geonames/_search?pretty" -H "Content-Type: ap
       ]
     }
   },
-  "size" : 1
+  "size" : 2
 }'
