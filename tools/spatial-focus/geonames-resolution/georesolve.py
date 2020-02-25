@@ -1,7 +1,8 @@
 import json
 import requests
 
-SOURCE_NER_FILE = '../../../examples/stanford-ner-out-105572305.txt.jsonl'
+SOURCE_NER_FILE = '../../../examples/stanford-ner-out-156843801.txt.jsonl'
+RESULT_FILE = '../../../examples/156843801.geojson'
 
 def query(toponym):
   return {
@@ -71,7 +72,11 @@ with open(SOURCE_NER_FILE, 'r') as infile:
     'features': features
   }
 
-  print(json.dumps(geojson, indent=2))
+  with open(RESULT_FILE, 'w') as outfile:
+    outfile.write(json.dumps(geojson, indent=2))
+    outfile.close()
+
+  print('Done.')
       
 
     
