@@ -24,24 +24,28 @@ def query(toponym):
 # Read JSONL file line by line and collect LOCATION tokens into a set
 with open(SOURCE_NER_FILE, 'r') as infile:
 
-  distinct_locations = set()
+  distinct_locations = {}
 
   for line in infile.readlines():
     record = json.loads(line)
     locations = list(filter(lambda t: t['tag'] == 'LOCATION', record['tokens']))
 
     for token in locations:      
-      distinct_locations.add(token['chars'])
+      chars = token['chars']
+      if chars in distinct_locations:
+        distinct_locations[chars] += 1
+      else:
+        distinct_locations[chars] = 1
 
-  locations_sorted = list(distinct_locations)
-  locations_sorted.sort()
+  sorted_keys = list(distinct_locations.keys())
+  sorted_keys.sort()  
 
-  print(f'Got {len(locations_sorted)} locations')
+  print(f'Got {len(sorted_keys)} locations')
 
   # Assemble a GeoJSON feature collection as final result
   features = []
 
-  for location in locations_sorted:
+  for location in sorted_keys:
     r = requests.post('http://localhost:9200/geonames/_search', json=query(location.lower()))
     response = r.json()
 
@@ -53,14 +57,12 @@ with open(SOURCE_NER_FILE, 'r') as infile:
         'type': 'Feature',
         'properties': {
           'source_label': location,
+          'occurrences': distinct_locations[location],
           'gazetteer_title': first_hit['properties']['title'],
-          'gazetteer_uri': first_hit['@id'],
-          'gazetteer_population': first_hit['properties']['population']
+          'gazetteer_uri': first_hit['@id']
         },
         'geometry': first_hit['geometry']
       }
-
-      # TODO number of references in the text
       
       features.append(feature)
   
