@@ -38,6 +38,9 @@ with open(SOURCE_NER_FILE, 'r') as infile:
 
   print(f'Got {len(locations_sorted)} locations')
 
+  # Assemble a GeoJSON feature collection as final result
+  features = []
+
   for location in locations_sorted:
     r = requests.post('http://localhost:9200/geonames/_search', json=query(location.lower()))
     response = r.json()
@@ -45,12 +48,28 @@ with open(SOURCE_NER_FILE, 'r') as infile:
     total_hits = response['hits']['total']['value']
     if (total_hits > 0):
       first_hit = response['hits']['hits'][0]['_source']
-      
-      title = first_hit['properties']['title']
-      uri = first_hit['@id']
-      population = first_hit['properties']['population']
 
-      print(f'{location}: {title}, {uri} ({total_hits} total hits)')
+      feature = {
+        'type': 'Feature',
+        'properties': {
+          'source_label': location,
+          'gazetteer_title': first_hit['properties']['title'],
+          'gazetteer_uri': first_hit['@id'],
+          'gazetteer_population': first_hit['properties']['population']
+        },
+        'geometry': first_hit['geometry']
+      }
+
+      # TODO number of references in the text
+      
+      features.append(feature)
+  
+  geojson = {
+    'type': 'FeatureCollection',
+    'features': features
+  }
+
+  print(json.dumps(geojson, indent=2))
       
 
     
