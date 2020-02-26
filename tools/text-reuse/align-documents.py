@@ -7,7 +7,7 @@ Aligns equivalent text passages in the two given txt files.
 INPUT_FILE_A = '../../sample-data/near-duplicates/Z168351701.txt'
 INPUT_FILE_B = '../../sample-data/near-duplicates/Z185144009.txt'
 
-OUTPUT_FILE = './results/alignment.json'
+OUTPUT_FILE = '../../results/near-duplicates/aligned-text.json'
 
 # Size of the n-grams to use as a basis
 # Recommended: 8

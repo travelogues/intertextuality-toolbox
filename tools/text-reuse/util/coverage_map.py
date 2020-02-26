@@ -91,4 +91,4 @@ class CoverageMap:
 
   def write_to_file(self, filename):
     with open(filename, 'w') as outfile:
-      json.dump(list(self.coverage_map.values()), outfile)
+      json.dump(list(self.coverage_map.values()), outfile, indent=2)
