@@ -24,8 +24,7 @@ The `sample-data` folder contains useful test material, sampled from the corpus.
   and [AC10001446](http://data.onb.ac.at/rec/AC10001446)) where the later work is known to refer to the earlier one
 - `three-17c` three selected travelogues from the 17th century ([AC09750782](http://data.onb.ac.at/rec/AC09750782),
   [AC10232182](http://data.onb.ac.at/rec/AC10232182), [AC10307407](http://data.onb.ac.at/rec/AC10307407))
-- `near-duplicates` two selected texts that are known to be near duplicates, i.e. contain a high amount
-  of text re-use
+- `near-duplicates` two selected texts that are known to contain a high amount of text re-use (~20%)
 
 ## Examples
 
