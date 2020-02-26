@@ -16,7 +16,7 @@ object App {
 
   private val DEFAULT_SOURCE_FOLDER = "../../../sample-data/two-related"
 
-  private val DEFAULT_OUTFILE_PATTERN = "../../../examples/stanford-ner-out-XXXX.jsonl"
+  private val DEFAULT_DESTINATION_FOLDER = "../../../results/two-related"
 
   private val log = LoggerFactory.getLogger(this.getClass)
 
@@ -48,8 +48,10 @@ object App {
     try {
       Utils.loadDocuments(sourceFolder).par.map { f => 
         // Each source document gets its own JSON result file
-        // TODO use CLI argument
-        val out = Utils.openOutfile(DEFAULT_OUTFILE_PATTERN.replaceAll("XXXX", f.getName))
+        val filename = f.getName.substring(0, f.getName.lastIndexOf('.'))
+
+        // TODO use commandline arg
+        val out = Utils.openOutfile(s"${DEFAULT_DESTINATION_FOLDER}/${filename}.ner.stanford.jsonl")
 
         val normalizedText = Utils.normalize(Utils.loadText(f))
         val sentences = Utils.splitOnPeriod(normalizedText)

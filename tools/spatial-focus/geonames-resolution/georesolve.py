@@ -1,8 +1,7 @@
 import json
 import requests
 
-SOURCE_NER_FILE = '../../../examples/stanford-ner-out-156843801.txt.jsonl'
-RESULT_FILE = '../../../examples/156843801.geojson'
+NER_SOURCE_FOLDER = '../../../examples/stanford-ner-out-156843801.txt.jsonl'
 
 def query(toponym):
   return {
