@@ -1,0 +1,837 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Aalen",
+        "occurrences": 1,
+        "gazetteer_title": "\u00c5len",
+        "gazetteer_uri": "http://sws.geonames.org/3163394"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3013,
+          62.84185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Albany",
+        "occurrences": 6,
+        "gazetteer_title": "West Albany",
+        "gazetteer_uri": "http://sws.geonames.org/5143620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.77845,
+          42.68313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Amerika",
+        "occurrences": 7,
+        "gazetteer_title": "Amerika",
+        "gazetteer_uri": "http://sws.geonames.org/2759830"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.37083,
+          53.09167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Bieber",
+        "occurrences": 1,
+        "gazetteer_title": "Bieber",
+        "gazetteer_uri": "http://sws.geonames.org/2949270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.80417,
+          50.08957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Braunschweig",
+        "occurrences": 1,
+        "gazetteer_title": "Braunschweig",
+        "gazetteer_uri": "http://sws.geonames.org/2945024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.52673,
+          52.26594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Canada",
+        "occurrences": 1,
+        "gazetteer_title": "Canada",
+        "gazetteer_uri": "http://sws.geonames.org/4269037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1128,
+          38.35418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Caribou",
+        "occurrences": 2,
+        "gazetteer_title": "Caribou",
+        "gazetteer_uri": "http://sws.geonames.org/5560988"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.15774,
+          40.08044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Cataraqui",
+        "occurrences": 3,
+        "gazetteer_title": "Kingston",
+        "gazetteer_uri": "http://sws.geonames.org/5992500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48098,
+          44.22976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "China",
+        "occurrences": 2,
+        "gazetteer_title": "People\u2019s Republic of China",
+        "gazetteer_uri": "http://sws.geonames.org/1814991"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105,
+          35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "CrownPoint",
+        "occurrences": 1,
+        "gazetteer_title": "Crownpoint",
+        "gazetteer_uri": "http://sws.geonames.org/5463890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.15118,
+          35.67808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Delaware",
+        "occurrences": 1,
+        "gazetteer_title": "Delaware",
+        "gazetteer_uri": "http://sws.geonames.org/5097212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.06462,
+          40.89288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Detroit",
+        "occurrences": 2,
+        "gazetteer_title": "Detroit",
+        "gazetteer_uri": "http://sws.geonames.org/4990729"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04575,
+          42.33143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "England",
+        "occurrences": 13,
+        "gazetteer_title": "England",
+        "gazetteer_uri": "http://sws.geonames.org/4110001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.96903,
+          34.54426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Erde",
+        "occurrences": 2,
+        "gazetteer_title": "Rothe Erde",
+        "gazetteer_uri": "http://sws.geonames.org/2844200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1407,
+          50.77719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Europa",
+        "occurrences": 1,
+        "gazetteer_title": "Europa",
+        "gazetteer_uri": "http://sws.geonames.org/8961484"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.08176,
+          45.61563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Fort",
+        "occurrences": 1,
+        "gazetteer_title": "N'Djamena",
+        "gazetteer_uri": "http://sws.geonames.org/2427123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0444,
+          12.10672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Frankreich",
+        "occurrences": 2,
+        "gazetteer_title": "Republic of France",
+        "gazetteer_uri": "http://sws.geonames.org/3017382"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2,
+          46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Georgia",
+        "occurrences": 1,
+        "gazetteer_title": "Georgia",
+        "gazetteer_uri": "http://sws.geonames.org/5098392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.28459,
+          40.18733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Gro\u00dfbritannien",
+        "occurrences": 3,
+        "gazetteer_title": "United Kingdom of Great Britain and Northern Ireland",
+        "gazetteer_uri": "http://sws.geonames.org/2635167"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.69531,
+          54.75844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Harz",
+        "occurrences": 1,
+        "gazetteer_title": "Herzberg am Harz",
+        "gazetteer_uri": "http://sws.geonames.org/2905496"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.33938,
+          51.65546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Hirschen",
+        "occurrences": 2,
+        "gazetteer_title": "Zgon",
+        "gazetteer_uri": "http://sws.geonames.org/753314"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.39838,
+          53.65019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Huron",
+        "occurrences": 1,
+        "gazetteer_title": "Huron",
+        "gazetteer_uri": "http://sws.geonames.org/5358769"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.10292,
+          36.20273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Ilinois",
+        "occurrences": 1,
+        "gazetteer_title": "Illinois",
+        "gazetteer_uri": "http://sws.geonames.org/4896861"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.25037,
+          40.00032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Illinois",
+        "occurrences": 2,
+        "gazetteer_title": "Illinois City",
+        "gazetteer_uri": "http://sws.geonames.org/4896809"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.89959,
+          41.39753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Indien",
+        "occurrences": 1,
+        "gazetteer_title": "Republic of India",
+        "gazetteer_uri": "http://sws.geonames.org/1269750"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79,
+          22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Kanada",
+        "occurrences": 29,
+        "gazetteer_title": "Khub\u0101n",
+        "gazetteer_uri": "http://sws.geonames.org/73753"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.44611,
+          13.18806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Kastel",
+        "occurrences": 1,
+        "gazetteer_title": "Kastel",
+        "gazetteer_uri": "http://sws.geonames.org/2892488"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.28291,
+          50.00994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Kenty",
+        "occurrences": 1,
+        "gazetteer_title": "K\u0119ty",
+        "gazetteer_uri": "http://sws.geonames.org/3096328"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.22333,
+          49.88214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "LaChine",
+        "occurrences": 1,
+        "gazetteer_title": "Lachine",
+        "gazetteer_uri": "http://sws.geonames.org/6545041"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.66899,
+          45.43177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "London",
+        "occurrences": 5,
+        "gazetteer_title": "London",
+        "gazetteer_uri": "http://sws.geonames.org/2643743"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12574,
+          51.50853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "L\u00fcneburg",
+        "occurrences": 1,
+        "gazetteer_title": "L\u00fcneburg",
+        "gazetteer_uri": "http://sws.geonames.org/2875115"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.41409,
+          53.2509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Mississippi",
+        "occurrences": 6,
+        "gazetteer_title": "Mississippi Mills",
+        "gazetteer_uri": "http://sws.geonames.org/6075370"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.19939,
+          45.23341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Mohawk",
+        "occurrences": 1,
+        "gazetteer_title": "Mohawk",
+        "gazetteer_uri": "http://sws.geonames.org/5127233"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.00404,
+          43.01146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Montreal",
+        "occurrences": 36,
+        "gazetteer_title": "Montr\u00e9al",
+        "gazetteer_uri": "http://sws.geonames.org/6077243"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58781,
+          45.50884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Niagara",
+        "occurrences": 5,
+        "gazetteer_title": "Niagara",
+        "gazetteer_uri": "http://sws.geonames.org/5264569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.99485,
+          45.77135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Nis",
+        "occurrences": 1,
+        "gazetteer_title": "Nice",
+        "gazetteer_uri": "http://sws.geonames.org/2990440"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.26608,
+          43.70313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Noth",
+        "occurrences": 2,
+        "gazetteer_title": "Noth",
+        "gazetteer_uri": "http://sws.geonames.org/6429235"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.58583,
+          46.23472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Obersee",
+        "occurrences": 1,
+        "gazetteer_title": "Wilczkowo",
+        "gazetteer_uri": "http://sws.geonames.org/3081982"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.73057,
+          52.8739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Ohio",
+        "occurrences": 4,
+        "gazetteer_title": "Columbus",
+        "gazetteer_uri": "http://sws.geonames.org/4509177"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.99879,
+          39.96118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Ontario",
+        "occurrences": 8,
+        "gazetteer_title": "Hamilton",
+        "gazetteer_uri": "http://sws.geonames.org/5969782"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.84963,
+          43.25011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Orleans",
+        "occurrences": 2,
+        "gazetteer_title": "New Orleans",
+        "gazetteer_uri": "http://sws.geonames.org/4335045"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07507,
+          29.95465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Oslo",
+        "occurrences": 1,
+        "gazetteer_title": "Oslo",
+        "gazetteer_uri": "http://sws.geonames.org/3143244"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.74609,
+          59.91273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Oswego",
+        "occurrences": 1,
+        "gazetteer_title": "Oswego",
+        "gazetteer_uri": "http://sws.geonames.org/4590241"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.28758,
+          34.00738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Paris",
+        "occurrences": 1,
+        "gazetteer_title": "Paris",
+        "gazetteer_uri": "http://sws.geonames.org/2988507"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3488,
+          48.85341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Philadelphia",
+        "occurrences": 1,
+        "gazetteer_title": "Amman",
+        "gazetteer_uri": "http://sws.geonames.org/250441"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.94503,
+          31.95522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Portsmouth",
+        "occurrences": 1,
+        "gazetteer_title": "Portsmouth",
+        "gazetteer_uri": "http://sws.geonames.org/2639996"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.09125,
+          50.79899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Quebeck",
+        "occurrences": 3,
+        "gazetteer_title": "Quebeck",
+        "gazetteer_uri": "http://sws.geonames.org/4651806"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.56692,
+          35.81673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Quebek",
+        "occurrences": 7,
+        "gazetteer_title": "New Britain",
+        "gazetteer_uri": "http://sws.geonames.org/4839292"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.77954,
+          41.66121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Saguenay",
+        "occurrences": 1,
+        "gazetteer_title": "Saguenay",
+        "gazetteer_uri": "http://sws.geonames.org/6137270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.06573,
+          48.41675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Schenectady",
+        "occurrences": 2,
+        "gazetteer_title": "Schenectady",
+        "gazetteer_uri": "http://sws.geonames.org/5136454"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93957,
+          42.81424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "St",
+        "occurrences": 5,
+        "gazetteer_title": "Luanda",
+        "gazetteer_uri": "http://sws.geonames.org/2240449"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.23432,
+          -8.83682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Washington",
+        "occurrences": 1,
+        "gazetteer_title": "Washington, D.C.",
+        "gazetteer_uri": "http://sws.geonames.org/4140963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03637,
+          38.89511
+        ]
+      }
+    }
+  ]
+}

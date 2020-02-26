@@ -1,0 +1,549 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Alt",
+        "occurrences": 1,
+        "gazetteer_title": "Alt-Hohensch\u00f6nhausen",
+        "gazetteer_uri": "http://sws.geonames.org/8334624"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5013,
+          52.54608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Annaburg",
+        "occurrences": 1,
+        "gazetteer_title": "Annaburg",
+        "gazetteer_uri": "http://sws.geonames.org/6550890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0333,
+          51.7333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Barleben",
+        "occurrences": 1,
+        "gazetteer_title": "Barleben",
+        "gazetteer_uri": "http://sws.geonames.org/2952564"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6177,
+          52.20193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Berlin",
+        "occurrences": 63,
+        "gazetteer_title": "Berlin",
+        "gazetteer_uri": "http://sws.geonames.org/2950159"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.41053,
+          52.52437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Borsberg",
+        "occurrences": 1,
+        "gazetteer_title": "Borsberg",
+        "gazetteer_uri": "http://sws.geonames.org/2946027"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.90333,
+          51.0127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Brandenburg",
+        "occurrences": 2,
+        "gazetteer_title": "Brandenburg an der Havel",
+        "gazetteer_uri": "http://sws.geonames.org/2945358"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.55,
+          52.41667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Brod",
+        "occurrences": 1,
+        "gazetteer_title": "Brod",
+        "gazetteer_uri": "http://sws.geonames.org/3203243"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.93083,
+          46.27694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Charlottenburg",
+        "occurrences": 1,
+        "gazetteer_title": "Charlottenburg",
+        "gazetteer_uri": "http://sws.geonames.org/2940187"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.28333,
+          52.51667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Dresden",
+        "occurrences": 47,
+        "gazetteer_title": "Dresden",
+        "gazetteer_uri": "http://sws.geonames.org/2935022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.73832,
+          51.05089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Elbe",
+        "occurrences": 16,
+        "gazetteer_title": "Elbe",
+        "gazetteer_uri": "http://sws.geonames.org/5793496"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.19372,
+          46.76483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "England",
+        "occurrences": 1,
+        "gazetteer_title": "England",
+        "gazetteer_uri": "http://sws.geonames.org/4110001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.96903,
+          34.54426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Europa",
+        "occurrences": 2,
+        "gazetteer_title": "Europa",
+        "gazetteer_uri": "http://sws.geonames.org/8961484"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.08176,
+          45.61563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Frankreich",
+        "occurrences": 1,
+        "gazetteer_title": "Republic of France",
+        "gazetteer_uri": "http://sws.geonames.org/3017382"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2,
+          46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Judenburg",
+        "occurrences": 1,
+        "gazetteer_title": "Sankt Georgen ob Judenburg",
+        "gazetteer_uri": "http://sws.geonames.org/2766688"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.49736,
+          47.20744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Kopenhagen",
+        "occurrences": 1,
+        "gazetteer_title": "Copenhagen",
+        "gazetteer_uri": "http://sws.geonames.org/2618425"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.56553,
+          55.67594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Leipzig",
+        "occurrences": 11,
+        "gazetteer_title": "Leipzig",
+        "gazetteer_uri": "http://sws.geonames.org/2879139"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.37129,
+          51.33962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Liegnitz",
+        "occurrences": 1,
+        "gazetteer_title": "Legnica",
+        "gazetteer_uri": "http://sws.geonames.org/3093692"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1619,
+          51.21006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Linden",
+        "occurrences": 4,
+        "gazetteer_title": "Linden",
+        "gazetteer_uri": "http://sws.geonames.org/3377408"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.30714,
+          6.00809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "London",
+        "occurrences": 2,
+        "gazetteer_title": "London",
+        "gazetteer_uri": "http://sws.geonames.org/2643743"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12574,
+          51.50853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Magdeburg",
+        "occurrences": 21,
+        "gazetteer_title": "Magdeburg",
+        "gazetteer_uri": "http://sws.geonames.org/2874545"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.62916,
+          52.12773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Nedlitz",
+        "occurrences": 3,
+        "gazetteer_title": "Nedlitz",
+        "gazetteer_uri": "http://sws.geonames.org/2866718"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.83235,
+          52.12804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Paris",
+        "occurrences": 1,
+        "gazetteer_title": "Paris",
+        "gazetteer_uri": "http://sws.geonames.org/2988507"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3488,
+          48.85341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Pillnitz",
+        "occurrences": 3,
+        "gazetteer_title": "Pillnitz",
+        "gazetteer_uri": "http://sws.geonames.org/2853707"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.87565,
+          51.0073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Pommern",
+        "occurrences": 1,
+        "gazetteer_title": "S\u0142upsk",
+        "gazetteer_uri": "http://sws.geonames.org/3085450"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.02872,
+          54.46405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Potsdam",
+        "occurrences": 1,
+        "gazetteer_title": "Potsdam",
+        "gazetteer_uri": "http://sws.geonames.org/2852458"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.06566,
+          52.39886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Preu\u00dfen",
+        "occurrences": 2,
+        "gazetteer_title": "Kaliningrad",
+        "gazetteer_uri": "http://sws.geonames.org/554234"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.51095,
+          54.70649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Prie\u00dfnitz",
+        "occurrences": 1,
+        "gazetteer_title": "Prie\u00dfnitz",
+        "gazetteer_uri": "http://sws.geonames.org/2852075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.77889,
+          51.09485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Schwedt",
+        "occurrences": 1,
+        "gazetteer_title": "Schwedt (Oder)",
+        "gazetteer_uri": "http://sws.geonames.org/2834629"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.28154,
+          53.05963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Spree",
+        "occurrences": 3,
+        "gazetteer_title": "Hermsdorf/Spree",
+        "gazetteer_uri": "http://sws.geonames.org/11398184"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.41056,
+          51.32556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Sudenburg",
+        "occurrences": 1,
+        "gazetteer_title": "Sudenburg",
+        "gazetteer_uri": "http://sws.geonames.org/2825207"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.60439,
+          52.11025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Thale",
+        "occurrences": 2,
+        "gazetteer_title": "Amphoe Kham Thale So",
+        "gazetteer_uri": "http://sws.geonames.org/1948013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.86361,
+          14.97028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Treptow",
+        "occurrences": 1,
+        "gazetteer_title": "Berlin Treptow",
+        "gazetteer_uri": "http://sws.geonames.org/7290255"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.44469,
+          52.49376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Wien",
+        "occurrences": 1,
+        "gazetteer_title": "Vienna",
+        "gazetteer_uri": "http://sws.geonames.org/2761369"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37208,
+          48.20849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Zehlendorf",
+        "occurrences": 1,
+        "gazetteer_title": "Zehlendorf",
+        "gazetteer_uri": "http://sws.geonames.org/2805059"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.25,
+          52.43333
+        ]
+      }
+    }
+  ]
+}

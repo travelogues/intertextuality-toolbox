@@ -1,0 +1,741 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Agana",
+        "occurrences": 3,
+        "gazetteer_title": "Hag\u00e5t\u00f1a",
+        "gazetteer_uri": "http://sws.geonames.org/4044012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.74886,
+          13.47567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Albay",
+        "occurrences": 1,
+        "gazetteer_title": "Province of Albay",
+        "gazetteer_uri": "http://sws.geonames.org/1731616"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.55,
+          13.21667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Amerika",
+        "occurrences": 2,
+        "gazetteer_title": "Amerika",
+        "gazetteer_uri": "http://sws.geonames.org/2759830"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.37083,
+          53.09167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Baiern",
+        "occurrences": 1,
+        "gazetteer_title": "Baiern",
+        "gazetteer_uri": "http://sws.geonames.org/2953204"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.91407,
+          47.96582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Binao",
+        "occurrences": 1,
+        "gazetteer_title": "Nuaf Fatulemon",
+        "gazetteer_uri": "http://sws.geonames.org/1648743"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6687,
+          -9.9696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Borneo",
+        "occurrences": 1,
+        "gazetteer_title": "Borneo",
+        "gazetteer_uri": "http://sws.geonames.org/5905961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.9081,
+          45.28501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Bougainville",
+        "occurrences": 1,
+        "gazetteer_title": "Sendjas",
+        "gazetteer_uri": "http://sws.geonames.org/2481836"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.39393,
+          36.06965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Bouvet",
+        "occurrences": 1,
+        "gazetteer_title": "Bouvet Island",
+        "gazetteer_uri": "http://sws.geonames.org/3371123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.4,
+          -54.43333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Callao",
+        "occurrences": 1,
+        "gazetteer_title": "Callao",
+        "gazetteer_uri": "http://sws.geonames.org/3946083"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.11814,
+          -12.05659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Cap",
+        "occurrences": 1,
+        "gazetteer_title": "Harbin",
+        "gazetteer_uri": "http://sws.geonames.org/2037013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.65,
+          45.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Erde",
+        "occurrences": 9,
+        "gazetteer_title": "Rothe Erde",
+        "gazetteer_uri": "http://sws.geonames.org/2844200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1407,
+          50.77719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Europa",
+        "occurrences": 2,
+        "gazetteer_title": "Europa",
+        "gazetteer_uri": "http://sws.geonames.org/8961484"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.08176,
+          45.61563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Fort",
+        "occurrences": 1,
+        "gazetteer_title": "N'Djamena",
+        "gazetteer_uri": "http://sws.geonames.org/2427123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0444,
+          12.10672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Frankreich",
+        "occurrences": 5,
+        "gazetteer_title": "Republic of France",
+        "gazetteer_uri": "http://sws.geonames.org/3017382"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2,
+          46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Guam",
+        "occurrences": 21,
+        "gazetteer_title": "Guam",
+        "gazetteer_uri": "http://sws.geonames.org/4389020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8237,
+          36.902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Guinea",
+        "occurrences": 1,
+        "gazetteer_title": "Nueva Guinea",
+        "gazetteer_uri": "http://sws.geonames.org/3617459"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.45616,
+          11.68758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Harz",
+        "occurrences": 3,
+        "gazetteer_title": "Herzberg am Harz",
+        "gazetteer_uri": "http://sws.geonames.org/2905496"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.33938,
+          51.65546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Hawkesworth",
+        "occurrences": 1,
+        "gazetteer_title": "Hawkesworth Bridge",
+        "gazetteer_uri": "http://sws.geonames.org/11185596"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.06778,
+          17.15639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Holland",
+        "occurrences": 5,
+        "gazetteer_title": "Holland",
+        "gazetteer_uri": "http://sws.geonames.org/5237098"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.00302,
+          44.96862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Ilocos",
+        "occurrences": 1,
+        "gazetteer_title": "Ilocos",
+        "gazetteer_uri": "http://sws.geonames.org/7521301"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.52083,
+          16.97917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Indien",
+        "occurrences": 3,
+        "gazetteer_title": "Republic of India",
+        "gazetteer_uri": "http://sws.geonames.org/1269750"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79,
+          22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Indiens",
+        "occurrences": 1,
+        "gazetteer_title": "Alikoto",
+        "gazetteer_uri": "http://sws.geonames.org/3382575"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.34445,
+          3.11523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Italien",
+        "occurrences": 1,
+        "gazetteer_title": "Italian Republic",
+        "gazetteer_uri": "http://sws.geonames.org/3175395"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.83333,
+          42.83333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Japan",
+        "occurrences": 1,
+        "gazetteer_title": "Japan",
+        "gazetteer_uri": "http://sws.geonames.org/5195265"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.9102,
+          40.99258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Kap",
+        "occurrences": 1,
+        "gazetteer_title": "Cape Town",
+        "gazetteer_uri": "http://sws.geonames.org/3369157"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.42322,
+          -33.92584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Kernen",
+        "occurrences": 1,
+        "gazetteer_title": "Kernen",
+        "gazetteer_uri": "http://sws.geonames.org/2891534"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.31123,
+          48.78261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Lova",
+        "occurrences": 1,
+        "gazetteer_title": "Lova",
+        "gazetteer_uri": "http://sws.geonames.org/8950079"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.12679,
+          45.32802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Lubang",
+        "occurrences": 1,
+        "gazetteer_title": "Lubango",
+        "gazetteer_uri": "http://sws.geonames.org/3347762"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4925,
+          -14.91717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "L\u00e4nge",
+        "occurrences": 1,
+        "gazetteer_title": "L\u00e4nge",
+        "gazetteer_uri": "http://sws.geonames.org/2881372"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.60823,
+          47.88182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Madagaskar",
+        "occurrences": 1,
+        "gazetteer_title": "Republic of Madagascar",
+        "gazetteer_uri": "http://sws.geonames.org/1062947"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47,
+          -20
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Malaka",
+        "occurrences": 1,
+        "gazetteer_title": "M\u00e1laga",
+        "gazetteer_uri": "http://sws.geonames.org/2514256"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.42034,
+          36.72016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Manila",
+        "occurrences": 13,
+        "gazetteer_title": "Manila",
+        "gazetteer_uri": "http://sws.geonames.org/1701668"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9822,
+          14.6042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Mindoro",
+        "occurrences": 5,
+        "gazetteer_title": "Mindoro",
+        "gazetteer_uri": "http://sws.geonames.org/5263105"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.10181,
+          44.02107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Mozambik",
+        "occurrences": 1,
+        "gazetteer_title": "Republic of Mozambique",
+        "gazetteer_uri": "http://sws.geonames.org/1036973"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35,
+          -18.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Niederrhein",
+        "occurrences": 1,
+        "gazetteer_title": "Voerde (Niederrhein)",
+        "gazetteer_uri": "http://sws.geonames.org/6559098"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6525,
+          51.6251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Paris",
+        "occurrences": 6,
+        "gazetteer_title": "Paris",
+        "gazetteer_uri": "http://sws.geonames.org/2988507"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3488,
+          48.85341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Peru",
+        "occurrences": 2,
+        "gazetteer_title": "Peru",
+        "gazetteer_uri": "http://sws.geonames.org/4975080"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.40534,
+          44.50673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Philippinen",
+        "occurrences": 2,
+        "gazetteer_title": "Republic of the Philippines",
+        "gazetteer_uri": "http://sws.geonames.org/1694008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122,
+          13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Riga",
+        "occurrences": 1,
+        "gazetteer_title": "Riga",
+        "gazetteer_uri": "http://sws.geonames.org/456172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.10589,
+          56.946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Rotterdam",
+        "occurrences": 2,
+        "gazetteer_title": "Rotterdam",
+        "gazetteer_uri": "http://sws.geonames.org/2747891"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.47917,
+          51.9225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Samar",
+        "occurrences": 1,
+        "gazetteer_title": "Samara",
+        "gazetteer_uri": "http://sws.geonames.org/499099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.15,
+          53.20007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Schwerte",
+        "occurrences": 1,
+        "gazetteer_title": "Schwerte",
+        "gazetteer_uri": "http://sws.geonames.org/2834265"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5675,
+          51.44387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Seeland",
+        "occurrences": 7,
+        "gazetteer_title": "Kurcz\u0105tki",
+        "gazetteer_uri": "http://sws.geonames.org/766996"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.32765,
+          53.6482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Sonn",
+        "occurrences": 1,
+        "gazetteer_title": "Sonn Berg",
+        "gazetteer_uri": "http://sws.geonames.org/2831256"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.67495,
+          47.62925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Spanien",
+        "occurrences": 1,
+        "gazetteer_title": "Kingdom of Spain",
+        "gazetteer_uri": "http://sws.geonames.org/2510769"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          40
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_label": "Sumatra",
+        "occurrences": 1,
+        "gazetteer_title": "Sumatra",
+        "gazetteer_uri": "http://sws.geonames.org/4174274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.98058,
+          30.02058
+        ]
+      }
+    }
+  ]
+}

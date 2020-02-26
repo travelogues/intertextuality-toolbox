@@ -1,7 +1,9 @@
 import json
+import glob
 import requests
 
-NER_SOURCE_FOLDER = '../../../examples/stanford-ner-out-156843801.txt.jsonl'
+NER_SOURCE_FOLDER = '../../../results/two-related'
+DESTINATION_FOLDER = NER_SOURCE_FOLDER # We'll use the same in our case
 
 def query(toponym):
   return {
@@ -21,61 +23,71 @@ def query(toponym):
     'size' : 1
   }
 
-# Read JSONL file line by line and collect LOCATION tokens into a set
-with open(SOURCE_NER_FILE, 'r') as infile:
+# List NER result files in source folder
+ner_results = [f for f in glob.glob(NER_SOURCE_FOLDER + '**/*.jsonl')]
 
-  distinct_locations = {}
+for f in ner_results:
+  # Read JSONL file line by line and collect LOCATION tokens into a set
+  print(f'Processing {f}')
 
-  for line in infile.readlines():
-    record = json.loads(line)
-    locations = list(filter(lambda t: t['tag'] == 'LOCATION', record['tokens']))
+  outfile = f[f.rfind('/') + 1:f.index('.', f.rfind('/'))]
+  outfile = f'{DESTINATION_FOLDER}/{outfile}.geojson'
 
-    for token in locations:      
-      chars = token['chars']
-      if chars in distinct_locations:
-        distinct_locations[chars] += 1
-      else:
-        distinct_locations[chars] = 1
+  print(f'Writing results to {outfile}')
 
-  sorted_keys = list(distinct_locations.keys())
-  sorted_keys.sort()  
+  with open(f, 'r') as infile:
+    distinct_locations = {}
 
-  print(f'Got {len(sorted_keys)} locations')
+    for line in infile.readlines():
+      record = json.loads(line)
+      locations = list(filter(lambda t: t['tag'] == 'LOCATION', record['tokens']))
 
-  # Assemble a GeoJSON feature collection as final result
-  features = []
+      for token in locations:      
+        chars = token['chars']
+        if chars in distinct_locations:
+          distinct_locations[chars] += 1
+        else:
+          distinct_locations[chars] = 1
 
-  for location in sorted_keys:
-    r = requests.post('http://localhost:9200/geonames/_search', json=query(location.lower()))
-    response = r.json()
+    sorted_keys = list(distinct_locations.keys())
+    sorted_keys.sort()  
 
-    total_hits = response['hits']['total']['value']
-    if (total_hits > 0):
-      first_hit = response['hits']['hits'][0]['_source']
+    print(f'Got {len(sorted_keys)} locations')
 
-      feature = {
-        'type': 'Feature',
-        'properties': {
-          'source_label': location,
-          'occurrences': distinct_locations[location],
-          'gazetteer_title': first_hit['properties']['title'],
-          'gazetteer_uri': first_hit['@id']
-        },
-        'geometry': first_hit['geometry']
-      }
-      
-      features.append(feature)
-  
-  geojson = {
-    'type': 'FeatureCollection',
-    'features': features
-  }
+    # Assemble a GeoJSON feature collection as final result
+    features = []
 
-  with open(RESULT_FILE, 'w') as outfile:
-    outfile.write(json.dumps(geojson, indent=2))
-    outfile.close()
+    for location in sorted_keys:
+      r = requests.post('http://localhost:9200/geonames/_search', json=query(location.lower()))
+      response = r.json()
 
-  print('Done.')
+      total_hits = response['hits']['total']['value']
+      if (total_hits > 0):
+        first_hit = response['hits']['hits'][0]['_source']
+
+        feature = {
+          'type': 'Feature',
+          'properties': {
+            'source_label': location,
+            'occurrences': distinct_locations[location],
+            'gazetteer_title': first_hit['properties']['title'],
+            'gazetteer_uri': first_hit['@id']
+          },
+          'geometry': first_hit['geometry']
+        }
+        
+        features.append(feature)
+    
+    geojson = {
+      'type': 'FeatureCollection',
+      'features': features
+    }
+
+    with open(outfile, 'w') as outfile:
+      outfile.write(json.dumps(geojson, indent=2))
+      outfile.close()
+
+print('Done.')
       
 
     
