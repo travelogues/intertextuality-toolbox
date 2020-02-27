@@ -10,7 +10,12 @@ results:
 - A similarity score based on geographical nearest neighbor distance distribution
 '''
 
-SOURCE_FOLDER = '../../../results/random-samples'
+SOURCE_FOLDER = '../../../results/two-related'
+RESULT_FILE = '../../../results/two-related/similarities_spatial.csv'
+
+# Helper to get the barcode from the full filepath
+def barcode_from_path(p):
+  return p[p.rfind('/') + 1:p.index('.', p.rfind('/'))]
 
 # Reads the GeoJSON file and returns just the list of features
 def load_features(geojson_file):
@@ -54,19 +59,19 @@ for f in geojson_files:
 
   data.append({ 
     'filename' : f,
+    'barcode': barcode_from_path(f),
     'source_labels' : get_distinct_source_labels(features),
     'places' : get_distinct_places(features)
   })
 
-# Now run pair-wise comparison
-def compute_source_label_jaccard(a, b):
-  score = jaccard(a['source_labels'], b['source_labels'])
-  print(score)
+with open(RESULT_FILE, 'w') as outfile:
 
-def compute_places_jaccard(a, b):
-  score = jaccard(a['places'], b['places'])
-  print(score)
+  # Now run pair-wise comparison
+  def compute_jaccard(a, b):
+    score_labels = jaccard(a['source_labels'], b['source_labels'])
+    score_places = jaccard(a['places'], b['places'])
+    outfile.write(f"{a['barcode']},{b['barcode']},{score_labels},{score_places}\n")
 
-execute_pairwise(data, compute_source_label_jaccard)
+  execute_pairwise(data, compute_jaccard)
 
-print('Done')
+  print('Done')
