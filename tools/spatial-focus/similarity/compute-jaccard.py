@@ -1,3 +1,6 @@
+import glob
+import json
+
 '''
 A helper to compute different types of similarities from spatial analysis
 results:
@@ -7,4 +10,63 @@ results:
 - A similarity score based on geographical nearest neighbor distance distribution
 '''
 
-# TODO
+SOURCE_FOLDER = '../../../results/random-samples'
+
+# Reads the GeoJSON file and returns just the list of features
+def load_features(geojson_file):
+  with open(geojson_file) as f:
+    geojson = json.load(f)
+    return geojson['features']
+
+# Maps the feature list to a list of distinct source_labels
+def get_distinct_source_labels(features):
+  return list(set(map(lambda f: f['properties']['source_label'], features)))
+
+# Maps the feature list to a list of distinct places (i.e. gazetteer URIs)
+def get_distinct_places(features):
+  return list(set(map(lambda f: f['properties']['gazetteer_uri'], features)))
+
+# Computes Jaccard similarity score for two sets of strings
+def jaccard(list_a, list_b):
+  shared_terms = list(filter(lambda x: x in list_b, list_a))
+  shared_count = len(shared_terms)
+  total_count = len(list_a) + len(list_b) - shared_count
+  return 1 if total_count == 0 else shared_count / total_count
+
+# Helper to run pair-wise execution between all elements in the list
+def execute_pairwise(elements, fn):
+  l = len(elements) # Shorthand
+
+  for idxA in range(0, l):
+    for idxB in range(idxA + 1, l):
+      fn(elements[idxA], elements[idxB])
+
+
+
+
+geojson_files = [f for f in glob.glob(SOURCE_FOLDER + '**/*.geojson')]
+
+# Data structure to hold all data we need for pair-wise jaccard scoring
+data = list()
+
+for f in geojson_files:
+  features = load_features(f)
+
+  data.append({ 
+    'filename' : f,
+    'source_labels' : get_distinct_source_labels(features),
+    'places' : get_distinct_places(features)
+  })
+
+# Now run pair-wise comparison
+def compute_source_label_jaccard(a, b):
+  score = jaccard(a['source_labels'], b['source_labels'])
+  print(score)
+
+def compute_places_jaccard(a, b):
+  score = jaccard(a['places'], b['places'])
+  print(score)
+
+execute_pairwise(data, compute_source_label_jaccard)
+
+print('Done')
