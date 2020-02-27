@@ -29,3 +29,10 @@ The `sample-data` folder contains useful test material, sampled from the corpus.
 ## Examples
 
 Contains sample results.
+
+## TODO
+
+- Plot similarity CSVs as networks
+- Plot similarity CSVs as histograms
+- Implement spatial similarity through a nearest-neighbour approach
+- Draft a report/workshop paper
