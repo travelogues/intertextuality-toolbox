@@ -1,0 +1,19 @@
+# Source folder containing NER results (.ner.json files)
+NER_SOURCE_FOLDER = '../../random-samples'
+
+# Folder for writing georesolution results (.geojson files)
+GEORESULTION_RESULTS_FOLDER = NER_SOURCE_FOLDER # It's safe to use the same folder
+
+# All GeoJSON source folders that similarity scoring should use
+SIMILARTITY_SOURCE_FOLDERS = [
+  '../../random-samples'
+]
+
+# The file for writing Jaccard similarity results
+SIMILARITY_RESULT_FILE = '../../random-samples/similarities_spatial.csv'
+
+# Minimum similarity threshold for filtering the results file
+SIMILARITY_FILTER_THRESHOLD = 0.3
+
+# The file for writing the filtered Jaccard similarity results
+SIMILARTY_RESULTS_FILTERED = '../../random-samples/similarities_spatial_pruned.csv'

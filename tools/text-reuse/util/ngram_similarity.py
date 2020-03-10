@@ -29,8 +29,8 @@ def create_one_dictionary(file, n, idx, record_indices = True):
 
 
 def compare_two(a, b):
-  ngrams_a = list(a.keys())
-  ngrams_b = set(b.keys())
+  ngrams_a = a # list(a.keys())
+  ngrams_b = b # set(b.keys())
 
   shared_ngrams = list(filter(lambda x: x in ngrams_b, ngrams_a))
 

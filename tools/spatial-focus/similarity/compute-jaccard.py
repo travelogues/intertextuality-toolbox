@@ -1,6 +1,10 @@
 import glob
 import json
 
+import sys
+sys.path.append('..')
+import config as cfg
+
 '''
 A helper to compute different types of similarities from spatial analysis
 results:
@@ -9,9 +13,6 @@ results:
 - Jaccard similarity based on the geo-resolved toponyms (i.e. using gazetteer URIs rather than place names)
 - A similarity score based on geographical nearest neighbor distance distribution
 '''
-
-SOURCE_FOLDER = '../../../results/two-related'
-RESULT_FILE = '../../../results/two-related/similarities_spatial.csv'
 
 # Helper to get the barcode from the full filepath
 def barcode_from_path(p):
@@ -47,9 +48,9 @@ def execute_pairwise(elements, fn):
       fn(elements[idxA], elements[idxB])
 
 
-
-
-geojson_files = [f for f in glob.glob(SOURCE_FOLDER + '**/*.geojson')]
+# But, yeah, Python is so great and everything is sooo readable...
+list_of_list = map(lambda path: [f for f in glob.glob(path + '**/*.geojson')], cfg.SIMILARTITY_SOURCE_FOLDERS)
+geojson_files = [item for sublist in list_of_list for item in sublist]
 
 # Data structure to hold all data we need for pair-wise jaccard scoring
 data = list()
@@ -64,7 +65,7 @@ for f in geojson_files:
     'places' : get_distinct_places(features)
   })
 
-with open(RESULT_FILE, 'w') as outfile:
+with open(cfg.SIMILARITY_RESULT_FILE, 'w') as outfile:
 
   # Now run pair-wise comparison
   def compute_jaccard(a, b):

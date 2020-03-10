@@ -2,8 +2,9 @@ import json
 import glob
 import requests
 
-NER_SOURCE_FOLDER = '../../../results/two-related'
-DESTINATION_FOLDER = NER_SOURCE_FOLDER # We'll use the same in our case
+import sys
+sys.path.append('..')
+import config as cfg
 
 def query(toponym):
   return {
@@ -24,14 +25,14 @@ def query(toponym):
   }
 
 # List NER result files in source folder
-ner_results = [f for f in glob.glob(NER_SOURCE_FOLDER + '**/*.jsonl')]
+ner_results = [f for f in glob.glob(cfg.NER_SOURCE_FOLDER + '**/*.jsonl')]
 
 for f in ner_results:
   # Read JSONL file line by line and collect LOCATION tokens into a set
   print(f'Processing {f}')
 
   outfile = f[f.rfind('/') + 1:f.index('.', f.rfind('/'))]
-  outfile = f'{DESTINATION_FOLDER}/{outfile}.geojson'
+  outfile = f'{cfg.GEORESULTION_RESULTS_FOLDER}/{outfile}.geojson'
 
   print(f'Writing results to {outfile}')
 
