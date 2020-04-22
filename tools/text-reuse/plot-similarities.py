@@ -9,7 +9,7 @@ this script renders a combined histogram and boxplot figure.
 '''
 
 # Location of the similarity scores CSV
-INPUT_FILE = '../../results/near-duplicates/similarities_ngram.csv'
+INPUT_FILE = '../../results/random-samples/similarities_ngram.csv'
 
 scores = numpy.loadtxt(INPUT_FILE, delimiter=',', skiprows=1, usecols=2)
 
