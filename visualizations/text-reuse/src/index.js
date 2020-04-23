@@ -1,7 +1,8 @@
 import axios from 'axios';
-import Papa from 'papaparse';
 import * as d3 from 'd3';
 import { WIDTH, HEIGHT } from './Const';
+import Timeline from './Timeline';
+import Similarities from './Similarities';
 
 class App {
 
@@ -9,24 +10,22 @@ class App {
     this.elem = elem;
   }
 
-  loadData = () =>
-    axios.get('similarities_ngram.csv')
-      .then(response => { 
-        const csv = Papa.parse(response.data, { header: true });
-
-        const nodes = [];
-        csv.data.forEach(row => {
-          if (row.Source && row.Target) {
-            nodes.push(row.Source);
-            nodes.push(row.Target);
-          }
-        });
-
-        this.data = {
-          nodes: [...new Set(nodes)],
-          links: csv.data.filter(row => row.Source && row.Target)
-        };
+  loadData = () => {
+    // Load metadata
+    const fMetadata = axios.get('TravelogueD16.json')
+      .then(response => {
+        this.timeline = new Timeline(response.data);
       });
+
+    // Load similarities
+    const fSimilarities = axios.get('similarities_ngram_16C.csv')
+      .then(response => { 
+        this.similarities = new Similarities(response.data);
+      });
+
+    // Return when both have loaded
+    return Promise.all([fMetadata, fSimilarities]);
+  }
 
   render() {
     const svg = d3.select(this.elem)
