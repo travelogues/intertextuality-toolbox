@@ -26,4 +26,7 @@ export default class Similarities {
     };
   }
 
+  getLinks = threshold =>
+    this.data.links.filter(link => link.Weight > threshold);
+
 }
