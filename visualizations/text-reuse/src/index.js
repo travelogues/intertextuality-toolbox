@@ -51,7 +51,7 @@ class App {
     svg.append('g')
       .attr('class', 'arcs')
       .selectAll('similarities')
-      .data(this.similarities.getLinks(0.08))
+      .data(this.similarities.getLinks(0.09))
       .enter()
         .append('path')
         .attr('d', d => {
