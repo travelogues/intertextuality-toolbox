@@ -42,13 +42,15 @@ class App {
     const links = barcodes.reduce((links, barcode) => 
       links.concat(this.similarities.getLinksForBarcode(barcode, THRESHOLD)), []);
 
+    console.log(`Barcodes dated ${d.year}: ${barcodes.join(', ')}`);
+    console.log('Links:');
+    links.forEach(l => console.log(`http://data.onb.ac.at/ABO/+${l.Source} - http://data.onb.ac.at/ABO/+${l.Target} (${l.Weight})`));
+
     this.updateArcs(links);
-    this.drawDots();
   }
 
   onMouseOut = d => {
     this.updateArcs();
-    this.drawDots();
   }
 
   render() {
@@ -70,14 +72,17 @@ class App {
         .attr('transform', 'translate(0, 400)')
         .call(axis);
 
+    this.arcContainer = this.svg.append('g');
+    this.dotContainer = this.svg.append('g');
+
     this.updateArcs();
     this.drawDots();
   }
 
   drawDots = () => {
-    this.svg.selectAll('.works-per-year').remove();
+    this.dotContainer.selectAll('.works-per-year').remove();
 
-    this.svg.selectAll('dots')
+    this.dotContainer.selectAll('dots')
       .data(this.timeline.getCounts())
       .enter()
         .append('circle')
@@ -92,9 +97,9 @@ class App {
   updateArcs = links => {
     const linksToRender = links ? links : this.similarities.getLinks(THRESHOLD);
   
-    this.svg.selectAll('.arcs').remove();
+    this.arcContainer.selectAll('.arcs').remove();
   
-    this.svg.append('g')
+    this.arcContainer.append('g')
       .attr('class', 'arcs')
       .selectAll('similarities')
       .data(linksToRender)
