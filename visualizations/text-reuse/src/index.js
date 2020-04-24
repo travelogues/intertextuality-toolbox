@@ -6,6 +6,8 @@ import Similarities from './Similarities';
 
 import './index.scss';
 
+const THRESHOLD = 0.09;
+
 class App {
 
   constructor(elem) {
@@ -29,37 +31,81 @@ class App {
     return Promise.all([fMetadata, fSimilarities]);
   }
 
+  onMouseOver = d => {
+    const records = this.timeline.getRecordsForYear(d.year);
+
+    // Flatmap those barcodes!
+    const barcodes = records.reduce((barcodes, record) =>
+      barcodes.concat(record.barcodes), []);
+    
+    // Flatmap those links!
+    const links = barcodes.reduce((links, barcode) => 
+      links.concat(this.similarities.getLinksForBarcode(barcode, THRESHOLD)), []);
+
+    this.updateArcs(links);
+    this.drawDots();
+  }
+
+  onMouseOut = d => {
+    this.updateArcs();
+    this.drawDots();
+  }
+
   render() {
-    const svg = d3.select(this.elem)
+    this.svg = d3.select(this.elem)
       .append('svg')
         .attr('width', WIDTH)
         .attr('height', HEIGHT);
 
-    const timelineScale = d3.scaleLinear()
+    this.scale = d3.scaleLinear()
       .domain(this.timeline.getInterval())
       .range([0, WIDTH])
       .nice();
     
-    const xAxis = d3.axisBottom(timelineScale).tickFormat(n => n)
+    const axis = d3.axisBottom(this.scale).tickFormat(n => n)
 
-    const gTimeline = svg.append('g').attr('class', 'timeline');
+    this.svg
+      .append('g')
+        .attr('class', 'timeline')
+        .attr('transform', 'translate(0, 400)')
+        .call(axis);
 
-    gTimeline.append('g')
-      .attr('transform', 'translate(0, 400)')
-      .call(xAxis);
-    
-    svg.append('g')
+    this.updateArcs();
+    this.drawDots();
+  }
+
+  drawDots = () => {
+    this.svg.selectAll('.works-per-year').remove();
+
+    this.svg.selectAll('dots')
+      .data(this.timeline.getCounts())
+      .enter()
+        .append('circle')
+        .attr('class', 'works-per-year')
+        .attr('r', d => 2 + d.count * 2)
+        .attr('cx', d => this.scale(d.year))
+        .attr('cy', 400)
+        .on('mouseover', this.onMouseOver)
+        .on('mouseout', this.onMouseOut)
+  }
+
+  updateArcs = links => {
+    const linksToRender = links ? links : this.similarities.getLinks(THRESHOLD);
+  
+    this.svg.selectAll('.arcs').remove();
+  
+    this.svg.append('g')
       .attr('class', 'arcs')
       .selectAll('similarities')
-      .data(this.similarities.getLinks(0.09))
+      .data(linksToRender)
       .enter()
         .append('path')
         .attr('d', d => {
           const startYear = this.timeline.getYearForBarcode(d.Source);
-          const start = timelineScale(startYear);
+          const start = this.scale(startYear);
 
           const endYear = this.timeline.getYearForBarcode(d.Target);
-          const end = timelineScale(endYear);
+          const end = this.scale(endYear);
 
           const height = 430;
 
@@ -71,15 +117,6 @@ class App {
             .join(' ');
         })
         .style('stroke-width', d => d.Weight * 5);
-
-    svg.selectAll('.dot')
-      .data(this.timeline.getCounts())
-      .enter()
-        .append('circle')
-        .attr('class', 'works-per-year')
-        .attr('r', d => 2 + d.count * 2)
-        .attr('cx', d => timelineScale(d.year))
-        .attr('cy', 400);
   }
 
 }

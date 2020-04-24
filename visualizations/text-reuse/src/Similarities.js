@@ -29,4 +29,11 @@ export default class Similarities {
   getLinks = threshold =>
     this.data.links.filter(link => link.Weight > threshold);
 
+  getLinksForBarcode = (barcode, opt_threshold) => {
+    if (opt_threshold)
+      return this.data.links.filter(r => (r.Source == barcode || r.Target == barcode) && r.Weight > opt_threshold);
+    else  
+      return this.data.links.filter(r => r.Source == barcode || r.Target == barcode);
+  }
+
 }
