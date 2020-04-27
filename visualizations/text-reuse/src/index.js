@@ -1,13 +1,18 @@
 import axios from 'axios';
 import * as d3 from 'd3';
-import { WIDTH, HEIGHT } from './Const';
 import Timeline from './Timeline';
 import SimilaritiesNGRAM from './SimilaritiesNGRAM';
+import SimilaritiesSpatial from './SimilartiesSpatial';
+import { WIDTH, HEIGHT } from './Const';
 
 import './index.scss';
-import SimilaritiesSpatial from './SimilartiesSpatial';
 
-const THRESHOLD = 0.09;
+/** Similarity selection threshold **/
+const NGRAM_THRESHOLD = 0.09;
+const SPATIAL_THRESHOLD = 0.16;
+
+/** GUI: vertical offset of the x-axis **/
+const VERTICAL_OFFSET = 200;
 
 class App {
 
@@ -31,31 +36,13 @@ class App {
       .then(response =>
         this.similaritiesSpatial = new SimilaritiesSpatial(response.data));
 
-    // Return when both have loaded
-    return Promise.all([fMetadata, fSimilaritiesNGRAM ]);
+    // Return when all have loaded
+    return Promise.all([fMetadata, fSimilaritiesNGRAM, fSimilaritiesSpatial ]);
   }
 
-  onMouseOver = d => {
-    const records = this.timeline.getRecordsForYear(d.year);
+  onMouseOver = d => this.updateArcs(d.year);
 
-    // Flatmap those barcodes!
-    const barcodes = records.reduce((barcodes, record) =>
-      barcodes.concat(record.barcodes), []);
-    
-    // Flatmap those links!
-    const links = barcodes.reduce((links, barcode) => 
-      links.concat(this.similaritiesNGRAM.getLinksForBarcode(barcode, THRESHOLD)), []);
-
-    console.log(`Barcodes dated ${d.year}: ${barcodes.join(', ')}`);
-    console.log('Links:');
-    links.forEach(l => console.log(`http://data.onb.ac.at/ABO/+${l.Source} - http://data.onb.ac.at/ABO/+${l.Target} (${l.Weight})`));
-
-    this.updateArcs(links);
-  }
-
-  onMouseOut = d => {
-    this.updateArcs();
-  }
+  onMouseOut = d => this.updateArcs();
 
   render() {
     this.svg = d3.select(this.elem)
@@ -73,7 +60,7 @@ class App {
     this.svg
       .append('g')
         .attr('class', 'timeline')
-        .attr('transform', 'translate(0, 400)')
+        .attr('transform', `translate(0, ${VERTICAL_OFFSET})`)
         .call(axis);
 
     this.arcContainer = this.svg.append('g');
@@ -93,22 +80,52 @@ class App {
         .attr('class', 'works-per-year')
         .attr('r', d => 2 + d.count * 2)
         .attr('cx', d => this.scale(d.year))
-        .attr('cy', 400)
+        .attr('cy', VERTICAL_OFFSET)
         .on('mouseover', this.onMouseOver)
         .on('mouseout', this.onMouseOut)
   }
 
-  updateArcs = links => {
-    const linksToRender = links ? links : this.similaritiesNGRAM.getLinks(THRESHOLD);
-  
+  updateArcs = year => {
+    const { ngram, spatial } = year ? 
+      this._getLinksForYear(year) :
+      { 
+        ngram: this.similaritiesNGRAM.getLinks(NGRAM_THRESHOLD),
+        spatial: this.similaritiesSpatial.getLinks(SPATIAL_THRESHOLD)
+      };
+      
     this.arcContainer.selectAll('.arcs').remove();
   
-    this.arcContainer.append('g')
+    this._renderArcs(ngram, this.arcContainer, true);
+    this._renderArcs(spatial, this.arcContainer, false);
+  }
+
+  /** Helper to get the links for a specific year **/
+  _getLinksForYear = year => {
+    const records = this.timeline.getRecordsForYear(year);
+
+    // Flatmap those barcodes!
+    const barcodes = records.reduce((barcodes, record) =>
+      barcodes.concat(record.barcodes), []);
+
+    // Flatmap those links!
+    const ngram = barcodes.reduce((links, barcode) => 
+      links.concat(this.similaritiesNGRAM.getLinksForBarcode(barcode, NGRAM_THRESHOLD)), []);
+
+    const spatial = barcodes.reduce((links, barcode) => 
+      links.concat(this.similaritiesSpatial.getLinksForBarcode(barcode, SPATIAL_THRESHOLD)), []);
+
+    return { ngram, spatial };
+  }
+
+  // Cf. https://www.d3-graph-gallery.com/graph/arc_template.html
+  _renderArcs = (links, container, top) => {
+    container.append('g')
       .attr('class', 'arcs')
-      .selectAll('similarities')
-      .data(linksToRender)
+      .selectAll('.similarity')
+      .data(links)
       .enter()
         .append('path')
+        .attr('class', 'similarity')
         .attr('d', d => {
           const startYear = this.timeline.getYearForBarcode(d.Source);
           const start = this.scale(startYear);
@@ -116,7 +133,11 @@ class App {
           const endYear = this.timeline.getYearForBarcode(d.Target);
           const end = this.scale(endYear);
 
-          const height = 430;
+          const height = VERTICAL_OFFSET + 30;
+
+          const direction = top ? 
+            (start < end ? 1 : 0) :
+            (start > end ? 1 : 0);
 
           return [
             // the arc starts at the coordinate x=start, y=height-30 (where the starting node is)
@@ -128,9 +149,10 @@ class App {
             (start - end) / 2, ',',
             (start - end) / 2, 0, 0, ',',
             // We always want the arc on top. So if end is before start, putting 0 here turn the arc upside down.
-            start < end ? 1 : 0, end, ',', 
+            direction, 
+            end, ',', 
             height - 30] 
-            .join(' ');
+            .join(' ');         
         })
         .style('stroke-width', d => d.Weight * 5);
   }
