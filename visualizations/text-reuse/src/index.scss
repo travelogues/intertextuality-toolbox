@@ -1,13 +1,70 @@
+html, body {
+  margin:0;
+  padding:0;
+  font-family:Lato;
+}
+
+.container {
+  width:1000px;
+  margin:0 auto;
+  position:relative;
+}
+
+h2.label {
+  position:absolute;
+  left:30px;
+  font-weight:normal;
+  font-size:17px;
+  color:#999;
+}
+
+h2.label.text-reuse {
+  top:70px;
+}
+
+h2.label.places {
+  top:420px;
+}
+
+
 .controls {
   padding-top:50px;
   width:500px;
-  height:100px;
+  padding-left:500px;
+
+  .control {  
+    margin:0 0 0 auto;
+    position:relative;
+    padding-bottom:50px;
+  }
+
+  .noUi-value {
+    padding-top:2px;
+    font-size:12px;
+  }
+
+  .noUi-horizontal .noUi-handle {
+    height: 24px;
+    top: -4px;
+  }
+
+  .noUi-handle:before, .noUi-handle:after {
+    content:none;
+  }
+
+  .noUi-marker-horizontal.noUi-marker {
+    height:3px;
+  }
+
+  .noUi-marker-horizontal.noUi-marker-large {
+    height:7px;
+  }
+
 }
 
 svg {
-  padding:40px;
+  padding:0 40px;
   border:1px solid grey;
-  overflow:visible;
 }
 
 .works-per-year {
@@ -20,3 +77,5 @@ svg {
   fill:none;
   stroke:grey;
 }
+
+

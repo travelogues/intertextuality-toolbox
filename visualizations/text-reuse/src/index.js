@@ -42,6 +42,7 @@ class App {
     // Return when all have loaded
     return Promise.all([fMetadata, fSimilaritiesNGRAM, fSimilaritiesSpatial ]).then(result => {
       const [ _, similaritiesNGRAM, similaritiesSpatial ] = result;
+      this.render();
       this.renderControls(similaritiesNGRAM.getRange(), similaritiesSpatial.getRange());
     });
   }
@@ -186,4 +187,4 @@ class App {
 }
 
 const app = new App(document.getElementById('app'));
-app.loadData().then(() => app.render());
+app.loadData();
