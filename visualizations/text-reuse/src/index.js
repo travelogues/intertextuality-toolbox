@@ -43,7 +43,7 @@ class App {
     return Promise.all([fMetadata, fSimilaritiesNGRAM, fSimilaritiesSpatial ]).then(result => {
       const [ _, similaritiesNGRAM, similaritiesSpatial ] = result;
       this.render();
-      this.renderControls(similaritiesNGRAM.getRange(), similaritiesSpatial.getRange());
+      this.renderControls();
     });
   }
 
@@ -59,9 +59,7 @@ class App {
 
     const controls = new ThresholdsControl({
       containerEl, 
-      ngramRange, 
       ngramStart: THRESHOLDS.ngram[0],
-      spatialRange,
       spatialStart: THRESHOLDS.spatial[0]
     });
 

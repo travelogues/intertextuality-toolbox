@@ -10,9 +10,7 @@ export default class ThresholdControls extends EventEmitter {
 
     const { 
       containerEl, 
-      ngramRange, 
       ngramStart,
-      spatialRange,
       spatialStart
     } = args;
 
@@ -21,9 +19,9 @@ export default class ThresholdControls extends EventEmitter {
     const ngramSliderEl = document.createElement('DIV');
     ngramSliderEl.className = 'control';
     containerEl.appendChild(ngramSliderEl);
-    const ngramSlider = this._createSlider(ngramRange, ngramStart, ngramSliderEl);
+    const ngramSlider = this._createSlider(ngramStart, ngramSliderEl);
     ngramSlider.on('change', range => {
-      this.state.ngram = range;
+      this.state.ngram = range.map(num => parseFloat(num)); // Nasty
       this.emit('change', this.state);
     });
 
@@ -31,31 +29,27 @@ export default class ThresholdControls extends EventEmitter {
     const spatialSliderEl = document.createElement('DIV');
     spatialSliderEl.className = 'control';
     containerEl.appendChild(spatialSliderEl);
-    const spatialSlider = this._createSlider(spatialRange, spatialStart, spatialSliderEl);  
+    const spatialSlider = this._createSlider(spatialStart, spatialSliderEl);  
     spatialSlider.on('change', range => {
-      this.state.spatial = range;
+      this.state.spatial = range.map(num => parseFloat(num));
       this.emit('change', this.state);
     });
   }
 
   _initState = args => {
-    const ngramMax = args.ngramRange[1];
-    const spatialMax = args.spatialRange[1];
-
     return {
-      ngram: [ args.ngramStart, ngramMax ],
-      spatial: [ args.patialStart, spatialMax]
+      ngram: [ args.ngramStart, 1 ],
+      spatial: [ args.spatialStart, 1 ]
     }
   }
 
-  _createSlider(range, start, elem) {
+  _createSlider(start, elem) {
     const div = document.createElement('DIV');
     elem.appendChild(div);
 
-    const [ min, max ] = range;
     return noUiSlider.create(div, {
       range: { min: 0, max: 1 },
-      start: [ start, max ],  
+      start: [ start, 1 ],  
       connect: true,
       behaviour: 'tap-drag',
       tooltips: false,  
