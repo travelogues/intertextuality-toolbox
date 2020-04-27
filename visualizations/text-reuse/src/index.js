@@ -3,16 +3,19 @@ import * as d3 from 'd3';
 import Timeline from './Timeline';
 import SimilaritiesNGRAM from './SimilaritiesNGRAM';
 import SimilaritiesSpatial from './SimilartiesSpatial';
+import ThresholdsControl from './controls/Thresholds';
 import { WIDTH, HEIGHT } from './Const';
 
 import './index.scss';
 
-/** Similarity selection threshold **/
-const NGRAM_THRESHOLD = 0.09;
-const SPATIAL_THRESHOLD = 0.16;
-
 /** GUI: vertical offset of the x-axis **/
 const VERTICAL_OFFSET = 200;
+
+/** Similarity selection threshold **/
+let THRESHOLDS = {
+  ngram:   [0.09, 1],
+  spatial: [0.16, 1]
+}
 
 class App {
 
@@ -37,12 +40,35 @@ class App {
         this.similaritiesSpatial = new SimilaritiesSpatial(response.data));
 
     // Return when all have loaded
-    return Promise.all([fMetadata, fSimilaritiesNGRAM, fSimilaritiesSpatial ]);
+    return Promise.all([fMetadata, fSimilaritiesNGRAM, fSimilaritiesSpatial ]).then(result => {
+      const [ _, similaritiesNGRAM, similaritiesSpatial ] = result;
+      this.renderControls(similaritiesNGRAM.getRange(), similaritiesSpatial.getRange());
+    });
   }
 
   onMouseOver = d => this.updateArcs(d.year);
 
   onMouseOut = d => this.updateArcs();
+
+  renderControls = (ngramRange, spatialRange) => {
+    const containerEl = document.createElement('DIV');
+    containerEl.className = 'controls';
+
+    this.elem.appendChild(containerEl);
+
+    const controls = new ThresholdsControl({
+      containerEl, 
+      ngramRange, 
+      ngramStart: THRESHOLDS.ngram[0],
+      spatialRange,
+      spatialStart: THRESHOLDS.spatial[0]
+    });
+
+    controls.on('change', ranges => {
+      THRESHOLDS = ranges;
+      this.updateArcs();
+    });
+  }
 
   render() {
     this.svg = d3.select(this.elem)
@@ -89,8 +115,8 @@ class App {
     const { ngram, spatial } = year ? 
       this._getLinksForYear(year) :
       { 
-        ngram: this.similaritiesNGRAM.getLinks(NGRAM_THRESHOLD),
-        spatial: this.similaritiesSpatial.getLinks(SPATIAL_THRESHOLD)
+        ngram: this.similaritiesNGRAM.getLinks(THRESHOLDS.ngram),
+        spatial: this.similaritiesSpatial.getLinks(THRESHOLDS.spatial)
       };
       
     this.arcContainer.selectAll('.arcs').remove();
@@ -109,10 +135,10 @@ class App {
 
     // Flatmap those links!
     const ngram = barcodes.reduce((links, barcode) => 
-      links.concat(this.similaritiesNGRAM.getLinksForBarcode(barcode, NGRAM_THRESHOLD)), []);
+      links.concat(this.similaritiesNGRAM.getLinksForBarcode(barcode, THRESHOLDS.ngram)), []);
 
     const spatial = barcodes.reduce((links, barcode) => 
-      links.concat(this.similaritiesSpatial.getLinksForBarcode(barcode, SPATIAL_THRESHOLD)), []);
+      links.concat(this.similaritiesSpatial.getLinksForBarcode(barcode, THRESHOLDS.spatial)), []);
 
     return { ngram, spatial };
   }
