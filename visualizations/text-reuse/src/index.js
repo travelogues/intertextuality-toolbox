@@ -4,9 +4,11 @@ import Timeline from './Timeline';
 import SimilaritiesNGRAM from './SimilaritiesNGRAM';
 import SimilaritiesSpatial from './SimilartiesSpatial';
 import ThresholdsControl from './controls/Thresholds';
+import HoverPopup from './controls/HoverPopup';
 import { WIDTH, HEIGHT } from './Const';
 
 import './index.scss';
+
 
 /** GUI: vertical offset of the x-axis **/
 const VERTICAL_OFFSET = 200;
@@ -47,9 +49,20 @@ class App {
     });
   }
 
-  onMouseOver = d => this.updateArcs(d.year);
+  onMouseOver = d => {
+    const { layerX, layerY } = d3.event;
+    const linkSet = this._getLinksForYear(d.year);
 
-  onMouseOut = d => this.updateArcs();
+    if (this.hoverPopup)
+      this.hoverPopup.destroy();
+
+    this.hoverPopup = new HoverPopup(d.year, linkSet, this.elem, layerX, layerY);
+    
+    this.updateArcs(linkSet);
+  }
+
+  onMouseOut = () =>
+    this.updateArcs();
 
   renderControls = (ngramRange, spatialRange) => {
     const containerEl = document.createElement('DIV');
@@ -110,9 +123,8 @@ class App {
         .on('mouseout', this.onMouseOut)
   }
 
-  updateArcs = year => {
-    const { ngram, spatial } = year ? 
-      this._getLinksForYear(year) :
+  updateArcs = links => {
+    const { ngram, spatial } = links ? links :
       { 
         ngram: this.similaritiesNGRAM.getLinks(THRESHOLDS.ngram),
         spatial: this.similaritiesSpatial.getLinks(THRESHOLDS.spatial)
@@ -139,7 +151,7 @@ class App {
     const spatial = barcodes.reduce((links, barcode) => 
       links.concat(this.similaritiesSpatial.getLinksForBarcode(barcode, THRESHOLDS.spatial)), []);
 
-    return { ngram, spatial };
+    return { records, ngram, spatial };
   }
 
   // Cf. https://www.d3-graph-gallery.com/graph/arc_template.html

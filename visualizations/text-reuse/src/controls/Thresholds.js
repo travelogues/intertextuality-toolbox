@@ -25,7 +25,6 @@ export default class ThresholdControls extends EventEmitter {
       this.emit('change', this.state);
     });
 
-
     const spatialSliderEl = document.createElement('DIV');
     spatialSliderEl.className = 'control';
     containerEl.appendChild(spatialSliderEl);
