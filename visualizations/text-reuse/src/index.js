@@ -2,9 +2,10 @@ import axios from 'axios';
 import * as d3 from 'd3';
 import { WIDTH, HEIGHT } from './Const';
 import Timeline from './Timeline';
-import Similarities from './Similarities';
+import SimilaritiesNGRAM from './SimilaritiesNGRAM';
 
 import './index.scss';
+import SimilaritiesSpatial from './SimilartiesSpatial';
 
 const THRESHOLD = 0.09;
 
@@ -17,18 +18,21 @@ class App {
   loadData = () => {
     // Load metadata
     const fMetadata = axios.get('TravelogueD16.json')
-      .then(response => {
-        this.timeline = new Timeline(response.data);
-      });
+      .then(response =>
+        this.timeline = new Timeline(response.data));
 
-    // Load similarities
-    const fSimilarities = axios.get('similarities_ngram_16C.csv')
-      .then(response => { 
-        this.similarities = new Similarities(response.data);
-      });
+    // Load NGRAM similarities
+    const fSimilaritiesNGRAM = axios.get('similarities_ngram_16C.csv')
+      .then(response =>
+        this.similaritiesNGRAM = new SimilaritiesNGRAM(response.data));
+
+    // Load geo similarities
+    const fSimilaritiesSpatial = axios.get('similarities_spatial_16C.csv')
+      .then(response =>
+        this.similaritiesSpatial = new SimilaritiesSpatial(response.data));
 
     // Return when both have loaded
-    return Promise.all([fMetadata, fSimilarities]);
+    return Promise.all([fMetadata, fSimilaritiesNGRAM ]);
   }
 
   onMouseOver = d => {
@@ -40,7 +44,7 @@ class App {
     
     // Flatmap those links!
     const links = barcodes.reduce((links, barcode) => 
-      links.concat(this.similarities.getLinksForBarcode(barcode, THRESHOLD)), []);
+      links.concat(this.similaritiesNGRAM.getLinksForBarcode(barcode, THRESHOLD)), []);
 
     console.log(`Barcodes dated ${d.year}: ${barcodes.join(', ')}`);
     console.log('Links:');
@@ -95,7 +99,7 @@ class App {
   }
 
   updateArcs = links => {
-    const linksToRender = links ? links : this.similarities.getLinks(THRESHOLD);
+    const linksToRender = links ? links : this.similaritiesNGRAM.getLinks(THRESHOLD);
   
     this.arcContainer.selectAll('.arcs').remove();
   
@@ -114,11 +118,18 @@ class App {
 
           const height = 430;
 
-          return ['M', start, height - 30,    // the arc starts at the coordinate x=start, y=height-30 (where the starting node is)
-            'A',                            // This means we're gonna build an elliptical arc
-            (start - end)/2, ',',    // Next 2 lines are the coordinates of the inflexion point. Height of this point is proportional with start - end distance
-            (start - end)/2, 0, 0, ',',
-            start < end ? 1 : 0, end, ',', height-30] // We always want the arc on top. So if end is before start, putting 0 here turn the arc upside down.
+          return [
+            // the arc starts at the coordinate x=start, y=height-30 (where the starting node is)
+            'M', start, height - 30,    
+            // This means we're gonna build an elliptical arc
+            'A',
+            // Next 2 lines are the coordinates of the inflexion point. 
+            // Height of this point is proportional with start - end distance
+            (start - end) / 2, ',',
+            (start - end) / 2, 0, 0, ',',
+            // We always want the arc on top. So if end is before start, putting 0 here turn the arc upside down.
+            start < end ? 1 : 0, end, ',', 
+            height - 30] 
             .join(' ');
         })
         .style('stroke-width', d => d.Weight * 5);
