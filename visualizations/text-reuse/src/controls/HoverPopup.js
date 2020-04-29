@@ -10,14 +10,14 @@ export default class HoverPopup {
     this.elem.style.left = `${x - 3}px`;
 
     const h1 = document.createElement('H1');
-    h1.innerHTML = year;
+    h1.innerHTML = `${year} <span>(${linkSet.records.length} works)</span>`;
     this.elem.appendChild(h1);
 
     const barcodes = document.createElement('UL');
     barcodes.className = 'barcodes';    
     linkSet.records.forEach(record => {
       const li = document.createElement('LI');
-      li.innerHTML = `<a href="${record.urls[0]}" target="_blank">${record.identifier}</a>`;
+      li.innerHTML = `<a href="${record.urls[0]}" title="${record.work_title || record.title_full}" target="_blank">${record.identifier}</a>`;
       barcodes.appendChild(li); 
     });
     this.elem.appendChild(barcodes);
@@ -30,7 +30,7 @@ export default class HoverPopup {
 
     containerEl.append(this.elem);
 
-    this.elem.addEventListener('mouseleave', () => this.destroy());
+    // this.elem.addEventListener('mouseleave', () => this.destroy());
   }
 
   _renderPairList = (pairs, parentEl, className) => {

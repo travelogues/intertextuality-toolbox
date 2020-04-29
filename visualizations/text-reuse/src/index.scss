@@ -81,20 +81,59 @@ svg {
 .mouseover-popup {
   position:absolute;
   padding:0;
-  background-color:#fff;
-  border-radius:3px;
+  border-radius:5px;
   z-index:9999;
   font-size:14px;
   width:300px;
+  line-height:160%;
   -webkit-box-shadow:2px 2px 20px rgba(0, 0, 0, 0.4);
      -moz-box-shadow:2px 2px 20px rgba(0, 0, 0, 0.4);
           box-shadow:2px 2px 20px rgba(0, 0, 0, 0.4);
 
   h1 {
     margin:0;
-    padding:5px;
+    padding:10px;
     font-size:18px;
     font-weight:normal;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;  
+    background-color:#4b91f4;  
+    color:#fff;
+
+    span {
+      color:rgba(255, 255, 255, 0.8);
+      font-size:14px;
+    }
+  }
+
+  ul {
+    margin:0;
+    padding:10px;
+    list-style-type:none;
+    background-color:#fff;
+
+    li {
+      display:inline-block;
+      padding-right:5px;
+    }
+
+    li::after {
+      content:', ';
+    }
+
+    li:last-child::after {
+      content:'';
+    }
+
+    a {
+      color:#333;
+      text-decoration:none;
+    }
+
+    a:hover {
+      text-decoration:underline;
+    }
+
   }
 
 }
