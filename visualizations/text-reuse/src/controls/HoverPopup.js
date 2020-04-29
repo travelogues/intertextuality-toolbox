@@ -23,25 +23,30 @@ export default class HoverPopup {
     this.elem.appendChild(barcodes);
 
     // Similar nodes - NGRAM
-    this._renderPairList(linkSet.ngram, this.elem, 'ngram');
+    this._renderPairList(linkSet.ngram, this.elem, 'Text Reuse', 'ngram');
 
     // Similar nodes - Spatial
-    this._renderPairList(linkSet.spatial, this.elem, 'spatial');
+    this._renderPairList(linkSet.spatial, this.elem, 'Common Places', 'spatial');
 
     containerEl.append(this.elem);
 
     // this.elem.addEventListener('mouseleave', () => this.destroy());
   }
 
-  _renderPairList = (pairs, parentEl, className) => {
+  _renderPairList = (pairs, parentEl, label, className) => {
+    const container = document.createElement('DIV');
+    container.className = `pairs-container ${className}`;
+    container.appendChild(document.createTextNode(label));
+
     const ul = document.createElement('UL');
-    ul.className = `similar ${className}`;
     pairs.forEach(pair => {
       const li = document.createElement('LI');
       li.innerHTML = `<a href="#" target="_blank">${pair.Source}</a> - <a href="#" target="_blank">${pair.Target}</a> (${pair.Weight.toFixed(3)})`;
       ul.appendChild(li);
     });
-    parentEl.appendChild(ul);
+
+    container.appendChild(ul);
+    parentEl.appendChild(container);
   }
 
   destroy = () => {
