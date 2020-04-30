@@ -28,8 +28,10 @@ class App {
   loadData = () => {
     // Load metadata
     const fMetadata = axios.get('TravelogueD16.json')
-      .then(response =>
-        this.timeline = new Timeline(response.data));
+      .then(response => {
+        this.records = response.data;
+        this.timeline = new Timeline(response.data);
+    });
 
     // Load NGRAM similarities
     const fSimilaritiesNGRAM = axios.get('similarities_ngram_16C.csv')
@@ -56,7 +58,7 @@ class App {
     if (this.hoverPopup)
       this.hoverPopup.destroy();
 
-    this.hoverPopup = new HoverPopup(d.year, linkSet, this.elem, layerX, layerY);
+    this.hoverPopup = new HoverPopup(d.year, linkSet, this.records, this.elem, layerX, layerY);
     
     this.updateArcs(linkSet);
   }

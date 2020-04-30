@@ -20,7 +20,7 @@ export default class ThresholdControls extends EventEmitter {
     ngramSliderEl.className = 'control';
     containerEl.appendChild(ngramSliderEl);
     const ngramSlider = this._createSlider(ngramStart, ngramSliderEl);
-    ngramSlider.on('change', range => {
+    ngramSlider.on('update', range => {
       this.state.ngram = range.map(num => parseFloat(num)); // Nasty
       this.emit('change', this.state);
     });
@@ -29,7 +29,7 @@ export default class ThresholdControls extends EventEmitter {
     spatialSliderEl.className = 'control';
     containerEl.appendChild(spatialSliderEl);
     const spatialSlider = this._createSlider(spatialStart, spatialSliderEl);  
-    spatialSlider.on('change', range => {
+    spatialSlider.on('update', range => {
       this.state.spatial = range.map(num => parseFloat(num));
       this.emit('change', this.state);
     });

@@ -55,6 +55,10 @@ h2.label.places {
     font-size:12px;
   }
 
+  .noUi-connect {
+    background-color:#4b91f4;
+  }
+
   .noUi-horizontal .noUi-handle {
     height: 24px;
     top: -4px;
@@ -131,6 +135,22 @@ svg {
       text-align:center;
       color:#516786;
     }
+
+    li {
+      display:flex;
+      color:#333;
+    }
+
+    .arrow {
+      font-size:20px;
+      line-height:18px;
+    }
+
+    .pct {
+      text-align:right;
+      display:inline-block;
+      flex:1;
+    }
   
   }
 
@@ -158,6 +178,15 @@ svg {
   ul.barcodes {
     background-color:#fff;
     padding:20px 10px;
+
+    li::after {
+      content:', ';
+    }
+
+    li:last-child::after {
+      content:'';
+    }
+
   }
 
   ul {
@@ -168,14 +197,6 @@ svg {
     li {
       display:inline-block;
       padding-right:5px;
-    }
-
-    li::after {
-      content:', ';
-    }
-
-    li:last-child::after {
-      content:'';
     }
 
     a {
