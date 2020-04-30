@@ -31,11 +31,11 @@ h2.label {
 }
 
 h2.label.text-reuse {
-  top:70px;
+  top:20px;
 }
 
 h2.label.places {
-  top:420px;
+  top:360px;
 }
 
 
@@ -48,6 +48,19 @@ h2.label.places {
     margin:0 0 0 auto;
     position:relative;
     padding-bottom:50px;
+
+    .label {
+      display: inline-block;
+      position: absolute;
+    }
+  }
+
+  .control.ngram .label {
+    left: -170px;
+  }
+
+  .control.spatial .label {
+    left:-205px;
   }
 
   .noUi-value {
@@ -87,6 +100,7 @@ svg {
   stroke-width:1.5px;
   stroke:#fff;
   fill:#b3b3b3;
+  cursor:pointer;
 }
 
 .works-per-year.has-links {

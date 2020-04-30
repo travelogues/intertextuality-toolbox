@@ -17,7 +17,9 @@ export default class ThresholdControls extends EventEmitter {
     this.state = this._initState(args);
 
     const ngramSliderEl = document.createElement('DIV');
-    ngramSliderEl.className = 'control';
+    ngramSliderEl.className = 'control ngram';
+    ngramSliderEl.innerHTML = '<span class="label">Text Reuse Thresholds</span>';
+
     containerEl.appendChild(ngramSliderEl);
     const ngramSlider = this._createSlider(ngramStart, ngramSliderEl);
     ngramSlider.on('update', range => {
@@ -26,7 +28,9 @@ export default class ThresholdControls extends EventEmitter {
     });
 
     const spatialSliderEl = document.createElement('DIV');
-    spatialSliderEl.className = 'control';
+    spatialSliderEl.className = 'control spatial';
+    spatialSliderEl.innerHTML = '<span class="label">Common Places Thresholds</span>';
+
     containerEl.appendChild(spatialSliderEl);
     const spatialSlider = this._createSlider(spatialStart, spatialSliderEl);  
     spatialSlider.on('update', range => {
