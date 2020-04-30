@@ -45,26 +45,39 @@ class App {
 
     // Return when all have loaded
     return Promise.all([fMetadata, fSimilaritiesNGRAM, fSimilaritiesSpatial ]).then(result => {
-      const [ _, similaritiesNGRAM, similaritiesSpatial ] = result;
       this.render();
       this.renderControls();
     });
   }
 
   onMouseOver = d => {
+    const linkSet = this._getLinksForYear(d.year);    
+    this.update(linkSet);
+  }
+
+  onMouseOut = d => {
+    if (!this.hoverPopup)
+      this.update();
+  }
+
+  onClick = d => {
     const { layerX, layerY } = d3.event;
-    const linkSet = this._getLinksForYear(d.year);
+    const linkSet = this._getLinksForYear(d.year); 
 
     if (this.hoverPopup)
       this.hoverPopup.destroy();
 
-    this.hoverPopup = new HoverPopup(d.year, linkSet, this.records, this.elem, layerX, layerY);
-    
-    this.updateArcs(linkSet);
+    this.hoverPopup = new HoverPopup(
+      d.year, 
+      linkSet, 
+      this.records, 
+      this.elem, layerX, layerY, 
+      () => {
+        this.hoverPopup = null;
+        this.update()
+      }
+    );
   }
-
-  onMouseOut = () =>
-    this.updateArcs();
 
   renderControls = (ngramRange, spatialRange) => {
     const containerEl = document.createElement('DIV');
@@ -80,7 +93,7 @@ class App {
 
     controls.on('change', ranges => {
       THRESHOLDS = ranges;
-      this.updateArcs();
+      this.update();
     });
   }
 
@@ -106,14 +119,7 @@ class App {
     this.arcContainer = this.svg.append('g');
     this.dotContainer = this.svg.append('g');
 
-    this.updateArcs();
-    this.drawDots();
-  }
-
-  drawDots = () => {
-    this.dotContainer.selectAll('.works-per-year').remove();
-
-    this.dotContainer.selectAll('dots')
+    this.dotContainer.selectAll('.works-per-year')
       .data(this.timeline.getCounts())
       .enter()
         .append('circle')
@@ -123,14 +129,35 @@ class App {
         .attr('cy', VERTICAL_OFFSET)
         .on('mouseover', this.onMouseOver)
         .on('mouseout', this.onMouseOut)
+        .on('click', this.onClick);
+
+    // Initial data
+    this.update({ 
+      ngram: this.similaritiesNGRAM.getLinks(THRESHOLDS.ngram),
+      spatial: this.similaritiesSpatial.getLinks(THRESHOLDS.spatial)
+    });
+  }
+
+  update = links => {
+    const l = links ? links : { 
+      ngram: this.similaritiesNGRAM.getLinks(THRESHOLDS.ngram),
+      spatial: this.similaritiesSpatial.getLinks(THRESHOLDS.spatial)
+    };
+
+    this.updateArcs(l);
+    this.updateDots(l);
+  }
+
+  updateDots = links => {
+    this.dotContainer
+      .selectAll('.works-per-year')
+      .transition()
+      .attr('class', d =>
+        this._hasLinks(d.year) ? 'works-per-year has-links' : 'works-per-year');
   }
 
   updateArcs = links => {
-    const { ngram, spatial } = links ? links :
-      { 
-        ngram: this.similaritiesNGRAM.getLinks(THRESHOLDS.ngram),
-        spatial: this.similaritiesSpatial.getLinks(THRESHOLDS.spatial)
-      };
+    const { ngram, spatial } = links;
       
     this.arcContainer.selectAll('.arcs').remove();
   
@@ -154,6 +181,12 @@ class App {
       links.concat(this.similaritiesSpatial.getLinksForBarcode(barcode, THRESHOLDS.spatial)), []);
 
     return { records, ngram, spatial };
+  }
+
+  /** Helper to check if links exist for this year **/
+  _hasLinks = year => { 
+    const { ngram, spatial } = this._getLinksForYear(year);
+    return ngram.length > 0 || spatial.length > 0;
   }
 
   // Cf. https://www.d3-graph-gallery.com/graph/arc_template.html

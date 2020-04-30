@@ -3,12 +3,12 @@
  */
 export default class HoverPopup {
 
-  constructor(year, linkSet, allRecords, containerEl, x, y) {
+  constructor(year, linkSet, allRecords, containerEl, x, y, onClose) {
     this.elem = document.createElement('DIV');
     this.elem.className = 'mouseover-popup';
     this.elem.style.top = `${y - 3}px`;
     this.elem.style.left = `${x - 3}px`;
-    
+
     const h1 = document.createElement('H1');
     h1.innerHTML = `${year} <span>(${linkSet.records.length} works)</span>`;
     this.elem.appendChild(h1);
@@ -30,7 +30,10 @@ export default class HoverPopup {
 
     containerEl.append(this.elem);
 
-    this.elem.addEventListener('mouseleave', () => this.destroy());
+    this.elem.addEventListener('mouseleave', () => {
+      this.destroy();
+      onClose();
+    });
   }
 
   _renderPairList = (pairs, records, parentEl, label, className) => {
