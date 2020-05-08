@@ -29,6 +29,7 @@ OUTPUT_FILE = '/home/simonr/Workspaces/travelogues/travelogues-corpus/similariti
 files = list_files_in_folders(INPUT_FOLDERS)
 print(f'Got {len(files)} files')
 
+"""
 minhashes = []
 dictionaries = []
 
@@ -52,6 +53,6 @@ print(set_b)
 print(compare_two(dictionaries[0], dictionaries[1]))
 print(minhashes[1].jaccard(minhashes[0]))
 print(compare_two(set_a, set_b))
+"""
 
-
-# compare(files, NGRAM_SIZE, OUTPUT_FILE)
+compare(files, NGRAM_SIZE, OUTPUT_FILE)
