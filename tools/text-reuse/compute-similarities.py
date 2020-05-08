@@ -9,7 +9,7 @@ the given input folder and creates a CSV file that
 is compatible with Gephi.
 '''
 
-INPUT_FOLDERS = [ '../../sample-data/two-related' ]
+INPUT_FOLDERS = [ '/home/simonr/Workspaces/travelogues/travelogues-corpus/17th_century/books' ]
 """
 INPUT_FOLDERS = [
   '/home/simonr/Workspaces/travelogues/travelogues-corpus/16th_century/books',
@@ -24,7 +24,7 @@ NGRAM_SIZE = 8
 
 # Write output CSV to this file
 # OUTPUT_FILE = '../../results/two-related/similarities_ngram.csv'
-OUTPUT_FILE = '/home/simonr/Workspaces/travelogues/travelogues-corpus/similarities_ngram.csv'
+OUTPUT_FILE = '/home/simonr/Workspaces/travelogues/travelogues-corpus/similarities_ngram_17C.csv'
 
 files = list_files_in_folders(INPUT_FOLDERS)
 print(f'Got {len(files)} files')

@@ -1,266 +1,88 @@
 [
   {
-    "identifier": "AC09974246",
+    "identifier": "AC09891630",
     "barcodes": [
-      "Z168353709"
+      "Z176246604"
     ],
     "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ168353709"
-    ],
-    "place_of_publication": "N\u00fcrnberg",
-    "publishers": [
-      "Hulsius, Levinus"
-    ],
-    "printers": [
-      "Lochner, Christoph"
-    ],
-    "people": [
-      "Hulsius, Levinus",
-      "Lochner, Christoph"
-    ],
-    "date": 1598,
-    "marker_regions": [
-      "Asien"
-    ],
-    "work_title": "Verhael vande Reyse by de Hollandtsche Schepen gedaen naer Oost Indien",
-    "title_full": "Kurtze Warhafftige Beschreibung der newen Reyse oder Schiffahrt/ so die Hollendischen Schiff/ in denn Orientalischen Indien verricht: Welche Anno 1595. in Martio, Alda au\u00dfgefahrn vnd erst im Augusto de\u00df verlauffenen 1597 Jahrs/ widerkommen seind; Darinne der gantz succes der Reyse/ was sich t\u00e4glich verlauffen vnd zugetragen/ erz\u00e4lt wird; Au\u00df der Niderlendischen jn hochteutsche Sprach treulich verdolmetschet/ Durch Levinum Hulsium. Es seind auch etliche n\u00f6tige erklerung darzwischen gebracht/ vnd mit Carten vnd figurn geziert worden",
-    "entities": {
-      "locations": [
-        "Martio",
-        "Orientalischen Indien",
-        "Oost Indien"
-      ],
-      "people": []
-    }
-  },
-  {
-    "identifier": "AC09974253",
-    "barcodes": [
-      "Z168353801"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ168353801"
-    ],
-    "place_of_publication": "N\u00fcrnberg",
-    "publishers": [
-      "Hulsius, Levinus"
-    ],
-    "printers": [
-      "Hulsius, Levinus"
-    ],
-    "people": [
-      "Hulsius, Levinus"
-    ],
-    "date": 1599,
-    "marker_regions": [
-      "Asien"
-    ],
-    "work_title": "Verhael vande Reyse by de Hollandtsche Schepen gedaen naer Oost Indien",
-    "title_full": "Erste Schiffart. Kurtze Warhafftige Beschreibung der Newen Reyse oder Schiffart/ so die Hollendischen Schiff in den Orientalischen Jndien/ verricht: Welche Anno 1595. in Martio/ Alda au\u00dfgefahren/ vnd erst im Augusto des verlauffenen 1597. Jahrs/ wider kommen seind; Darinne der gantz Succes der Reyse/ was sich t\u00e4glich verlauffen vnnd zugetragen/ erzehlt wird. Au\u00df der Niderl\u00e4ndischen in Hochteutsche sprach trewlich verdolmetschet. Durch Levinum Hulssium. Es sind auch etliche n\u00f6tige erklehrung darzwischen gebracht/ vnd mit Carten vnnd Figuren geziret worden",
-    "entities": {
-      "locations": [
-        "Hochteutsche",
-        "Martio Alda",
-        "Oost Indien"
-      ],
-      "people": [
-        "Kurtze"
-      ]
-    }
-  },
-  {
-    "identifier": "AC09974254",
-    "barcodes": [
-      "Z168354106"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ168354106"
-    ],
-    "place_of_publication": "N\u00fcrnberg",
-    "publishers": [
-      "Hulsius, Levinus"
-    ],
-    "printers": [
-      "Lochner, Christoph"
-    ],
-    "people": [
-      "Hulsius, Levinus",
-      "Lochner, Christoph"
-    ],
-    "date": 1599,
-    "marker_regions": [
-      "S\u00fcdamerika"
-    ],
-    "work_title": "Wahrhafftige Historien einer wunderbaren Schiffart; (DE-588)4247028-6",
-    "title_full": "Vierte Schiffart. Warhafftige Historien Einer Wunderbaren Schiffart/ welche Vlrich Schmidel von Straubing/ von Anno 1534. bi\u00df Anno 1554 in Americam oder Newenwelt/ bey Brasilia vnd Rio della Plata gethan; Was er in diesen Neuntzehen Jahren au\u00dfgestanden/ vnd was er f\u00fcr seltzame Wunderbare L\u00e4nder vnd Leut er gesehen; durch ermelten Schmidel selbs beschrieben / An jetzt aber an Tag geben mit Verbesserung vnd Corrigierung der St\u00e4tt/ L\u00e4nder vnd Fl\u00fc\u00df namen/ de\u00dfgleichen mit einer nothwendigen Landtaffel/ Figuren/ vnd anderer mehr Erklerung/ gezieret/ Durch Levinvm Hvlsivm",
-    "entities": {
-      "locations": [
-        "Americam"
-      ],
-      "people": [
-        "Levinvm Hvlsivm",
-        "Schmidel",
-        "Schmidel von Straubing von Anno"
-      ]
-    }
-  },
-  {
-    "identifier": "AC11085738",
-    "barcodes": [
-      "Z185142104"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ185142104"
+      "http://data.onb.ac.at/ABO/%2BZ176246604"
     ],
     "place_of_publication": "Frankfurt am Main",
     "publishers": [
-      "Bry, Theodor <<de>>"
+      "Feyerabend, Sigmund"
     ],
     "printers": [
-      "Wechel, Johann"
+      "Schmidt, Hans"
     ],
     "people": [
-      "Bry, Theodor <<de>>",
-      "Wechel, Johann"
+      "Schmidt, Hans",
+      "Feyerabend, Sigmund"
     ],
-    "date": 1590,
+    "date": 1581,
     "marker_regions": [
-      "Nordamerika"
+      "S\u00fcdamerika",
+      "Afrika",
+      "Asien",
+      "Orient"
     ],
-    "work_title": "<<A>> brief and true report of the new found land of Virginia; (DE-588)111468466X",
-    "title_full": "Wunderbarliche/ doch Wahrhafftige Erkl\u00e4rung/ Von der Gelegenheit vnd Sitten der Wilden in Virginia/; welche newlich von den Engell\u00e4ndern/ so im Jar 1585. vom Herrn Reichard Greinuile/ einem von der Ritterschafft/ in gemeldete Landschafft die zu bewohnen gef\u00fchrt waren/ ist erfunden worden/ Jn verlegung H. Walter Raleigh/ Ritter vnd Obersten de\u00df Zinbergwercks/ au\u00df verg\u00fcnstigung der Durchleuchtigsten vnnd Vnvberwindlichsten/ Elisabeth/ K\u00f6nigin in Engelland/ etc.; Erstlich in Engell\u00e4ndischer Sprach beschrieben durch Thomam Hariot/ vnd newlich durch Christ. P. in Teutsch gebracht",
+    "work_title": "Verdadeira informa\u00e7\u00e3o das terras do Preste Jo\u00e3o das Indias; (DE-588)1023275082",
+    "title_full": "General Chronica/ Das ist: Warhaffte eigentliche vnd kurtze Beschreibung/ vieler namhaffter/ vnd zum theil bi\u00df daher vnbekannter Landtschafften/ Erstlich de\u00df Gro\u00dfmechtigen vnd gewaltigen Herrn Priester Johan[n]s/ K\u00f6nigs in Morenlandt/ K\u00f6nigreichen vnd Herrschafften/ auch derselbigen beyde Geistliche vnd Weltliche Regiment; Zum andern ein gemeine Beschreibung de\u00df gantzen Erdbodems/ in drey B\u00fccher getheilt/ nemlich/ Asiam/ Aphricam/ vnd Europam/ vnd was sich f\u00fcrnemlich darinnen f\u00fcr guts vnd b\u00f6ses/ zu Wasser vnd Landt/ mit Krieg/ Brunst/ Hunger vnd dergleichen/ von anfang der Welt/ bi\u00df vff erbauwung der Statt Rom/ vnd von dannen bi\u00df zu der zeit Honorij vnd Theodosij/ begeben vnd zugetragen hat. Zum dritten vnd letzten/ ein kurtzer Summarischer doch verstendtlicher Au\u00dfzug vnd Beschreibung der neuw erfundenen Jnseln/ Americe vnd Magellane/ so man die neuwe Welt pfelgt zu nennen. Darinnen alle V\u00f6lcker vnd Nationen/ die in der gantzen Welt (als viel deren jetziger zeit bekannt sind) wohnen/ sampt jhrer Ankunfft vnd Herkommen/ auch Art vnd Natur/ Jtem Ceremonien vnd Gebr\u00e4uchen in Geistlichen vnd Weltlichen sachen/ trewlich beschrieben/ vnd gleich als in einer Tafel abgemalt/ f\u00fcr die Augen gestelt werden. Jetzt auffs neuw mit sonderm grossen flei\u00df/ besser als zuuor/ beschrieben vnd verteutscht/ auch mehrer richtigkeit halben in drey vnderschiedliche B\u00fccher getheilt/ dergleichen noch niemals au\u00dfgangen; [Francisco \u00c1lvares]",
     "entities": {
       "locations": [
-        "Engelland",
-        "Jar",
-        "Virginia"
+        "Americe",
+        "Rom",
+        "Morenlandt"
       ],
       "people": [
-        "Christ",
-        "Thomam Hariot",
-        "Elisabeth K\u00f6nigin",
-        "H. Walter Raleigh Ritter",
-        "Reichard Greinuile"
+        "Francisco \u00c1lvares",
+        "V\u00f6lcker",
+        "Brunst",
+        "Johan",
+        "Jo\u00e3o"
       ]
     }
   },
   {
-    "identifier": "AC11085779",
+    "identifier": "AC09891631",
     "barcodes": [
-      "Z185142001"
+      "Z158160208"
     ],
     "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ185142001"
+      "http://data.onb.ac.at/ABO/%2BZ158160208"
     ],
     "place_of_publication": "Frankfurt am Main",
     "publishers": [
-      "Bry, Theodor <<de>>"
+      "Feyerabend, Sigmund"
     ],
     "printers": [
-      "Wechel, Johann"
+      "Schmidt, Johann",
+      "Schmidt, Johannes"
     ],
     "people": [
-      "Bry, Theodor <<de>>",
-      "Wechel, Johann"
+      "Schmidt, Johann",
+      "Schmidt, Johannes",
+      "Feyerabend, Sigmund"
     ],
-    "date": 1591,
+    "date": 1576,
     "marker_regions": [
-      "Nordamerika"
+      "Afrika",
+      "Asien",
+      "S\u00fcdamerika",
+      "Orient"
     ],
-    "work_title": "Brevis Narratio Eorum Quae In Florida Americae Provincia Gallis acciderunt",
-    "title_full": "Der ander Theyl/ der Newlich erfundenen Landtschafft Americ\u00e6, Von dreyen Schiffahrten/ so die Frantzosen in Floridam (die gegen Nidergang gelegen) gethan; Eine vnter dem H\u00e4uptmann H. Laudonniere, Anno 1564. Die ander vnter H. Ribald 1565. Die dritte/ vnter H. Guorguesio 1567. geschehen. Mit Beschreibung vnd lebendiger Contrafactur/ dieser Prouintze/ Gestalt/ Sitten vnd Gebr\u00e4uch der Wilden/ durch Jacob le Moyne/ sonst Morges genannt/ der alles selbst gesehen/ vnd de\u00dfhalben f\u00fcrnemlich in diese Landschafft verschickt worden; Aus dem Frantz\u00f6sischen in Latein beschrieben/ durch C. C. A. Vnd jetzt au\u00df dem Latein in Teutsch bracht/ durch den Ehrwirdigen H. Oseam Halen. Auch mit sch\u00f6nen vnd kunstreichen Kupfferst\u00fccken/ vnd deren angehenckten Erkl\u00e4rung/ alles an Tag gegeben/ durch Dieterich von Bry/ B\u00fcrger in Franckfort am Mayn/ Anno 1591",
+    "work_title": "Verdadeira informa\u00e7\u00e3o das terras do Preste Jo\u00e3o das Indias; (DE-588)1023275082",
+    "title_full": "General Chronicen/ Das ist: Warhaffte eigentliche vnd kurtze Beschreibung/ vieler namhaffter/ vnd zum theil bi\u00df daher vnbekannter Landtschafften/; Erstlich de\u00df Gro\u00dfmechtigen vnd gewaltigen Herrn Priester Johanns/ K\u00f6nigs in Morenlandts/ K\u00f6nigreichen vnd Herrschaften/ auch derselbigen beyde Geistliche vnd Weltliche Regiment. Zum andern ein gemeine Beschreibung de\u00df gantzen Erdbodems/ in drey B\u00fccher getheilt/ nemlich/ Asiam/ Aphricam/ vnd Europam/ vnd was sich f\u00fcrnemlich drinnen f\u00fcr guts und b\u00f6ses/ zu Wasser vnd Landt/ mit Krieg/ Brunst/ Hunger vnd dergleichen/ von anfang der Welt/ bi\u00df vff erbauwung der Statt Rom/ vnd von dannen bi\u00df zu der zeit Honorij vnd Theodosij/ begeben und zugetragen hat. Zum dritten vnd letzten/ ein kurtzer Summarischer doch verstendtlicher Au\u00dfzug vnd Beschreibung der neuw erfundenen Jnseln/ Americe vnd Magellane/ so man die neuwe Welt pflegt zu nennen. Darinnen alle V\u00f6lcker vnd Nationen/ die in der ganzen Welt (als viel deren jetziger zeit bekannt sind) wohnen/ sampt jhrer Ankunfft vnd Herkommen/ auch Art vnd Natur/ Jtem Ceremonien vnd Gebr\u00e4uchen in Geistlichen vnd Weltlichen sachen/ neuwlich beschrieben/ vnd gleich als in einer Tafel abgemalt/ f\u00fcr die Augen gestelt werden. Jetzt auffs neuw mit sonderm grossen flei\u00df/ besser als zuvor/ beschrieben und verteutscht/ auch mehrer richtigkeit halben in drey vnderschiedliche B\u00fccher getheilt/ dergleichen noch niemals au\u00dfgangen",
     "entities": {
       "locations": [
-        "Franckfort am Mayn Anno",
-        "Teutsch",
-        "Floridam",
-        "Americ\u00e6"
+        "Americe",
+        "Rom"
       ],
       "people": [
-        "Dieterich",
-        "H. Oseam Halen",
-        "C. C. A. Vnd",
-        "Jacob le Moyne",
-        "H. Guorguesio",
-        "H. Ribald"
-      ]
-    }
-  },
-  {
-    "identifier": "AC09625464",
-    "barcodes": [
-      "Z163300909"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ163300909"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Bry, Theodor <<de>>"
-    ],
-    "printers": [
-      "Bry, Theodor <<de>>"
-    ],
-    "people": [
-      "Bry, Theodor <<de>>"
-    ],
-    "date": 1593,
-    "marker_regions": [
-      "S\u00fcdamerika"
-    ],
-    "work_title": "Wahrhaftige Historia; (DE-588)4401116-7",
-    "title_full": "Dritte Buch Americ\u00e6, Darinn Brasilia durch Johann Staden von Homberg aus Hessen/ aus eigener erfahrung in Teutsch beschrieben; Item Historia der Schiffart Ioannis Lerij in Brasilien/ welche er selbst publiciert hat/ jetzt von Newem verteutscht/ Durch Teucrium Ann\u00e6um Priuatum, C. Vom Wilden unerh\u00f6rtem wesen der Jnnwohner/ von allerley frembden Gethieren vnd Gew\u00e4chsen/ sampt einem Colloquio, in der Wilden Sprach Alles von newem mit k\u00fcnstlichen Figuren in Kupffer gestochen vnd an Tag geben/ Durch Dieterich Bry von L\u00fcttich/ jetzt Burger zu Franckfurt am Mayn",
-    "entities": {
-      "locations": [
-        "L\u00fcttich",
-        "Brasilien",
-        "Hessen",
-        "Homberg",
-        "Darinn Brasilia"
-      ],
-      "people": [
-        "Dieterich Bry",
-        "Ioannis Lerij",
-        "Johann Staden"
-      ]
-    }
-  },
-  {
-    "identifier": "AC11085838",
-    "barcodes": [
-      "Z185142207"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ185142207"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Bry, Theodor <<de>>"
-    ],
-    "printers": [
-      "Bry, Theodor <<de>>"
-    ],
-    "people": [
-      "Bry, Theodor <<de>>"
-    ],
-    "date": 1593,
-    "marker_regions": [
-      "S\u00fcdamerika"
-    ],
-    "work_title": "Wahrhaftige Historia; (DE-588)4401116-7",
-    "title_full": "Dritte Buch Americ\u00e6, Darinn Brasilia durch Johann Staden von Homberg au\u00df Hessen/ au\u00df eigener erfahrung in Teutsch beschrieben; Item Historia der Schiffart Ioannis Lerij in Brasilien/ welche er selbst publiciert hat/ jetzt von Newem verteutscht/ Durch Teucrium Ann\u00e6um Priuatum, C. Vom Wilden vnerh\u00f6rtem wesen der Jnnwoner/ von allerley frembden Gethieren vnd Gew\u00e4chsen/ sampt einem Colloquio, in der Wilden Sprach. Alles von Newem mit k\u00fcnstlichen Figuren in Kupffer gestochen vnd an Tag geben/ Durch Dieterich Bry von L\u00fcttich/ jetzt Burger zu Franckfurt am Mayn",
-    "entities": {
-      "locations": [
-        "L\u00fcttich",
-        "Brasilien",
-        "Hessen",
-        "Homberg",
-        "Darinn Brasilia"
-      ],
-      "people": [
-        "Dieterich Bry",
-        "Ioannis Lerij",
-        "Johann Staden"
+        "V\u00f6lcker",
+        "Brunst",
+        "Johanns",
+        "Chronicen",
+        "Jo\u00e3o"
       ]
     }
   },
@@ -317,8 +139,8 @@
       "Feyerabend, Johann"
     ],
     "people": [
-      "Feyerabend, Johann",
-      "Bry, Theodor <<de>>"
+      "Bry, Theodor <<de>>",
+      "Feyerabend, Johann"
     ],
     "date": 1597,
     "marker_regions": [
@@ -332,679 +154,6 @@
         "Dieterich",
         "Atabalibam",
         "Benzo von Meylandt"
-      ]
-    }
-  },
-  {
-    "identifier": "AC10477476",
-    "barcodes": [
-      "Z18515720X"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ18515720X"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Bry, Theodor <<de>>"
-    ],
-    "printers": [
-      "Bry, Theodor <<de>>"
-    ],
-    "people": [
-      "Bry, Theodor <<de>>"
-    ],
-    "date": 1597,
-    "marker_regions": [
-      "S\u00fcdamerika"
-    ],
-    "work_title": "Wahrhafftige Historien einer wunderbaren Schiffart; (DE-588)4247028-6",
-    "title_full": "Das VII. Theil America. Warhafftige vnnd liebliche Beschreibung etlicher f\u00fcrnemmen Jndianischen Landschafften vnd Jnsulen/ die vormals in keiner Chronicken gedacht/ vnd erstlich in der Schiffart Vlrici Schmidts von Straubingen/ mit grosser gefahr erk\u00fcndigt/; vnd von jhm selber auffs fleissigst beschrieben vnd dargethan. Vnd an Tag gebracht durch Dieterich von Bry",
-    "entities": {
-      "locations": [],
-      "people": [
-        "Dieterich von Bry",
-        "Vlrici Schmidts"
-      ]
-    }
-  },
-  {
-    "identifier": "AC11092625",
-    "barcodes": [
-      "Z185157107"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ185157107"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Theodor de Bry der \u00c4ltere Erben"
-    ],
-    "printers": [
-      "Becker, Matthaeus"
-    ],
-    "people": [
-      "Theodor de Bry der \u00c4ltere Erben",
-      "Becker, Matthaeus"
-    ],
-    "date": 1599,
-    "marker_regions": [
-      "Nordamerika",
-      "S\u00fcdamerika"
-    ],
-    "work_title": "Discoverie of Guiana; (DE-588)4489710-8",
-    "title_full": "Americ\u00e6 Achter Theil/ Jn welchem Erstlich beschrieben wirt das M\u00e4chtige vnd Goldtreiche K\u00f6nigreich Guiana/ zu Norden de\u00df grossen Flusses Oronoke, sonsten Oregliana genannt/ gelegen/ sampt desselbigen f\u00fcrnembsten vnd reichsten Hauptst\u00e4tten Manoa vnd Macuieguarai, auch die f\u00fcrnembste vnd k\u00f6stlichste Kauffmannschafften die dieses K\u00f6nigreich vberfl\u00fcssig in sich hat; Jtem/ Eine kurtze Beschreibung der vmbligenden Landtschafften Emereia, Arromaia, Amapaia,  Topago, &c. in welchen neben andern V\u00f6lckern die Kriegische Weiber/ von den Alten Amazones genannt/ wohnen/ sampt kurtzer meldung 53. grosser Wasserstr\u00f6hm/ vnter denen der Oronoke der gr\u00f6ste ist/ vnd sich wol 500. Teutscher Meil in das Landt hineyn/ bey nahe an die m\u00e4chtige Statt Quito in Peru, erstreckt. Alles mit flei\u00df beschrieben durch den gestrengen/ Edlen vn[d] vesten Walthern Ralegh, Rittern/ vnd Hauptmann vber jrer K\u00f6n. Mayest. au\u00df Engellandt Leibs Guardi/ welcher neben dem auff dem Meer auch wolge\u00fcbten Hauptmann/ Lorentz Keymis alles selber erfahren vnd gesehen hat im Jar 1595. vnd 1596. Zum andern/ die Reyse de\u00df Edlen vnd vesten Thomas Candisch, welcher im Jar 1586. mit 3. Schiffen in Engellandt au\u00dfgefahren/ vnd nach dem er das Meer bey die 13000. Engell\u00e4ndischer Meil besegelt/ in Anno 1588. wider an ist gelanget/ sampt Erzehlung aller Abentheuwer vnd Geschichten so jm auff dieser Rey\u00df zu handen gestossen seynd. Durch Frantzen Prettie einen Engell\u00e4nder/ welcher dieser Fahrt Pers\u00f6nlich hat beygewohnet/ von Tag zu Tag auffgezeichnet. Vnd zum dritten die letzte Rey\u00df der gestrengen/ Edlen vnd vesten Frantzen Draeck vnd Iohan Havckens, Rittern/ welche Anno 1595. mit 6. der K\u00f6nigin vnd 21. andern Schiffen/ darauff 2500. Mann gewesen/ in Engellandt abgesegelt in die Occidentalische Jndien/ die Statt Panama eynzunemmen/ Auff welcher Reyse sie beyde jr Leben beschlossen haben. Alles erstlich in Engell\u00e4ndischer Sprach au\u00dfgangen/ jetzt aber au\u00df der Holl\u00e4ndischen translation in die Hochteutsche Sprache gebracht/ durch Avgvstinvm Cassiodorvm Reinivm. Mit etlichen sch\u00f6nen Kupfferst\u00fccken geziert vnd an Tag gegeben/ durch Dieterichen von Bry seligen/ hinderlassene Erben",
-    "entities": {
-      "locations": [
-        "Engellandt",
-        "Jar",
-        "Peru",
-        "Quito",
-        "Amapaia",
-        "Arromaia",
-        "Guiana"
-      ],
-      "people": [
-        "Avgvstinvm Cassiodorvm Reinivm",
-        "Iohan Havckens",
-        "Frantzen Draeck",
-        "Vnd",
-        "Frantzen Prettie",
-        "Thomas Candisch",
-        "Lorentz Keymis",
-        "Engellandt Leibs Guardi",
-        "Walthern Ralegh",
-        "Teutscher Meil",
-        "Macuieguarai"
-      ]
-    }
-  },
-  {
-    "identifier": "AC11093167",
-    "barcodes": [
-      "Z164172903",
-      "Z185158100"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ164172903",
-      "http://data.onb.ac.at/ABO/%2BZ185158100"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Bry, Johann Israel <<de>>",
-      "Bry, Johann Theodor <<de>>"
-    ],
-    "printers": [
-      "Saur, Johannes"
-    ],
-    "people": [
-      "Bry, Johann Israel <<de>>",
-      "Saur, Johannes",
-      "Bry, Johann Theodor <<de>>"
-    ],
-    "date": 1597,
-    "marker_regions": [
-      "Afrika"
-    ],
-    "work_title": "Relatione del reame di Congo e delle circonvicine contrade",
-    "title_full": "Regnvm Congo hoc est Warhaffte vnd Eigentliche Beschreibung de\u00df K\u00f6nigreichs Congo in Africa/ vnd deren angrentzenden L\u00e4nder/ darinnen der Jnwohner Glaub/ Leben/ Sitten vnd Kleydung wol vnd au\u00dff\u00fchrlich vermeldet vnd angezeigt wirdt; Erstlich durch Eduart Lopez/ welcher in dieser Nauigation alles Pers\u00f6nlich erfahren/ in Portugalesischer Spraach gestellt/ Jetzo aber in vnser Teutsche Spraach transferiret vnd vbersetzt/ Durch Avgvstinvm Cassiodorvm. Auch mit sch\u00f6nen vnd Kunstreichen Figuren gezieret vnd an Tag geben/ durch Hans Dietherich vnd Hans Jsrael von Bry/ Gebr\u00fcder vnd B\u00fcrger zu Franckfurt",
-    "entities": {
-      "locations": [],
-      "people": [
-        "Hans Jsrael",
-        "Hans Dietherich",
-        "Avgvstinvm Cassiodorvm",
-        "Eduart Lopez",
-        "Congo"
-      ]
-    }
-  },
-  {
-    "identifier": "AC11093220",
-    "barcodes": [
-      "Z185143704"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ185143704"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Bry, Johann Israel <<de>>",
-      "Bry, Johann Theodor <<de>>"
-    ],
-    "printers": [
-      "Saur, Johannes"
-    ],
-    "people": [
-      "Bry, Johann Israel <<de>>",
-      "Saur, Johannes",
-      "Bry, Johann Theodor <<de>>"
-    ],
-    "date": 1598,
-    "marker_regions": [
-      "Afrika",
-      "Asien"
-    ],
-    "work_title": "Itinerario; (DE-588)4666486-5",
-    "title_full": "Ander Theil der Orientalischen Jndien/ VOn allen V\u00f6lckern/ Jnsulen/ Meerporten/ fliessenden Wassern vnd anderen Orten/ so von Portugal au\u00df/ lengst dem Gestaden Aphrica/ bi\u00df in Ost Jndien vnd zu dem Land China/ sampt andern Jnsulen zu sehen seind; Beneben derenselben Aberglauben/ G\u00f6tzendienst vnd Tempeln/ Jtem von jren Sitten/ Trachten/ Kleidungen/ Policeyordnung/ vnd wie sie hau\u00dfthalten/ beid so viel die Portugesen/ welche da im Land wohnen/ vnd auch das jnheimische Landv\u00f6lcklein anlangt. De\u00dfgleichen von der Residentz de\u00df Spanischen Viceroys vnd anderer Spanier in Goa/ Jtem von allen Orientalischen Jndianischen Waaren vnd Kummerschafften: sampt deren Gewichten/ Masen/ M\u00fcntzen vnd jhrem Valor oder Wirdigung; Erstlich im Jar 1596. au\u00dff\u00fchrlich in Holl\u00e4ndischer Sprach beschrieben/ durch Joan Hugo von Lindschotten au\u00df Holland/ welcher in 13. Jaren solches meinst alles pers\u00f6nlich zugegen gesehen vnd selbst erfahren hat. Jetzo aber von newem in Holchteutsch bracht/ vnd mit k\u00fcnstlichen sch\u00f6nen Figuren/ in Kupffer gestochen/ gezieret an tag geben/ durch Hans Dieterich vnd Hans Jsrael von Bry Gebr\u00fcder",
-    "entities": {
-      "locations": [
-        "Holchteutsch",
-        "Holland",
-        "Jar",
-        "Goa",
-        "China",
-        "Aphrica",
-        "Portugal"
-      ],
-      "people": [
-        "Hans Jsrael",
-        "Hans Dieterich",
-        "Jetzo",
-        "Jaren",
-        "Joan Hugo"
-      ]
-    }
-  },
-  {
-    "identifier": "AC11093434",
-    "barcodes": [
-      "Z18514390X"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ18514390X"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Bry, Johann Theodor <<de>>",
-      "Bry, Johann Israel <<de>>"
-    ],
-    "printers": [
-      "Becker, Matthaeus"
-    ],
-    "people": [
-      "Bry, Johann Israel <<de>>",
-      "Bry, Johann Theodor <<de>>",
-      "Becker, Matthaeus"
-    ],
-    "date": 1599,
-    "marker_regions": [
-      "Asien"
-    ],
-    "work_title": "Itinerario; (DE-588)4666486-5",
-    "title_full": "Dritter Theil Indiae Orientalis, Darinnen erstlich das ander Theil der Schifffahrten Joann Huygens von Lintschotten au\u00df Hollandt/ so er in Orient gethan/ begriffen/ vnd f\u00fcrnemlich alle gelegenheit derselbigen Landen/ Jnsulen/ Meerpforten/ etc. so vnter wegen auffstossen/ vnd dann in Jndia f\u00fcrkommen/; Wie auch alles/ was der Author allda im Landt/ vnd nachmals auff seiner Widerreyse nach Hollandt gesehen vnd erfahren/ eygentlich beschrieben wirdt. II. Der Holl\u00e4nder Schifffahrt in die Orientalische Jnsulen/ Iauan vnd Sumatra, sampt Sitten/ Leben vnd Superstition/ etc. der V\u00f6lcker. III. Drey Schifffahrten der Holl\u00e4nder nach obermeldten Jndien/ durch das Mittn\u00e4chtigsche oder Ei\u00dfmeer/ darinnen viel vnerh\u00f6rte Ebentewer. Alles auffs trewlichst von neuwem au\u00df den Niderl\u00e4ndischen Exemplarien in Hochteutsch bracht/ vnd in guter Disposition zusammen gef\u00fcgt. Sampt Vielen sch\u00f6nen k\u00fcnstlichen Figurn/ vnd Landtafeln/ in Kupffer gestochen/ vnd an Tag geben/ durch Io. Theodor vnd Io. Israel de Bry/ Gebr\u00fcder",
-    "entities": {
-      "locations": [
-        "Israel de Bry Gebr\u00fcder",
-        "Hochteutsch",
-        "Sumatra",
-        "Hollandt",
-        "Orient"
-      ],
-      "people": [
-        "Theodor vnd",
-        "V\u00f6lcker",
-        "Hollandt",
-        "Joann Huygens",
-        "Indiae Orientalis"
-      ]
-    }
-  },
-  {
-    "identifier": "AC05657137",
-    "barcodes": [
-      "Z177009407"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ177009407"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Z\u00f6pfel, David"
-    ],
-    "printers": [
-      "Z\u00f6pfel, David"
-    ],
-    "people": [
-      "Z\u00f6pfel, David"
-    ],
-    "date": 1557,
-    "marker_regions": [
-      "Orient",
-      "Asien",
-      "Europa"
-    ],
-    "work_title": "Evagatorium in Terrae Sanctae, Arabiae et Aegypti peregrinationem; (DE-588)1130877485",
-    "title_full": "EJgentlich beschreibung der hin vnnd wider farth zu dem Heyligen Landt gen Jerusalem/; vnd furter durch die grosse W\u00fcsten zu dem Heiligen Berge Horeb vnd Sinay/ darau\u00df zuuernemen was wunders die Pilgrin hin vnd wider auff Land vnd wasser zu erfaren vnd zu besehen haben/ Vber die ma\u00df kurtzweilig vnd l\u016fstig zulesen/ sonderlich denen so der Heiligen schrifft ettwas erfahrn sein/ Vormals im druck nie der gleichen au\u00dfgangen; [Felix Fabri]",
-    "entities": {
-      "locations": [
-        "Jerusalem",
-        "Terrae Sanctae"
-      ],
-      "people": [
-        "Felix Fabri"
-      ]
-    }
-  },
-  {
-    "identifier": "AC07689699",
-    "barcodes": [
-      "Z167120604"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ167120604"
-    ],
-    "place_of_publication": "Dillingen a.d. Donau",
-    "publishers": [
-      "Mayer, Johann"
-    ],
-    "printers": [
-      "Mayer, Johann"
-    ],
-    "people": [
-      "Mayer, Johann"
-    ],
-    "date": 1589,
-    "marker_regions": [
-      "Asien"
-    ],
-    "work_title": "",
-    "title_full": "Sendtschreiben Au\u00df den weitberh\u00fcmpten Landschafften China/ Japon vn[d] Jndia/ de\u00df sechs vnnd achtzigisten/ vnnd siben vnd achtzigisten Jahrs; Sampt Angehenckter erzehlung eines mercklichen Schiffbruchs/ wie in andern schreiben de\u00df P. Petri Martonez an den Ehrw\u00fcrdigen P. General der Societet Iesv den 9. Decembris/ Anno 1586. gethan/ vermeldet wirdt",
-    "entities": {
-      "locations": [
-        "China Japon"
-      ],
-      "people": [
-        "P. Petri Martonez"
-      ]
-    }
-  },
-  {
-    "identifier": "AC05831402",
-    "barcodes": [
-      "Z180628606"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ180628606"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Rab, Georg"
-    ],
-    "printers": [
-      "Rab, Georg"
-    ],
-    "people": [
-      "Rab, Georg"
-    ],
-    "date": 1563,
-    "marker_regions": [
-      "Asien",
-      "Europa",
-      "Orient"
-    ],
-    "work_title": "Palinodia de los Turcos",
-    "title_full": "T\u00fcrckische Historien; Von der T\u00fcrcken Ankunfft/ Regierung/ K\u00f6nigen/ vnd Keysern/ Kriegen/ Schlachten/ Victorien vnd Sigen/ wider Christen und Heiden. Von Emptern/ Befelchs vnd Kriegsleuten der T\u00fcrckischen Soldanen/ vnd wie man wider den T\u00fcrcken kriegen sol. Jtem: Von der T\u00fcrcken Religion unnd Gesatz/ von jrem Gerichts Proce\u00df/ von der gemeinen T\u00fcrcken Leben/ Wesen/ Handel vn[d] Wandel. Von de\u00df T\u00fcrckischen Keysers Hofordnung und Hofgesind. Von der Auffruhr zwischen dem Keiser Baiatzeth vnd seinen S\u00f6nen. Sampt einer T\u00fcrckischen Prophecey: Vnd vom elend der armen gefangnen Christen/ etc. Au\u00df Jtalienischer Sprach in vnsere Te\u00fctsche verdolmetscht/ durch den Hochgelahrten Heinrich M\u00fcller/ der Rechten Licentiaten/ vnd freyen K\u00fcnst Magister. Endtlich ist mit angehenckt von Vrsachen der Christen verderben/ vnd wie man sich in solchen n\u00f6hten schicken sol. Vorhin in Teutscher Sprach nie an tag kommen/ vnd alles in drey B\u00fccher eyngetheilt/ wie bald nach der Vorred z\u016fsehen",
-    "entities": {
-      "locations": [
-        "Baiatzeth vnd"
-      ],
-      "people": [
-        "Heinrich M\u00fcller",
-        "Jtem"
-      ]
-    }
-  },
-  {
-    "identifier": "AC05700888",
-    "barcodes": [
-      "Z180302002"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ180302002"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Marne, Claude <<de>>",
-      "Aubry, Johann"
-    ],
-    "printers": [
-      "Marne, Claude <<de>>"
-    ],
-    "people": [
-      "Marne, Claude <<de>>",
-      "Aubry, Johann"
-    ],
-    "date": 1592,
-    "marker_regions": [
-      "Europa"
-    ],
-    "work_title": "Discours politique et militaires",
-    "title_full": "Discours Oder Beschreibung vnd v\u00dff\u00fchrliches r\u00e4htliches bedencken/ von allerhandt so wol Politischen/ als Kriegssachen; Erstlich durch denEdlen/ hocherfahrnen/ Weitber\u00fcmbten/ vnd man[n]hafften Frantz\u00f6sischen Kriegs=Obristen/ den Herren De la Nove Jn Frantzoesischer sprach beschriben/ hernach durch den Herren de Fresne zu samen gefa\u00dft/ vnd an Tag geben. Jetzundt aber: Allen Potentaten/ F\u00fcrsten/ Herren/ KriegsObristen/ Haupt vnd Befelchs=Leuten/ auch menniglich/ so in Politischen vnd Kriegssachen/ herrliche weise vnd nutzliche Rahtschl\u00e4g/ vnd vorst\u00e4ndige bedencken zu wissen beging/ zu Ehren vnd bestem/ au\u00df dem Frantz\u00f6sischen in vnser geliebte Teutsche sprach auffs trewlichst vnd fleissigst vertirt. Durch Jacob Rahtgeben/ F\u00fcrstlichen W\u00fcrtembergischen Secretarium zu M\u00fcmpelgarten etc.",
-    "entities": {
-      "locations": [],
-      "people": [
-        "Jacob",
-        "Jetzundt",
-        "de Fresne",
-        "De la Nove Jn Frantzoesischer"
-      ]
-    }
-  },
-  {
-    "identifier": "AC10145229",
-    "barcodes": [
-      "Z165709803"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ165709803"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Marne, Claude <<de>>",
-      "Aubry, Johann"
-    ],
-    "printers": [
-      "Marne, Claude <<de>>"
-    ],
-    "people": [
-      "Marne, Claude <<de>>",
-      "Aubry, Johann"
-    ],
-    "date": 1590,
-    "marker_regions": [
-      "Asien",
-      "Europa",
-      "Orient"
-    ],
-    "work_title": "Annales sultanorum Othmanidarum",
-    "title_full": "Neuwe Chronica T\u00fcrckischer nation/ von T\u00fcrcken selbs beschrieben; volgendts gemehrt/ vnnd in vier B\u00fccher abgetheilt: Das Erst/ Gitabi Teuarichi, Chronic oder Zeitbuch der F\u00fcrsten Osmanischen stammens: von jhrem Vrsprung/ Auffnemen/ Regiment/ Gewalt/ Kriegen/ Tugendt/ Vntugendt/ succession, vom ersten Osman Chan/ bi\u00df auff den Sultan Suleiman Chan/ vnd das 1550. jar Christi: Welches der Edel vnd Gestreng/ Herr Jeronymus Beck von Leopoldstorff/ etc. im nechst folgenden 1551. Jar von Constantinopol mit sich bracht. Das Ander/ Von T\u00fcrckischen geschichten/ die nach dem 1550. jar Christi/ bi\u00df auffs 1590. sich zugetragen. Das Dritt/ Pandectes T\u00fcrckischer histori/ Das ist/ vollkomner Bericht allerley T\u00fcrckischer sachen/ vnd Erkl\u00e4rung derselben. Das Viert/ Etliche Particular Beschreibungen mercklicher/ vnd zur T\u00fcrckischen histori geh\u00f6rigen geschicht; Alles jetzo durch Hansen Lewenklaw von Amelbeurn/ vnser Teutschen Nation zu sonderm nutz vnd wolgefallen zusammen gefasst/ gestellt/ vbersehen/ vnnd in Truck verfertigt",
-    "entities": {
-      "locations": [
-        "Amelbeurn",
-        "Jar"
-      ],
-      "people": [
-        "Hansen Lewenklaw",
-        "Pandectes T\u00fcrckischer",
-        "Christi",
-        "Constantinopol",
-        "Jeronymus Beck von Leopoldstorff",
-        "jar Christi",
-        "Suleiman Chan vnd",
-        "Osman Chan",
-        "Tugendt Vntugendt",
-        "Chronic"
-      ]
-    }
-  },
-  {
-    "identifier": "AC03016377",
-    "barcodes": [
-      "Z35076705"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ35076705"
-    ],
-    "place_of_publication": "Basel",
-    "publishers": [
-      "Andreas Cratander Erben"
-    ],
-    "printers": [
-      "[Unknown]"
-    ],
-    "people": [
-      "Andreas Cratander Erben"
-    ],
-    "date": 1545,
-    "marker_regions": [
-      "Orient",
-      "Asien",
-      "Europa"
-    ],
-    "work_title": "De Turcarum ritu et caeremoniis; (DE-588)7539130-2",
-    "title_full": "T\u00fcrckey Oder Von yetziger T\u00fcrcken kirchengepr\u00e4ng/ Sytten vnnd leben/; auch was grausamen jochs/ was vns\u00e4glichen jammers die gefangnen Christen/ vnder den selben gedulden m\u00fcssen/ sampt Namenb\u00fcchlin Persischer vnd Windischer in der T\u00fcrckey g\u00e4nge[n] spraachen/ zwey Tract\u00e4tlin; durch H. Bartholome Georgewyts/ der dreyzehen jar in der T\u00fcrckey gefangen gewesen/ zum sibenden mal verkaufft/ erst bey jars frist erledigt worden/ alles warhafft vnnd grundlich im Latein beschriben/ kl\u00e4glich z\u016f lesen. Verde\u00fctsch durch Joannem Herold",
-    "entities": {
-      "locations": [],
-      "people": [
-        "Joannem Herold",
-        "H. Bartholome Georgewyts"
-      ]
-    }
-  },
-  {
-    "identifier": "AC09661418",
-    "barcodes": [
-      "Z182900000"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ182900000"
-    ],
-    "place_of_publication": "Augsburg",
-    "publishers": [
-      "Ulhart, Philipp"
-    ],
-    "printers": [
-      "Ulhart, Philipp"
-    ],
-    "people": [
-      "Ulhart, Philipp"
-    ],
-    "date": 1530,
-    "marker_regions": [
-      "Europa"
-    ],
-    "work_title": "",
-    "title_full": "Ain kurtze anzaygung vnd beschreybung R\u00f6mischer Kayserlicher Maiestat einreyten Erstlich von Jnn\u00dfpruck gen Schwatz/ volgendt z\u016f M\u00fcnchen/ vn[d] z\u016fletst gen Augspurg auf den Reychstag/ vnd was sich mittler zeyt daselbst t\u00e4glich verlauffen vnnd z\u016fgetragen hatt/ Anno. etc. 1530.",
-    "entities": {
-      "locations": [
-        "M\u00fcnchen"
-      ],
-      "people": []
-    }
-  },
-  {
-    "identifier": "AC09673645",
-    "barcodes": [
-      "Z224214403"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ224214403"
-    ],
-    "place_of_publication": "N\u00fcrnberg",
-    "publishers": [
-      "Peypus, Friedrich"
-    ],
-    "printers": [
-      "Peypus, Friedrich"
-    ],
-    "people": [
-      "Peypus, Friedrich"
-    ],
-    "date": 1520,
-    "marker_regions": [
-      "Nordamerika"
-    ],
-    "work_title": "",
-    "title_full": "Ein auszug ettlicher sendbrieff dem aller durchle\u00fcchtigisten gro\u00dfmechtigiste[n] F\u00fcrsten vnd Herren Herren Carl R\u00f6mischen vnd Hyspanische[n] K\u00f6nig etc. vnserm gnedigen hern durch ire verordent Hauptleut/ von wegen einer newgefunde[n] Jnseln/ der selbe[n] gelegenheit vnd jnwoner sitten vn[d] gewonheite[n] vor kurtzuerschinen tagen zugesandt",
-    "entities": {
-      "locations": [],
-      "people": [
-        "Carl R\u00f6mischen"
-      ]
-    }
-  },
-  {
-    "identifier": "AC09701779",
-    "barcodes": [
-      "Z157711400"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ157711400"
-    ],
-    "place_of_publication": "K\u00f6ln",
-    "publishers": [
-      "Keschedt, Peter"
-    ],
-    "printers": [
-      "Keschedt, Peter"
-    ],
-    "people": [
-      "Keschedt, Peter"
-    ],
-    "date": 1598,
-    "marker_regions": [
-      "Asien"
-    ],
-    "work_title": "Verhael vande Reyse by de Hollandsche Schepen gedaen naer Oost Indien",
-    "title_full": "Warhaffter/ Klarer/ Eigentlicher Bericht/ von der Weiten/ wunderbarer vnd nie beuor gethaner Rei\u00df oder Schiffart/ bi\u00df in Jndia gegen der Sonnen auffgang gelegen/; welche Rei\u00df oder Schiffart/ gethan drey Schiffe/ das eine war genant Mauritius/ das ander Hollandia/ das dritte Amsterdam/ vnnd eine Pinasse/ waren von etlichen Kauffherren in Hollande zuger\u00fcst/ vnd mit Gelt auch Kauffmans waaren wol versehen; Au\u00df Niderl\u00e4ndischer Spraach in Hochteutsch bracht/ durch Conrad Lew aller Historien Liebhaber",
-    "entities": {
-      "locations": [
-        "Hochteutsch",
-        "Hollande",
-        "Amsterdam",
-        "Jndia",
-        "Indien"
-      ],
-      "people": [
-        "Conrad Lew",
-        "Hollandia",
-        "Mauritius"
-      ]
-    }
-  },
-  {
-    "identifier": "AC09705460",
-    "barcodes": [
-      "Z184959307"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ184959307"
-    ],
-    "place_of_publication": "Augsburg",
-    "publishers": [
-      "Kriegstein, Melchior"
-    ],
-    "printers": [
-      "Kriegstein, Melchior"
-    ],
-    "people": [
-      "Kriegstein, Melchior"
-    ],
-    "date": 1543,
-    "marker_regions": [
-      "Asien",
-      "Europa",
-      "Orient"
-    ],
-    "work_title": "",
-    "title_full": "Beschreibung der Kaiserlichen Statt Constantinopel/; Derselben gegendt/ gelegenheit/ Erwabung und bewonung: Dergleich[e]n der T\u00fcrcken vrsprung/ anfang/ jr Regierung: Wie das Hau\u00df Ottomani darz\u016f kommen/ vnd von ainem auf den anndern erwachsen ist: Auch aines yeden besonnder begangne f\u00fcrnemlichste thaten/ bis auf den yetzt regierenden Solyman/ Des selben Hofhaltung/ Frawenzim[m]er/ R\u00e4ten/ Dienern/ Amptle\u00fcten/ Prouisionern/ Kriegsle\u00fcten/ vn[d] derselben aller Bes\u00f6ldung/ vom minsten bis zum maisten: Besatzung vnnd Regierung aller seiner Reich vnd Land/ wie die sein[n] vnd grenitzen: Seine Einkommen/ vnnd was darauf geet/ etc. Au\u00df Jtalianischem verte\u00fctscht; [Benedetto Ramberti]",
-    "entities": {
-      "locations": [],
-      "people": [
-        "Benedetto Ramberti",
-        "Ottomani"
-      ]
-    }
-  },
-  {
-    "identifier": "AC09705657",
-    "barcodes": [
-      "Z180631800"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ180631800"
-    ],
-    "place_of_publication": "Freiburg im \u00dcechtland",
-    "publishers": [
-      "Gemperlin, Abraham"
-    ],
-    "printers": [
-      "Gemperlin, Abraham"
-    ],
-    "people": [
-      "Gemperlin, Abraham"
-    ],
-    "date": 1592,
-    "marker_regions": [
-      "Asien"
-    ],
-    "work_title": "Warhafftiger Bericht, Von den Newerfundnen Japponischen Jnseln vnd K\u00f6nigreichen auch von anderen zuvor vnbekandten Jndianischen Landen; 1586",
-    "title_full": "Cosmographische vnd Warhafftige Beschreibung/ der Newerfundenen Orientalischen/ Japponischen K\u00f6nigreichen/ Landtschafften/ Jnseln vnd St\u00e4tten; sam[m]t andern bi\u00dfher vnbekante Jndianische L\u00e4nder/ darin de\u00df newen erfundenen Volcks Sitten/ Gebr\u00e4uchen/ Geb\u00e4wen/ Gewechsen/ Kleydung/ Reichtumb/ Rechten/ Heydnische Gottsdiensten/ erklerung jrer Sprache vnd Buchstaben/ auch jr schreiben an die Legaten/ vnd wie etliche Priester in diesem Lande sind gemartert vnnd vmbracht worden/ vnd welcher gestalt sie den R\u00f6mischen Glauben angenom[m]en haben/ sampt andere jrer gelegenheit/ gar lustig vnd kurtzweilig zu lesen; Au\u00df der Jtalianische Sprache ins Teutsch vertiert. Durch Renvvardvm Cysatvm, Lucernensem",
-    "entities": {
-      "locations": [],
-      "people": []
-    }
-  },
-  {
-    "identifier": "AC09705712",
-    "barcodes": [
-      "Z177157603"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ177157603"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Feyerabend, Hieronymus"
-    ],
-    "printers": [
-      "Schmidt, Johann"
-    ],
-    "people": [
-      "Feyerabend, Hieronymus",
-      "Schmidt, Johann"
-    ],
-    "date": 1576,
-    "marker_regions": [
-      "Europa"
-    ],
-    "work_title": "",
-    "title_full": "Herrliche/ Warhaffte Beschreibung/ der beyder F\u00fcrstlichen Heimfahrt/ so mit de\u00df Durchleuchtigen vnd Hochgebornen F\u00fcrsten vnd Herrn/ Herrn Wilhelmen/ Hertzogen zu G\u00fclich Cleue vnd Berg/ Grauen  zu der Marck vnd Rauensberg/ Herrn zu Rauenstein/ etc. zweyen \u00e4ltern T\u00f6chtern/ Hertzogin Maria Leonora in das Landt zu Preussen/ vnd Hertzogin Anna/ in das F\u00fcrstenthumb Newburg/ in der obern Pfaltz/ zu vnterschiedlichen zeiten beschehen; Allen Hohes vnd nidrigs Standes Personen n\u00fctzlich vnd lustig zu lesen",
-    "entities": {
-      "locations": [
-        "F\u00fcrstenthumb Newburg"
-      ],
-      "people": [
-        "Anna",
-        "Maria Leonora",
-        "G\u00fclich Cleue",
-        "Wilhelmen Hertzogen"
-      ]
-    }
-  },
-  {
-    "identifier": "AC09705794",
-    "barcodes": [
-      "Z167120501"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ167120501"
-    ],
-    "place_of_publication": "Dillingen a.d. Donau",
-    "publishers": [
-      "Mayer, Johann"
-    ],
-    "printers": [
-      "Mayer, Johann"
-    ],
-    "people": [
-      "Mayer, Johann"
-    ],
-    "date": 1587,
-    "marker_regions": [
-      "Europa"
-    ],
-    "work_title": "",
-    "title_full": "Newe/ warhaffte/ au\u00dff\u00fchrliche Beschreibu[n]g/ der J\u00fcngstabgesandten Japonischen Legation gantzen Rai\u00df/ au\u00df Japon bi\u00df gen Rom/ vnd widerumb von dannen in Portugal/ bi\u00df z\u016f jhrem abschid au\u00df Li\u00dfbona; Auch vonn grossen Ehren/ so jhnen allenthalben / von F\u00fcrsten vnnd Herrn erzaigt/ vnd was sich sunst mit jhnen verloffen. Mit vorgehender beschreibung der Japonischen Landsart/ Gebreuch/ Sitten vnd Natur. Jetzt au\u00df dem Jtalianischen in Teutsche Sprach gebracht",
-    "entities": {
-      "locations": [
-        "Teutsche Sprach",
-        "Portugal",
-        "Rom"
-      ],
-      "people": [
-        "Japon",
-        "Rai\u00df"
       ]
     }
   },
@@ -1044,109 +193,6 @@
         "Rath",
         "Augerius Gislenius Busbeck",
         "Keyser Ferdinandi"
-      ]
-    }
-  },
-  {
-    "identifier": "AC09759859",
-    "barcodes": [
-      "Z164752105"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ164752105"
-    ],
-    "place_of_publication": "Augsburg",
-    "publishers": [
-      "Steiner, Heinrich"
-    ],
-    "printers": [
-      "Steiner, Heinrich"
-    ],
-    "people": [
-      "Steiner, Heinrich"
-    ],
-    "date": 1535,
-    "marker_regions": [
-      "Orient",
-      "Afrika"
-    ],
-    "work_title": "",
-    "title_full": "Sendtbrief so die R\u00f6misch Keiserlich vnd Hispanisch K\u00fcnigklich Maiestat/ jhres erlangten Sygs/ gegen dem Barbarossa im K\u00fcnigreich Thunis/ seiner Kayserlichen Mayestat Br\u00fcder Ferdinando/ dem R\u00f6mischen K\u00fcng/ den XXIII. tag Julij. Anno M.D.XXXV. Au\u00df Affrica z\u016fgeschriben hat; [Karl V., Heiliges R\u00f6misches Reich, Kaiser. Bearbeiter: Christoph Scheurl]",
-    "entities": {
-      "locations": [
-        "R\u00f6mischen K\u00fcng den XXIII"
-      ],
-      "people": [
-        "Christoph Scheurl",
-        "Karl V.",
-        "Julij",
-        "Ferdinando",
-        "Barbarossa"
-      ]
-    }
-  },
-  {
-    "identifier": "AC09759860",
-    "barcodes": [
-      "Z157583008"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ157583008"
-    ],
-    "place_of_publication": "Wien",
-    "publishers": [
-      "Singriener, Johann"
-    ],
-    "printers": [
-      "Singriener, Johann"
-    ],
-    "people": [
-      "Singriener, Johann"
-    ],
-    "date": 1535,
-    "marker_regions": [
-      "Afrika",
-      "Orient"
-    ],
-    "work_title": "",
-    "title_full": "Sendtbrief so die R\u00f6misch Keiserlich vnd Hispanisch K\u00fcnigclich Maiestat / jres erlangten Sygs /gegen dem Barbarossa im K\u00fcnigreich Thunis/ seiner Kayserlichen Maiestat Br\u00fcder dem R\u00f6mischen K\u00fcnig/ den. xxiij. Julij. Anno. 1535. aus Affrica zuegeschriben hat; [Karl V., Heiliges R\u00f6misches Reich, Kaiser. Bearbeiter: Christoph Scheurl]",
-    "entities": {
-      "locations": [
-        "R\u00f6mischen K\u00fcnig"
-      ],
-      "people": [
-        "Christoph Scheurl",
-        "Karl V.",
-        "Julij",
-        "Barbarossa",
-        "K\u00fcnigclich Maiestat jres"
-      ]
-    }
-  },
-  {
-    "identifier": "AC09788184",
-    "barcodes": [],
-    "urls": [],
-    "place_of_publication": "N\u00fcrnberg",
-    "publishers": [
-      "H\u00f6ltzel, Hieronymus"
-    ],
-    "printers": [
-      "H\u00f6ltzel, Hieronymus"
-    ],
-    "people": [
-      "H\u00f6ltzel, Hieronymus"
-    ],
-    "date": 1515,
-    "marker_regions": [
-      "S\u00fcdamerika"
-    ],
-    "work_title": "",
-    "title_full": "Copia der Newen Zeytung au\u00df Presillg Landt",
-    "entities": {
-      "locations": [],
-      "people": [
-        "Copia"
       ]
     }
   },
@@ -1199,76 +245,180 @@
     }
   },
   {
-    "identifier": "AC09821237",
+    "identifier": "AC10401907",
     "barcodes": [
-      "Z170807409"
+      "Z168096506"
     ],
     "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ170807409"
+      "http://data.onb.ac.at/ABO/%2BZ168096506"
     ],
-    "place_of_publication": "K\u00f6ln",
+    "place_of_publication": "Ingolstadt",
     "publishers": [
-      "Claus, Johann"
+      "Sartorius, David"
     ],
     "printers": [
-      "Claus, Johann"
+      "Sartorius, David"
     ],
     "people": [
-      "Claus, Johann"
+      "Sartorius, David"
     ],
-    "date": 1596,
+    "date": 1586,
     "marker_regions": [
-      "Nordamerika"
+      "Asien"
     ],
-    "work_title": "",
-    "title_full": "Franciscus Dracus Redivivvs. Das ist/ Kurtze Beschreibung/ aller vornehmbsten Reysen / Schiffarten vnnd Wasserschlachten / So der weitber\u00fcmbte Englische Admiral, Franciscus Dracus, welcher inn zwey Jahren vnd zehen Monaten orbem Mundi beschiffet/ hin vnd wider bey Pleymeuten/ Cartsag: S. Domingo. August: Florida vnd der Jnsul Cuba/ in seinem Leben gl\u00fccklich gehalten vnd vollbracht. Jtem von der jetzigen Engelischen Admiraln vnnd Schiffobersten bey Calis Malis verrichten vnd Abzug/ vnd was sie noch weiter daselbsten herumb bi\u00df Dato vorhaben/ ect. Alles in drey Kupfferst\u00fcck ordentlich vorgebildet/ vnd durch Ziffern erkl\u00e4ret/ etc.",
+    "work_title": "Historia das Missoens da Oriente at\u00e9 o anno de 1568; 1568",
+    "title_full": "Kurtze Verzeichnu\u00df Vnd Historische Beschreibung deren dingen/ so von der Societet Iesv in Orient/ von dem Jar nach Christi Geburt/ 1542. bi\u00df auff das 1568. gehandelt worden; Erstlich Druch Ioannem Petrum Maffeium, au\u00df Portugalesischer sprach in Latein/ vnd jetzo neben etlichen Japonischen Sendtschreiben/ vom Jar 1548. bi\u00df auff 1555. allen frommen Catholischen zu Lieb vnd Trost ins Teutsch gebracht/ vnnd zum ersten mal an Tag geben: Durch weylandt den Hochgelehrten Herrn Ioannem Georgium G\u00f6tzen/ beyder Rechten Doctorn/ auch F\u00fcrstlichen Bischofflichen Constantzischen Rath vnnd Secretarien/ etc.",
     "entities": {
       "locations": [
-        "Calis Malis",
-        "Florida"
+        "Jar",
+        "Christi",
+        "Orient"
       ],
       "people": [
-        "Jnsul Cuba",
-        "S. Domingo",
-        "bey Pleymeuten Cartsag",
-        "Franciscus Dracus",
-        "Kurtze",
-        "Franciscus Dracus Redivivvs"
+        "Constantzischen Rath",
+        "Ioannem Georgium",
+        "Portugalesischer",
+        "Ioannem Petrum Maffeium",
+        "Iesv",
+        "Kurtze Verzeichnu\u00df Vnd"
       ]
     }
   },
   {
-    "identifier": "AC09821756",
-    "barcodes": [],
-    "urls": [],
-    "place_of_publication": "Halle (Saale)",
+    "identifier": "AC09705657",
+    "barcodes": [
+      "Z180631800"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ180631800"
+    ],
+    "place_of_publication": "Freiburg im \u00dcechtland",
     "publishers": [
-      "Gr\u00e4ber, Paul"
+      "Gemperlin, Abraham"
     ],
     "printers": [
-      "Gr\u00e4ber, Paul"
+      "Gemperlin, Abraham"
     ],
     "people": [
-      "Gr\u00e4ber, Paul"
+      "Gemperlin, Abraham"
     ],
-    "date": 1598,
+    "date": 1592,
+    "marker_regions": [
+      "Asien"
+    ],
+    "work_title": "Warhafftiger Bericht, Von den Newerfundnen Japponischen Jnseln vnd K\u00f6nigreichen auch von anderen zuvor vnbekandten Jndianischen Landen; 1586",
+    "title_full": "Cosmographische vnd Warhafftige Beschreibung/ der Newerfundenen Orientalischen/ Japponischen K\u00f6nigreichen/ Landtschafften/ Jnseln vnd St\u00e4tten; sam[m]t andern bi\u00dfher vnbekante Jndianische L\u00e4nder/ darin de\u00df newen erfundenen Volcks Sitten/ Gebr\u00e4uchen/ Geb\u00e4wen/ Gewechsen/ Kleydung/ Reichtumb/ Rechten/ Heydnische Gottsdiensten/ erklerung jrer Sprache vnd Buchstaben/ auch jr schreiben an die Legaten/ vnd wie etliche Priester in diesem Lande sind gemartert vnnd vmbracht worden/ vnd welcher gestalt sie den R\u00f6mischen Glauben angenom[m]en haben/ sampt andere jrer gelegenheit/ gar lustig vnd kurtzweilig zu lesen; Au\u00df der Jtalianische Sprache ins Teutsch vertiert. Durch Renvvardvm Cysatvm, Lucernensem",
+    "entities": {
+      "locations": [],
+      "people": []
+    }
+  },
+  {
+    "identifier": "AC05831402",
+    "barcodes": [
+      "Z180628606"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ180628606"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Rab, Georg"
+    ],
+    "printers": [
+      "Rab, Georg"
+    ],
+    "people": [
+      "Rab, Georg"
+    ],
+    "date": 1563,
     "marker_regions": [
       "Asien",
-      "Nordamerika"
+      "Europa",
+      "Orient"
     ],
-    "work_title": "Historia de las cosas m\u00e1s notables, ritos y costumbres del gran Reyno de la China; 1585",
-    "title_full": "Historien und Bericht VOn dem Newlicher Zeit erfundenen K\u00f6nigreich China/; wie es nach vmbstenden/ so zu einer rechtmessigen Beschreibung geh\u00f6ren/ darumb beschaffen. Jtem/ Von dem auch new erfundenen Lande Virginia. Jetzund auffs newe vbersehen/ vnnd mit einem Zusatz vermehret/ Nemlich: Wie es vmb die Religion in Perser vnnd Mohrenland/ vnter Priester Johan bewand sey; [Juan Gonz\u00e1lez de Mendoza] ; Jm Druck verfertiget/ durch Matthaevm Dresservm D. der Sprachen vnd Historien Professorn",
+    "work_title": "Palinodia de los Turcos",
+    "title_full": "T\u00fcrckische Historien; Von der T\u00fcrcken Ankunfft/ Regierung/ K\u00f6nigen/ vnd Keysern/ Kriegen/ Schlachten/ Victorien vnd Sigen/ wider Christen und Heiden. Von Emptern/ Befelchs vnd Kriegsleuten der T\u00fcrckischen Soldanen/ vnd wie man wider den T\u00fcrcken kriegen sol. Jtem: Von der T\u00fcrcken Religion unnd Gesatz/ von jrem Gerichts Proce\u00df/ von der gemeinen T\u00fcrcken Leben/ Wesen/ Handel vn[d] Wandel. Von de\u00df T\u00fcrckischen Keysers Hofordnung und Hofgesind. Von der Auffruhr zwischen dem Keiser Baiatzeth vnd seinen S\u00f6nen. Sampt einer T\u00fcrckischen Prophecey: Vnd vom elend der armen gefangnen Christen/ etc. Au\u00df Jtalienischer Sprach in vnsere Te\u00fctsche verdolmetscht/ durch den Hochgelahrten Heinrich M\u00fcller/ der Rechten Licentiaten/ vnd freyen K\u00fcnst Magister. Endtlich ist mit angehenckt von Vrsachen der Christen verderben/ vnd wie man sich in solchen n\u00f6hten schicken sol. Vorhin in Teutscher Sprach nie an tag kommen/ vnd alles in drey B\u00fccher eyngetheilt/ wie bald nach der Vorred z\u016fsehen",
     "entities": {
       "locations": [
-        "Virginia",
-        "China",
-        "gran Reyno de la China"
+        "Baiatzeth vnd"
       ],
       "people": [
-        "Matthaevm Dresservm D.",
-        "Juan Gonz\u00e1lez de Mendoza",
-        "Johan",
-        "cosas"
+        "Heinrich M\u00fcller",
+        "Jtem"
+      ]
+    }
+  },
+  {
+    "identifier": "AC05753248",
+    "barcodes": [
+      "Z253367704"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ253367704"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Feyerabend, Sigmund"
+    ],
+    "printers": [
+      "Rab, Georg"
+    ],
+    "people": [
+      "Rab, Georg",
+      "Feyerabend, Sigmund"
+    ],
+    "date": 1577,
+    "marker_regions": [
+      "Orient",
+      "Asien",
+      "Europa"
+    ],
+    "work_title": "Palinodia de los Turcos",
+    "title_full": "T\u00fcrckische Chronica; Warhaffte eigentliche vnd kurtze Beschreibung/ der Tuercken Ankunfft/ Regierung/ K\u00f6nigen/ vnd Keysern/ Kriegen/ Schlachten/ Victorien vnd Sigen/ wider Christen vnd Heyden. Von Emptern/ Befelchs vnd Krieg\u00dfleuten/ der T\u00fcrckischen Soldanen/ vnd wie man wider den T\u00fcrcken kriegen sol. Jtem: Von der T\u00fcrcken Religion vnd Gesatz/ von jrem Gerichts Proce\u00df/ von der gemeinen T\u00fcrcken Leben/ Wesen/ Handel vnd Wandel/ vnd de\u00df T\u00fcrckischen Keysers Hofordnung vnd Hofgesind. Von der Auffruhr zwischen dem Keyser Baiazeth vnd seinen S\u00f6nen. Sampt einer T\u00fcrckischen Prophecey: Vnd vom Elend der armen gefangnen Christen etc. Endtlich ist mit angehenckt von Vrsachen der Christen verderben/ vnd wie man sich in solchen n\u00f6hten schicken soll. Alles in drey B\u00fccher eyngetheilt/ wie bald nach der Vorred zu sehen; Vormals au\u00df Jtali\u00e4nischer Sprach in vnser Teutsche verdolmetscht/ durch weyland den Hochgelehrten Heinrich M\u00fcller/ der Rechten Licentiaten/ vnd der freyen K\u00fcnst Magister: Jetzund aber bi\u00df auff den jetzregierenden T\u00fcrckischen Keyser Amurath/ den andern/ erlengt/ au\u00df sonderm flei\u00df durchsehen/ mit sch\u00f6nen neuwen Figuren geziert/ vnd Teutscher Nation zu gut an tag geben",
+    "entities": {
+      "locations": [
+        "Baiazeth vnd"
+      ],
+      "people": [
+        "Heinrich M\u00fcller",
+        "Jtem"
+      ]
+    }
+  },
+  {
+    "identifier": "AC05657137",
+    "barcodes": [
+      "Z177009407"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ177009407"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Z\u00f6pfel, David"
+    ],
+    "printers": [
+      "Z\u00f6pfel, David"
+    ],
+    "people": [
+      "Z\u00f6pfel, David"
+    ],
+    "date": 1557,
+    "marker_regions": [
+      "Orient",
+      "Asien",
+      "Europa"
+    ],
+    "work_title": "Evagatorium in Terrae Sanctae, Arabiae et Aegypti peregrinationem; (DE-588)1130877485",
+    "title_full": "EJgentlich beschreibung der hin vnnd wider farth zu dem Heyligen Landt gen Jerusalem/; vnd furter durch die grosse W\u00fcsten zu dem Heiligen Berge Horeb vnd Sinay/ darau\u00df zuuernemen was wunders die Pilgrin hin vnd wider auff Land vnd wasser zu erfaren vnd zu besehen haben/ Vber die ma\u00df kurtzweilig vnd l\u016fstig zulesen/ sonderlich denen so der Heiligen schrifft ettwas erfahrn sein/ Vormals im druck nie der gleichen au\u00dfgangen; [Felix Fabri]",
+    "entities": {
+      "locations": [
+        "Jerusalem",
+        "Terrae Sanctae"
+      ],
+      "people": [
+        "Felix Fabri"
       ]
     }
   },
@@ -1340,6 +490,39 @@
     }
   },
   {
+    "identifier": "AC10264057",
+    "barcodes": [
+      "Z175148507"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ175148507"
+    ],
+    "place_of_publication": "N\u00fcrnberg",
+    "publishers": [
+      "St\u00fcchs, Georg"
+    ],
+    "printers": [
+      "St\u00fcchs, Georg"
+    ],
+    "people": [
+      "St\u00fcchs, Georg"
+    ],
+    "date": 1508,
+    "marker_regions": [
+      "Afrika",
+      "S\u00fcdamerika",
+      "Nordamerika"
+    ],
+    "work_title": "Paesi novamente retrovati; (DE-588)7517603-8",
+    "title_full": "Newe vnbekanthe landte Und ein newe weldte in kurtz vergangner zeythe erfunden; [Kompilator: Fracanzano da Montalboddo ; \u00dcbersetzer: Jobst Ruchamer]",
+    "entities": {
+      "locations": [],
+      "people": [
+        "Jobst Ruchamer"
+      ]
+    }
+  },
+  {
     "identifier": "AC09870771",
     "barcodes": [
       "Z169010905"
@@ -1376,123 +559,71 @@
     }
   },
   {
-    "identifier": "AC09878147",
+    "identifier": "AC03016377",
     "barcodes": [
-      "Z256472808"
+      "Z35076705"
     ],
     "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ256472808"
+      "http://data.onb.ac.at/ABO/%2BZ35076705"
     ],
-    "place_of_publication": "N\u00fcrnberg",
+    "place_of_publication": "Basel",
     "publishers": [
-      "Gerlach, Katharina"
+      "Andreas Cratander Erben"
     ],
     "printers": [
-      "Gerlach, Katharina"
+      "[Unknown]"
     ],
     "people": [
-      "Gerlach, Katharina"
+      "Andreas Cratander Erben"
     ],
-    "date": 1580,
+    "date": 1545,
     "marker_regions": [
-      "Nordamerika",
-      "Arktis"
+      "Orient",
+      "Asien",
+      "Europa"
     ],
-    "work_title": "<<A>> true reporte of the laste voyage into the west and northwest regions",
-    "title_full": "Beschreibung Der schiffart des Haubtmans Martini Forbi\u00dfher au\u00df Engelland/ in die Lender gegen West vnd Nordwest/ im Jar 1577.; Darinnen diser Lender Jnwohner sitten vnd wei\u00df zu leben/ sampt jren Trachten vnd Waffen Abcontrefeiung/ auch andern/ zuuor vnbekandten vnd sonderlichen sachen/ angezeigt wirdt. Au\u00df dem Frantz\u00f6sischen auffs trewlich in das Teutsche gebracht",
+    "work_title": "De Turcarum ritu et caeremoniis; (DE-588)7539130-2",
+    "title_full": "T\u00fcrckey Oder Von yetziger T\u00fcrcken kirchengepr\u00e4ng/ Sytten vnnd leben/; auch was grausamen jochs/ was vns\u00e4glichen jammers die gefangnen Christen/ vnder den selben gedulden m\u00fcssen/ sampt Namenb\u00fcchlin Persischer vnd Windischer in der T\u00fcrckey g\u00e4nge[n] spraachen/ zwey Tract\u00e4tlin; durch H. Bartholome Georgewyts/ der dreyzehen jar in der T\u00fcrckey gefangen gewesen/ zum sibenden mal verkaufft/ erst bey jars frist erledigt worden/ alles warhafft vnnd grundlich im Latein beschriben/ kl\u00e4glich z\u016f lesen. Verde\u00fctsch durch Joannem Herold",
     "entities": {
-      "locations": [
-        "Jar",
-        "Nordwest",
-        "Engelland"
-      ],
+      "locations": [],
       "people": [
-        "Martini Forbi\u00dfher"
+        "Joannem Herold",
+        "H. Bartholome Georgewyts"
       ]
     }
   },
   {
-    "identifier": "AC09891630",
+    "identifier": "AC09900144",
     "barcodes": [
-      "Z176246604"
+      "Z175194001"
     ],
     "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ176246604"
+      "http://data.onb.ac.at/ABO/%2BZ175194001"
     ],
-    "place_of_publication": "Frankfurt am Main",
+    "place_of_publication": "Zerbst/Anhalt",
     "publishers": [
-      "Feyerabend, Sigmund"
+      "Schmidt, Bonaventura"
     ],
     "printers": [
-      "Schmidt, Hans"
+      "Schmidt, Bonaventura"
     ],
     "people": [
-      "Feyerabend, Sigmund",
-      "Schmidt, Hans"
+      "Schmidt, Bonaventura"
     ],
-    "date": 1581,
+    "date": 1584,
     "marker_regions": [
-      "S\u00fcdamerika",
-      "Afrika",
       "Asien",
+      "Europa",
       "Orient"
     ],
-    "work_title": "Verdadeira informa\u00e7\u00e3o das terras do Preste Jo\u00e3o das Indias; (DE-588)1023275082",
-    "title_full": "General Chronica/ Das ist: Warhaffte eigentliche vnd kurtze Beschreibung/ vieler namhaffter/ vnd zum theil bi\u00df daher vnbekannter Landtschafften/ Erstlich de\u00df Gro\u00dfmechtigen vnd gewaltigen Herrn Priester Johan[n]s/ K\u00f6nigs in Morenlandt/ K\u00f6nigreichen vnd Herrschafften/ auch derselbigen beyde Geistliche vnd Weltliche Regiment; Zum andern ein gemeine Beschreibung de\u00df gantzen Erdbodems/ in drey B\u00fccher getheilt/ nemlich/ Asiam/ Aphricam/ vnd Europam/ vnd was sich f\u00fcrnemlich darinnen f\u00fcr guts vnd b\u00f6ses/ zu Wasser vnd Landt/ mit Krieg/ Brunst/ Hunger vnd dergleichen/ von anfang der Welt/ bi\u00df vff erbauwung der Statt Rom/ vnd von dannen bi\u00df zu der zeit Honorij vnd Theodosij/ begeben vnd zugetragen hat. Zum dritten vnd letzten/ ein kurtzer Summarischer doch verstendtlicher Au\u00dfzug vnd Beschreibung der neuw erfundenen Jnseln/ Americe vnd Magellane/ so man die neuwe Welt pfelgt zu nennen. Darinnen alle V\u00f6lcker vnd Nationen/ die in der gantzen Welt (als viel deren jetziger zeit bekannt sind) wohnen/ sampt jhrer Ankunfft vnd Herkommen/ auch Art vnd Natur/ Jtem Ceremonien vnd Gebr\u00e4uchen in Geistlichen vnd Weltlichen sachen/ trewlich beschrieben/ vnd gleich als in einer Tafel abgemalt/ f\u00fcr die Augen gestelt werden. Jetzt auffs neuw mit sonderm grossen flei\u00df/ besser als zuuor/ beschrieben vnd verteutscht/ auch mehrer richtigkeit halben in drey vnderschiedliche B\u00fccher getheilt/ dergleichen noch niemals au\u00dfgangen; [Francisco \u00c1lvares]",
+    "work_title": "De Turcarum ritu et caeremoniis; (DE-588)7539130-2",
+    "title_full": "T\u00fcrcken B\u00fcchlein/; Darin[n]en der T\u00fcrckischen Keyser/ Namen/ Empter/ Leben/ Sitten vnd Tyranney in jrem Reich/ erzelet vnd beschrieben werden/ daraus zusehen/ wie eintrechtig sie beysamen halten/ alle die jenigen auszurotten vnd zudempffen/ die sich f\u00fcr Gliedmas des HErrn Christi bekennen; Erstlich inn Lateinischer Sprach beschrieben/ durch Bartholomeum Georgiuitz/ Vnd nu dem Christlichen Leser zu gut verdeudscht/ Mit einer Vorred/ Philippi Melanthonis",
     "entities": {
-      "locations": [
-        "Americe",
-        "Rom",
-        "Morenlandt"
-      ],
+      "locations": [],
       "people": [
-        "Francisco \u00c1lvares",
-        "V\u00f6lcker",
-        "Brunst",
-        "Johan",
-        "Jo\u00e3o"
-      ]
-    }
-  },
-  {
-    "identifier": "AC09891631",
-    "barcodes": [
-      "Z158160208"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ158160208"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Feyerabend, Sigmund"
-    ],
-    "printers": [
-      "Schmidt, Johann"
-    ],
-    "people": [
-      "Feyerabend, Sigmund",
-      "Schmidt, Johann"
-    ],
-    "date": 1576,
-    "marker_regions": [
-      "Afrika",
-      "Asien",
-      "S\u00fcdamerika",
-      "Orient"
-    ],
-    "work_title": "Verdadeira informa\u00e7\u00e3o das terras do Preste Jo\u00e3o das Indias; (DE-588)1023275082",
-    "title_full": "General Chronicen/ Das ist: Warhaffte eigentliche vnd kurtze Beschreibung/ vieler namhaffter/ vnd zum theil bi\u00df daher vnbekannter Landtschafften/; Erstlich de\u00df Gro\u00dfmechtigen vnd gewaltigen Herrn Priester Johanns/ K\u00f6nigs in Morenlandts/ K\u00f6nigreichen vnd Herrschaften/ auch derselbigen beyde Geistliche vnd Weltliche Regiment. Zum andern ein gemeine Beschreibung de\u00df gantzen Erdbodems/ in drey B\u00fccher getheilt/ nemlich/ Asiam/ Aphricam/ vnd Europam/ vnd was sich f\u00fcrnemlich drinnen f\u00fcr guts und b\u00f6ses/ zu Wasser vnd Landt/ mit Krieg/ Brunst/ Hunger vnd dergleichen/ von anfang der Welt/ bi\u00df vff erbauwung der Statt Rom/ vnd von dannen bi\u00df zu der zeit Honorij vnd Theodosij/ begeben und zugetragen hat. Zum dritten vnd letzten/ ein kurtzer Summarischer doch verstendtlicher Au\u00dfzug vnd Beschreibung der neuw erfundenen Jnseln/ Americe vnd Magellane/ so man die neuwe Welt pflegt zu nennen. Darinnen alle V\u00f6lcker vnd Nationen/ die in der ganzen Welt (als viel deren jetziger zeit bekannt sind) wohnen/ sampt jhrer Ankunfft vnd Herkommen/ auch Art vnd Natur/ Jtem Ceremonien vnd Gebr\u00e4uchen in Geistlichen vnd Weltlichen sachen/ neuwlich beschrieben/ vnd gleich als in einer Tafel abgemalt/ f\u00fcr die Augen gestelt werden. Jetzt auffs neuw mit sonderm grossen flei\u00df/ besser als zuvor/ beschrieben und verteutscht/ auch mehrer richtigkeit halben in drey vnderschiedliche B\u00fccher getheilt/ dergleichen noch niemals au\u00dfgangen",
-    "entities": {
-      "locations": [
-        "Americe",
-        "Rom"
-      ],
-      "people": [
-        "V\u00f6lcker",
-        "Brunst",
-        "Johanns",
-        "Chronicen",
-        "Jo\u00e3o"
+        "Philippi Melanthonis",
+        "Bartholomeum Georgiuitz Vnd",
+        "Christi"
       ]
     }
   },
@@ -1545,77 +676,117 @@
     }
   },
   {
-    "identifier": "AC09900144",
-    "barcodes": [
-      "Z175194001"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ175194001"
-    ],
-    "place_of_publication": "Zerbst/Anhalt",
+    "identifier": "AC09821756",
+    "barcodes": [],
+    "urls": [],
+    "place_of_publication": "Halle (Saale)",
     "publishers": [
-      "Schmidt, Bonaventura"
+      "Gr\u00e4ber, Paul"
     ],
     "printers": [
-      "Schmidt, Bonaventura"
+      "Gr\u00e4ber, Paul"
     ],
     "people": [
-      "Schmidt, Bonaventura"
+      "Gr\u00e4ber, Paul"
     ],
-    "date": 1584,
+    "date": 1598,
     "marker_regions": [
       "Asien",
-      "Europa",
-      "Orient"
+      "Nordamerika"
     ],
-    "work_title": "De Turcarum ritu et caeremoniis; (DE-588)7539130-2",
-    "title_full": "T\u00fcrcken B\u00fcchlein/; Darin[n]en der T\u00fcrckischen Keyser/ Namen/ Empter/ Leben/ Sitten vnd Tyranney in jrem Reich/ erzelet vnd beschrieben werden/ daraus zusehen/ wie eintrechtig sie beysamen halten/ alle die jenigen auszurotten vnd zudempffen/ die sich f\u00fcr Gliedmas des HErrn Christi bekennen; Erstlich inn Lateinischer Sprach beschrieben/ durch Bartholomeum Georgiuitz/ Vnd nu dem Christlichen Leser zu gut verdeudscht/ Mit einer Vorred/ Philippi Melanthonis",
+    "work_title": "Historia de las cosas m\u00e1s notables, ritos y costumbres del gran Reyno de la China; 1585",
+    "title_full": "Historien und Bericht VOn dem Newlicher Zeit erfundenen K\u00f6nigreich China/; wie es nach vmbstenden/ so zu einer rechtmessigen Beschreibung geh\u00f6ren/ darumb beschaffen. Jtem/ Von dem auch new erfundenen Lande Virginia. Jetzund auffs newe vbersehen/ vnnd mit einem Zusatz vermehret/ Nemlich: Wie es vmb die Religion in Perser vnnd Mohrenland/ vnter Priester Johan bewand sey; [Juan Gonz\u00e1lez de Mendoza] ; Jm Druck verfertiget/ durch Matthaevm Dresservm D. der Sprachen vnd Historien Professorn",
     "entities": {
-      "locations": [],
+      "locations": [
+        "Virginia",
+        "China",
+        "gran Reyno de la China"
+      ],
       "people": [
-        "Philippi Melanthonis",
-        "Bartholomeum Georgiuitz Vnd",
-        "Christi"
+        "Matthaevm Dresservm D.",
+        "Juan Gonz\u00e1lez de Mendoza",
+        "Johan",
+        "cosas"
       ]
     }
   },
   {
-    "identifier": "AC09923694",
+    "identifier": "AC06547319",
     "barcodes": [
-      "Z159579604"
+      "Z25647300X"
     ],
     "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ159579604"
+      "http://data.onb.ac.at/ABO/%2BZ25647300X"
     ],
     "place_of_publication": "Frankfurt am Main",
     "publishers": [
-      "Rab, Georg",
-      "Han, Weigand"
+      "Feyerabend, Sigmund"
     ],
     "printers": [
-      "Rab, Georg"
+      "Feyerabend, Sigmund"
     ],
     "people": [
-      "Rab, Georg",
-      "Han, Weigand"
+      "Feyerabend, Sigmund"
     ],
-    "date": 1561,
+    "date": 1589,
     "marker_regions": [
-      "Asien",
-      "Orient"
+      "Asien"
     ],
-    "work_title": "Warhafftige beschreybung der Meerfart",
-    "title_full": "Warhafftige beschreybung der Meerfart; so von den Gestrengen/ Edlen vn[d] Ehrenfesten Stephan von Gumpenberg/ Friderich von Wolffskel/ vnnd Hans von Rameraw/ Auch dem Ehrsamen Hans Strigel vnd Nicolao Magerer/ bede Burger z\u016f W\u00fcrtzburg/ sampt vier Dienern/ eim Koch/ eim Maler/ eim Re\u00fcter/ eim Schreyber/ vnnd eim Caplan von W\u00fcrtzburg/ so Johann Eyselsaner geheissen/ im Winter ist vollbracht worden/ wie sie mit h\u00fclff de\u00df Allmechtigen zum heyligen Grab/ vnd f\u00fcrters gen Damascon/ da Sanct Paulus bekert ist worden/ vnnd andere end der Heydenschafft/ gewe\u00dft/ vnd was f\u00fcr angst/ not vnd gefar sie erlitten/ auch wunders gesehen vnd erfaren haben/ etc. Von tag z\u016f tag fleissig vnd gr\u00fcndtlich beschriben/ vnd in Truck verfertigt/ vor niemals gesehen",
+    "work_title": "Historia de las cosas m\u00e1s notables, ritos y costumbres del gran Reyno de la China; 1585",
+    "title_full": "<<Ein>> Neuwe/ Kurtze/ doch warhafftige Beschreibung de\u00df gar gro\u00dfm\u00e4chtigen weitbegriffenen/ bi\u00dfhero vnbekandten K\u00f6nigreichs China:; Seiner f\u00fcnffzehen gewaltigen Prouincien: vns\u00e4glicher grosser  vnd vieler St\u00e4tt/ Fruchtbarkeit/ vberschwenglichen grossen Reichthumbs an Perlen/ Edelgesteinen/ Goldt/ Silber vnd andern Metallen/ grosser  vnerh\u00f6rter Kriegsmacht/ zu Wasser vnnd Landt/ auch f\u00fcrtrefflichem/ wolangestelltem/ vern\u00fcnfftigem Regiment vnnd Policey/ vnd de\u00df Volcks in gemein Geschick vnd Scharpfsinnigkeit/ dergleichen in keiner Historien/ weder bey Meden/ Persen/ Assyrier/ Jnden/ Griechen/ R\u00f6mern/ noch einigen andern V\u00f6lckern in der weiten Welt jemals befunden. Bey gantz neuwlichen Jahren erk\u00fcndiget/ hernacher in Hispanischer Sprach beschrieben/ au\u00df derselbigen in die Jtalianische/ vnnd nunmehr in HochTeutsch gebracht. Den vbrigen Jnhalt wirdt die Vorrede au\u00dfweisen; [Juan Gonz\u00e1lez de Mendoza. \u00dcbersetzer: Johann Kellner]",
     "entities": {
       "locations": [
-        "Damascon",
-        "W\u00fcrtzburg"
+        "HochTeutsch",
+        "China",
+        "gran Reyno de la China"
       ],
       "people": [
-        "Sanct Paulus",
-        "Johann Eyselsaner",
-        "Hans Strigel",
-        "Stephan von Gumpenberg Friderich von Wolffskel vnnd Hans von Rameraw"
+        "Johann Kellner",
+        "Juan Gonz\u00e1lez de Mendoza",
+        "Bey",
+        "Goldt",
+        "Kurtze",
+        "cosas"
+      ]
+    }
+  },
+  {
+    "identifier": "AC11085738",
+    "barcodes": [
+      "Z185142104"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ185142104"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Bry, Theodor <<de>>"
+    ],
+    "printers": [
+      "Wechel, Johann"
+    ],
+    "people": [
+      "Bry, Theodor <<de>>",
+      "Wechel, Johann"
+    ],
+    "date": 1590,
+    "marker_regions": [
+      "Nordamerika"
+    ],
+    "work_title": "<<A>> brief and true report of the new found land of Virginia; (DE-588)111468466X",
+    "title_full": "Wunderbarliche/ doch Wahrhafftige Erkl\u00e4rung/ Von der Gelegenheit vnd Sitten der Wilden in Virginia/; welche newlich von den Engell\u00e4ndern/ so im Jar 1585. vom Herrn Reichard Greinuile/ einem von der Ritterschafft/ in gemeldete Landschafft die zu bewohnen gef\u00fchrt waren/ ist erfunden worden/ Jn verlegung H. Walter Raleigh/ Ritter vnd Obersten de\u00df Zinbergwercks/ au\u00df verg\u00fcnstigung der Durchleuchtigsten vnnd Vnvberwindlichsten/ Elisabeth/ K\u00f6nigin in Engelland/ etc.; Erstlich in Engell\u00e4ndischer Sprach beschrieben durch Thomam Hariot/ vnd newlich durch Christ. P. in Teutsch gebracht",
+    "entities": {
+      "locations": [
+        "Engelland",
+        "Jar",
+        "Virginia"
+      ],
+      "people": [
+        "Christ",
+        "Thomam Hariot",
+        "Elisabeth K\u00f6nigin",
+        "H. Walter Raleigh Ritter",
+        "Reichard Greinuile"
       ]
     }
   },
@@ -1731,6 +902,47 @@
     }
   },
   {
+    "identifier": "AC10479820",
+    "barcodes": [
+      "http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00071764-3",
+      "Z161792207",
+      "Z167205208",
+      "Z167203704"
+    ],
+    "urls": [
+      "http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00071764-3",
+      "http://data.onb.ac.at/ABO/%2BZ161792207",
+      "http://data.onb.ac.at/ABO/%2BZ167205208",
+      "http://data.onb.ac.at/ABO/%2BZ167203704"
+    ],
+    "place_of_publication": "Wien",
+    "publishers": [
+      "Zimmermann, Michael"
+    ],
+    "printers": [
+      "Zimmermann, Michael"
+    ],
+    "people": [
+      "Zimmermann, Michael"
+    ],
+    "date": 1557,
+    "marker_regions": [
+      "Europa"
+    ],
+    "work_title": "Rerum Moscoviticarum commentarii; (DE-588)4210036-7",
+    "title_full": "Moscouia der Hauptstat in Reissen/ durch Herrn Sigmunden Freyherrn zu Herberstain/ Neyperg vnd Guetenhag Obristen Erbcamrer/ vnd \u00f6bristen Erbtruckhsessen in K\u00e4rntn/ R\u00f6mischer zu Hungern vnnd Beheim Kh\u00fc. May. etc. Rat/ Camrer vnd Presidenten der Nider\u00f6sterreichischen Camer zusamen getragen; Sambt des Moscouiter gepiet/ vnd seiner anrainer beschreibung vnd anzaigung/ in weu sy glaubens halb/ mit vns nit gleichhellig. Wie die Potschafften oder Gesanten durch sy emphangen vnd gehalten werden/ sambt zwayen vnderschidlichen Raisen in die Mosqua; durch Herrn Sigmunden Freyherrn zu Herberstain/ Neyperg vnd Guetenhag Obristen Erbcamrer/ vnd \u00f6bristen Erbtruchsessen in K\u00e4rntn/ R\u00f6mischer zu Hungern vnnd Beheim Kh\u00fc. May. etc. Rat/ Camrer vnd Presidenten der Nider\u00f6sterreichischen Camer zusamen getragen",
+    "entities": {
+      "locations": [
+        "K\u00e4rntn R\u00f6mischer",
+        "Herberstain Neyperg"
+      ],
+      "people": [
+        "May",
+        "Beheim Kh\u00fc"
+      ]
+    }
+  },
+  {
     "identifier": "AC09954175",
     "barcodes": [
       "Z184929303"
@@ -1764,6 +976,113 @@
       "people": [
         "Hans Heusl",
         "Philippo Printze"
+      ]
+    }
+  },
+  {
+    "identifier": "AC10852370",
+    "barcodes": [],
+    "urls": [],
+    "place_of_publication": "[Unknown]",
+    "publishers": [
+      "[Unknown]"
+    ],
+    "printers": [
+      "[Unknown]"
+    ],
+    "people": [
+      "[Unknown]"
+    ],
+    "date": 1500,
+    "marker_regions": [
+      "Asien",
+      "Europa",
+      "Orient"
+    ],
+    "work_title": "Geschichte von der T\u00fcrkei",
+    "title_full": "Antzeygung kurtzliche[n] vn[d] volfurung den vrsprung de\u00df Thurckyschen vnnd hundtyschen volcks ...; Mit erweitertem Anhang",
+    "entities": {
+      "locations": [
+        "T\u00fcrkei"
+      ],
+      "people": []
+    }
+  },
+  {
+    "identifier": "AC09759859",
+    "barcodes": [
+      "Z164752105"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ164752105"
+    ],
+    "place_of_publication": "Augsburg",
+    "publishers": [
+      "Steiner, Heinrich"
+    ],
+    "printers": [
+      "Steiner, Heinrich"
+    ],
+    "people": [
+      "Steiner, Heinrich"
+    ],
+    "date": 1535,
+    "marker_regions": [
+      "Orient",
+      "Afrika"
+    ],
+    "work_title": "Sendtbrief so die R\u00f6misch Keiserlich und Hispanisch K\u00fcnigklich Maiestat ... den 23. Tag Julii Anno 1535 aus Affrica zugeschriben hat",
+    "title_full": "Sendtbrief so die R\u00f6misch Keiserlich vnd Hispanisch K\u00fcnigklich Maiestat/ jhres erlangten Sygs/ gegen dem Barbarossa im K\u00fcnigreich Thunis/ seiner Kayserlichen Mayestat Br\u00fcder Ferdinando/ dem R\u00f6mischen K\u00fcng/ den XXIII. tag Julij. Anno M.D.XXXV. Au\u00df Affrica z\u016fgeschriben hat; [Karl V., Heiliges R\u00f6misches Reich, Kaiser. Bearbeiter: Christoph Scheurl]",
+    "entities": {
+      "locations": [
+        "R\u00f6mischen K\u00fcng den XXIII"
+      ],
+      "people": [
+        "Christoph Scheurl",
+        "Karl V.",
+        "Julij",
+        "Ferdinando",
+        "Barbarossa",
+        "R\u00f6misch Keiserlich"
+      ]
+    }
+  },
+  {
+    "identifier": "AC09759860",
+    "barcodes": [
+      "Z157583008"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ157583008"
+    ],
+    "place_of_publication": "Wien",
+    "publishers": [
+      "Singriener, Johann"
+    ],
+    "printers": [
+      "Singriener, Johann"
+    ],
+    "people": [
+      "Singriener, Johann"
+    ],
+    "date": 1535,
+    "marker_regions": [
+      "Afrika",
+      "Orient"
+    ],
+    "work_title": "Sendtbrief so die R\u00f6misch Keiserlich und Hispanisch K\u00fcnigklich Maiestat ... den 23. Tag Julii Anno 1535 aus Affrica zugeschriben hat",
+    "title_full": "Sendtbrief so die R\u00f6misch Keiserlich vnd Hispanisch K\u00fcnigclich Maiestat / jres erlangten Sygs /gegen dem Barbarossa im K\u00fcnigreich Thunis/ seiner Kayserlichen Maiestat Br\u00fcder dem R\u00f6mischen K\u00fcnig/ den. xxiij. Julij. Anno. 1535. aus Affrica zuegeschriben hat; [Karl V., Heiliges R\u00f6misches Reich, Kaiser. Bearbeiter: Christoph Scheurl]",
+    "entities": {
+      "locations": [
+        "R\u00f6mischen K\u00fcnig"
+      ],
+      "people": [
+        "Christoph Scheurl",
+        "Karl V.",
+        "Julij",
+        "Barbarossa",
+        "K\u00fcnigclich Maiestat jres",
+        "R\u00f6misch Keiserlich"
       ]
     }
   },
@@ -1909,6 +1228,311 @@
     }
   },
   {
+    "identifier": "AC05700888",
+    "barcodes": [
+      "Z180302002"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ180302002"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Marne, Claude <<de>>",
+      "Aubry, Johann"
+    ],
+    "printers": [
+      "Marne, Claude <<de>>",
+      "Aubry, Johann"
+    ],
+    "people": [
+      "Marne, Claude <<de>>",
+      "Aubry, Johann"
+    ],
+    "date": 1592,
+    "marker_regions": [
+      "Europa"
+    ],
+    "work_title": "Discours politique et militaires",
+    "title_full": "Discours Oder Beschreibung vnd v\u00dff\u00fchrliches r\u00e4htliches bedencken/ von allerhandt so wol Politischen/ als Kriegssachen; Erstlich durch denEdlen/ hocherfahrnen/ Weitber\u00fcmbten/ vnd man[n]hafften Frantz\u00f6sischen Kriegs=Obristen/ den Herren De la Nove Jn Frantzoesischer sprach beschriben/ hernach durch den Herren de Fresne zu samen gefa\u00dft/ vnd an Tag geben. Jetzundt aber: Allen Potentaten/ F\u00fcrsten/ Herren/ KriegsObristen/ Haupt vnd Befelchs=Leuten/ auch menniglich/ so in Politischen vnd Kriegssachen/ herrliche weise vnd nutzliche Rahtschl\u00e4g/ vnd vorst\u00e4ndige bedencken zu wissen beging/ zu Ehren vnd bestem/ au\u00df dem Frantz\u00f6sischen in vnser geliebte Teutsche sprach auffs trewlichst vnd fleissigst vertirt. Durch Jacob Rahtgeben/ F\u00fcrstlichen W\u00fcrtembergischen Secretarium zu M\u00fcmpelgarten etc.",
+    "entities": {
+      "locations": [],
+      "people": [
+        "Jacob",
+        "Jetzundt",
+        "de Fresne",
+        "De la Nove Jn Frantzoesischer"
+      ]
+    }
+  },
+  {
+    "identifier": "AC11085779",
+    "barcodes": [
+      "Z185142001"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ185142001"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Bry, Theodor <<de>>"
+    ],
+    "printers": [
+      "Wechel, Johann"
+    ],
+    "people": [
+      "Bry, Theodor <<de>>",
+      "Wechel, Johann"
+    ],
+    "date": 1591,
+    "marker_regions": [
+      "Nordamerika"
+    ],
+    "work_title": "Brevis Narratio Eorum Quae In Florida Americae Provincia Gallis acciderunt",
+    "title_full": "Der ander Theyl/ der Newlich erfundenen Landtschafft Americ\u00e6, Von dreyen Schiffahrten/ so die Frantzosen in Floridam (die gegen Nidergang gelegen) gethan; Eine vnter dem H\u00e4uptmann H. Laudonniere, Anno 1564. Die ander vnter H. Ribald 1565. Die dritte/ vnter H. Guorguesio 1567. geschehen. Mit Beschreibung vnd lebendiger Contrafactur/ dieser Prouintze/ Gestalt/ Sitten vnd Gebr\u00e4uch der Wilden/ durch Jacob le Moyne/ sonst Morges genannt/ der alles selbst gesehen/ vnd de\u00dfhalben f\u00fcrnemlich in diese Landschafft verschickt worden; Aus dem Frantz\u00f6sischen in Latein beschrieben/ durch C. C. A. Vnd jetzt au\u00df dem Latein in Teutsch bracht/ durch den Ehrwirdigen H. Oseam Halen. Auch mit sch\u00f6nen vnd kunstreichen Kupfferst\u00fccken/ vnd deren angehenckten Erkl\u00e4rung/ alles an Tag gegeben/ durch Dieterich von Bry/ B\u00fcrger in Franckfort am Mayn/ Anno 1591",
+    "entities": {
+      "locations": [
+        "Franckfort am Mayn Anno",
+        "Teutsch",
+        "Floridam",
+        "Americ\u00e6"
+      ],
+      "people": [
+        "Dieterich",
+        "H. Oseam Halen",
+        "C. C. A. Vnd",
+        "Jacob le Moyne",
+        "H. Guorguesio",
+        "H. Ribald"
+      ]
+    }
+  },
+  {
+    "identifier": "AC10145229",
+    "barcodes": [
+      "Z165709803"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ165709803"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Marne, Claude <<de>>",
+      "Aubry, Johann"
+    ],
+    "printers": [
+      "Marne, Claude <<de>>",
+      "Aubry, Johann"
+    ],
+    "people": [
+      "Marne, Claude <<de>>",
+      "Aubry, Johann"
+    ],
+    "date": 1590,
+    "marker_regions": [
+      "Asien",
+      "Europa",
+      "Orient"
+    ],
+    "work_title": "Annales sultanorum Othmanidarum",
+    "title_full": "Neuwe Chronica T\u00fcrckischer nation/ von T\u00fcrcken selbs beschrieben; volgendts gemehrt/ vnnd in vier B\u00fccher abgetheilt: Das Erst/ Gitabi Teuarichi, Chronic oder Zeitbuch der F\u00fcrsten Osmanischen stammens: von jhrem Vrsprung/ Auffnemen/ Regiment/ Gewalt/ Kriegen/ Tugendt/ Vntugendt/ succession, vom ersten Osman Chan/ bi\u00df auff den Sultan Suleiman Chan/ vnd das 1550. jar Christi: Welches der Edel vnd Gestreng/ Herr Jeronymus Beck von Leopoldstorff/ etc. im nechst folgenden 1551. Jar von Constantinopol mit sich bracht. Das Ander/ Von T\u00fcrckischen geschichten/ die nach dem 1550. jar Christi/ bi\u00df auffs 1590. sich zugetragen. Das Dritt/ Pandectes T\u00fcrckischer histori/ Das ist/ vollkomner Bericht allerley T\u00fcrckischer sachen/ vnd Erkl\u00e4rung derselben. Das Viert/ Etliche Particular Beschreibungen mercklicher/ vnd zur T\u00fcrckischen histori geh\u00f6rigen geschicht; Alles jetzo durch Hansen Lewenklaw von Amelbeurn/ vnser Teutschen Nation zu sonderm nutz vnd wolgefallen zusammen gefasst/ gestellt/ vbersehen/ vnnd in Truck verfertigt",
+    "entities": {
+      "locations": [
+        "Amelbeurn",
+        "Jar"
+      ],
+      "people": [
+        "Hansen Lewenklaw",
+        "Pandectes T\u00fcrckischer",
+        "Christi",
+        "Constantinopol",
+        "Jeronymus Beck von Leopoldstorff",
+        "jar Christi",
+        "Suleiman Chan vnd",
+        "Osman Chan",
+        "Tugendt Vntugendt",
+        "Chronic"
+      ]
+    }
+  },
+  {
+    "identifier": "AC10145230",
+    "barcodes": [
+      "Z174856609"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ174856609"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Marne, Claude <<de>>",
+      "Aubry, Johann"
+    ],
+    "printers": [
+      "Marne, Claude <<de>>",
+      "Aubry, Johann"
+    ],
+    "people": [
+      "Marne, Claude <<de>>",
+      "Aubry, Johann"
+    ],
+    "date": 1595,
+    "marker_regions": [
+      "Asien",
+      "Europa",
+      "Orient"
+    ],
+    "work_title": "Annales sultanorum Othmanidarum",
+    "title_full": "Neuwe Chronica T\u00fcrckischer nation/ von T\u00fcrcken selbs beschrieben: Volgendts gemehrt/ vnnd in vier B\u00fccher abgetheilt:; Das Erst/ Gitabi Teuarichi, Chronic oder Zeitbuch der F\u00fcrsten Osmanischen Stammens: von jhrem Vrsprung/ Auffnemen/ Regiment/ Gewalt/ Kriegen/ Tugendt/ Vntugendt/ succession, vom ersten Osman Chan/ bi\u00df auff den Sultan Suleiman Chan/ vnd das 1550. Jar Christi: Welcher der Edel vnd Gestreng/ Herr Jeronymus Beck von Leopoldstorff/ etc. im nechstfolgendem 1551. Jar von Constantinopol mit sich bracht. Das Ander/ Von T\u00fcrckischen Geschichten/ die nach dem 1550. Jar Christi/ bi\u00df auffs 1590. zugetragen. Das Dritt/ Pandectes T\u00fcrckischer Histori/ Das ist/ vollkomner Bericht allerley T\u00fcrckischer Sachen/ vnd Erkl\u00e4rung derselben. Das Vierd/ Etliche Particular Beschreibungen mercklicher/ vnd zur T\u00fcrckischen Histori geh\u00f6rigen Geschicht; Alles jetzo durch Hansen Lewenklaw von Amelbeurn/ vnser Teutschen Nation zu sonderm Nutz vnd Wolgefallen zusammen gefasset/ gestellt/ vbersehen/ vnnd in Truck verfertigt",
+    "entities": {
+      "locations": [
+        "Amelbeurn",
+        "Jar"
+      ],
+      "people": [
+        "Hansen Lewenklaw",
+        "Jar Christi",
+        "Constantinopol",
+        "Jeronymus Beck von Leopoldstorff",
+        "Suleiman Chan vnd",
+        "Osman Chan",
+        "Tugendt Vntugendt",
+        "Osmanischen Stammens",
+        "Chronic"
+      ]
+    }
+  },
+  {
+    "identifier": "AC11093220",
+    "barcodes": [
+      "Z185143704"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ185143704"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Bry, Johann Israel <<de>>",
+      "Bry, Johann Theodor <<de>>"
+    ],
+    "printers": [
+      "Saur, Johannes"
+    ],
+    "people": [
+      "Bry, Johann Theodor <<de>>",
+      "Saur, Johannes",
+      "Bry, Johann Israel <<de>>"
+    ],
+    "date": 1598,
+    "marker_regions": [
+      "Afrika",
+      "Asien"
+    ],
+    "work_title": "Itinerario; (DE-588)4666486-5",
+    "title_full": "Ander Theil der Orientalischen Jndien/ VOn allen V\u00f6lckern/ Jnsulen/ Meerporten/ fliessenden Wassern vnd anderen Orten/ so von Portugal au\u00df/ lengst dem Gestaden Aphrica/ bi\u00df in Ost Jndien vnd zu dem Land China/ sampt andern Jnsulen zu sehen seind; Beneben derenselben Aberglauben/ G\u00f6tzendienst vnd Tempeln/ Jtem von jren Sitten/ Trachten/ Kleidungen/ Policeyordnung/ vnd wie sie hau\u00dfthalten/ beid so viel die Portugesen/ welche da im Land wohnen/ vnd auch das jnheimische Landv\u00f6lcklein anlangt. De\u00dfgleichen von der Residentz de\u00df Spanischen Viceroys vnd anderer Spanier in Goa/ Jtem von allen Orientalischen Jndianischen Waaren vnd Kummerschafften: sampt deren Gewichten/ Masen/ M\u00fcntzen vnd jhrem Valor oder Wirdigung; Erstlich im Jar 1596. au\u00dff\u00fchrlich in Holl\u00e4ndischer Sprach beschrieben/ durch Joan Hugo von Lindschotten au\u00df Holland/ welcher in 13. Jaren solches meinst alles pers\u00f6nlich zugegen gesehen vnd selbst erfahren hat. Jetzo aber von newem in Holchteutsch bracht/ vnd mit k\u00fcnstlichen sch\u00f6nen Figuren/ in Kupffer gestochen/ gezieret an tag geben/ durch Hans Dieterich vnd Hans Jsrael von Bry Gebr\u00fcder",
+    "entities": {
+      "locations": [
+        "Holchteutsch",
+        "Holland",
+        "Jar",
+        "Goa",
+        "China",
+        "Aphrica",
+        "Portugal"
+      ],
+      "people": [
+        "Hans Jsrael",
+        "Hans Dieterich",
+        "Jetzo",
+        "Jaren",
+        "Joan Hugo"
+      ]
+    }
+  },
+  {
+    "identifier": "AC11093434",
+    "barcodes": [
+      "Z18514390X"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ18514390X"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Bry, Johann Theodor <<de>>",
+      "Bry, Johann Israel <<de>>"
+    ],
+    "printers": [
+      "Becker, Matthaeus"
+    ],
+    "people": [
+      "Bry, Johann Theodor <<de>>",
+      "Becker, Matthaeus",
+      "Bry, Johann Israel <<de>>"
+    ],
+    "date": 1599,
+    "marker_regions": [
+      "Asien"
+    ],
+    "work_title": "Itinerario; (DE-588)4666486-5",
+    "title_full": "Dritter Theil Indiae Orientalis, Darinnen erstlich das ander Theil der Schifffahrten Joann Huygens von Lintschotten au\u00df Hollandt/ so er in Orient gethan/ begriffen/ vnd f\u00fcrnemlich alle gelegenheit derselbigen Landen/ Jnsulen/ Meerpforten/ etc. so vnter wegen auffstossen/ vnd dann in Jndia f\u00fcrkommen/; Wie auch alles/ was der Author allda im Landt/ vnd nachmals auff seiner Widerreyse nach Hollandt gesehen vnd erfahren/ eygentlich beschrieben wirdt. II. Der Holl\u00e4nder Schifffahrt in die Orientalische Jnsulen/ Iauan vnd Sumatra, sampt Sitten/ Leben vnd Superstition/ etc. der V\u00f6lcker. III. Drey Schifffahrten der Holl\u00e4nder nach obermeldten Jndien/ durch das Mittn\u00e4chtigsche oder Ei\u00dfmeer/ darinnen viel vnerh\u00f6rte Ebentewer. Alles auffs trewlichst von neuwem au\u00df den Niderl\u00e4ndischen Exemplarien in Hochteutsch bracht/ vnd in guter Disposition zusammen gef\u00fcgt. Sampt Vielen sch\u00f6nen k\u00fcnstlichen Figurn/ vnd Landtafeln/ in Kupffer gestochen/ vnd an Tag geben/ durch Io. Theodor vnd Io. Israel de Bry/ Gebr\u00fcder",
+    "entities": {
+      "locations": [
+        "Israel de Bry Gebr\u00fcder",
+        "Hochteutsch",
+        "Sumatra",
+        "Hollandt",
+        "Orient"
+      ],
+      "people": [
+        "Theodor vnd",
+        "V\u00f6lcker",
+        "Hollandt",
+        "Joann Huygens",
+        "Indiae Orientalis"
+      ]
+    }
+  },
+  {
+    "identifier": "AC11093167",
+    "barcodes": [
+      "Z164172903",
+      "Z185158100"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ164172903",
+      "http://data.onb.ac.at/ABO/%2BZ185158100"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Bry, Johann Israel <<de>>",
+      "Bry, Johann Theodor <<de>>"
+    ],
+    "printers": [
+      "Saur, Johannes"
+    ],
+    "people": [
+      "Bry, Johann Theodor <<de>>",
+      "Saur, Johannes",
+      "Bry, Johann Israel <<de>>"
+    ],
+    "date": 1597,
+    "marker_regions": [
+      "Afrika"
+    ],
+    "work_title": "Relatione del reame di Congo e delle circonvicine contrade",
+    "title_full": "Regnvm Congo hoc est Warhaffte vnd Eigentliche Beschreibung de\u00df K\u00f6nigreichs Congo in Africa/ vnd deren angrentzenden L\u00e4nder/ darinnen der Jnwohner Glaub/ Leben/ Sitten vnd Kleydung wol vnd au\u00dff\u00fchrlich vermeldet vnd angezeigt wirdt; Erstlich durch Eduart Lopez/ welcher in dieser Nauigation alles Pers\u00f6nlich erfahren/ in Portugalesischer Spraach gestellt/ Jetzo aber in vnser Teutsche Spraach transferiret vnd vbersetzt/ Durch Avgvstinvm Cassiodorvm. Auch mit sch\u00f6nen vnd Kunstreichen Figuren gezieret vnd an Tag geben/ durch Hans Dietherich vnd Hans Jsrael von Bry/ Gebr\u00fcder vnd B\u00fcrger zu Franckfurt",
+    "entities": {
+      "locations": [],
+      "people": [
+        "Hans Jsrael",
+        "Hans Dietherich",
+        "Avgvstinvm Cassiodorvm",
+        "Eduart Lopez",
+        "Congo"
+      ]
+    }
+  },
+  {
     "identifier": "AC10078395",
     "barcodes": [
       "Z178362103"
@@ -1932,7 +1556,7 @@
       "Asien",
       "Europa"
     ],
-    "work_title": "",
+    "work_title": "Meer oder Seehanden Buch",
     "title_full": "Meer oder Seehanen Buch/ Darinn Verzeichnet seind/ die Wunderbare/ Gedenckw\u00fcrdige Reise vnd Schiffarhten/ so recht vnd billich geheissen Meer vnd Seehanen/ der K\u00f6nigen von Hispania/ Portugal/ Engellandt vnd Franckreich/ inwendig den letst vergangnen hundert Jahren/ gethan; Auff vnd durch welche Schiffarten/ ein Newe Welt gegen Nidergang/ vnd grosse K\u00f6nigreichen/ Landtschafften vnd Jnsulen/ gegen Auffgang gelegen/ erfunden vnd entdeckt seind. Hierzu seind noch gesetzt zwey seltzsame vnd gedenckw\u00fcrdige St\u00fcck. Das eine ist/ Die Erzehlung der Schiffart/ so im Jar 1594. gethan siben Schiff/ welche die Vnierte Niderl\u00e4ndische St\u00e4nd geschickt gegen Mitternacht/ vmb von dannen jren lauff nach China zu nemen. Dieselbige Schiff sein gefahren/ durch die Enge oder Stra\u00df zwischen den Landtschafften/ des Gro\u00dff\u00fcrsten von der Moscow/ vnd der Jnsel Watgatz/ bey Noua Zemla gelegen/ bi\u00df ins grosse Tartarische Meer/ Welches auff Latein Oceanus Scythicus oder Mare Tabin genennet wirt/ vnd haben entdeckt den Flu\u00df  Gilissy/ nur 13. Meil vom grossen Flu\u00df Obij gelegen. Das ander st\u00fcck ist. Ein Warhaffter/ klarer/ eigentlicher Bericht/ von der weiten vn[d] wunderbaren Reise oder Schifffahrt/ so drey Schiff vnd ein Pina\u00df/ au\u00df Holland/ bi\u00df in Jndien gegen Auffgang gethan. Dieselbe Schiff seind von Texel in Hollandt abgefaoren am andern tag Aprilis/ im Jar 1595. Haben vmbgesagelt das Vorhaupt Bon\u00e6 Spei/ vnd seind ahn der grossen Jnsel Madagascar/ jetzt S. Laurentz Jnsel geheissen/ angefahren. Von dannen seind sie gesagelt gen Samatra/ vorzeiten Taprobana/ vnd fehrner gen Bantam/ ein grosse Gewerbstatt in der Jnsel Iaua Maior/ weiterg gen Sidaya/ vnd der Jnsel Bally. Von dannen seind sie am 26. Februarij 1597. wider nach Hollandt gefahren/ vnd ohn jrgendts ahnzul\u00e4nden/ am 10. tag Augustmonats desselben Jars mit freuden zu Hau\u00df ankom[m]en. Haben mit bracht Pfeffer/ N\u00e4gelein/ Muscat N\u00fc\u00df vnd Blumen. Neben dem einen wunderbarlichen Vogel/ der Fewrkolen verschlucket. Gantz lustig zulesen; Dise Reisen vnd Schiffahrten seind zusamen/ au\u00df andern Spraachen ins Teutsch gebracht/ Durch Conrad L\u00f6w der Historien Liebhaber",
     "entities": {
       "locations": [
@@ -1981,7 +1605,7 @@
       "Europa",
       "Afrika"
     ],
-    "work_title": "",
+    "work_title": "Rei\u00dfbuch gen Hierusalem ",
     "title_full": "Rei\u00dfbuch gen Hierusalem. Welcher massen der Gestreng/ Edel/ Nothvest/ F\u00fcrsichtig vnd Wei\u00df Herr Melchior Lussy Ritter/ Landamman zu Vnderwalden/ etc.  vnderhalb dem Kernwald in der Eidtgeno\u00dfschafft gelegen/ in das heilige Land Palestina gezogen ist; Darinnen dann die f\u00fcrnembste St\u00e4tt vnd Orther von Christo vnserm liebsten Herren vnd Heyland weyland pers\u00f6nlich heimgesucht/ vnd durch das hohe Werck Menschlicher Erl\u00f6sung geziert vnd geheiliget/ ordenlich beschriben werden. Sampt Weiterer Verzeichnu\u00df viler anderer denckw\u00fcrdiger \u00f6rther vnnd z\u016ffallender Gefahren/ welche gedachtem Herrn/ sampt seiner Gesellschafft auff diser Pilgerfahrt zu Wasser vnd Land begegnet seyn. Jetzund zum erstenmal zu sonderer Belustigung de\u00df Christlichen Lesers im Druck au\u00dfgangen",
     "entities": {
       "locations": [
@@ -2056,7 +1680,7 @@
       "Europa",
       "Orient"
     ],
-    "work_title": "",
+    "work_title": "Grundliche und warhafftige Beschreibung der loblichen und ritterlichen Reise und Meerfart in das heilige Land nach Hierusalem",
     "title_full": "Gr\u00fcndliche vnd warhafftige beschreibung DEr l\u00f6blilchen vnd Ritterlichen Reise vnd Meerfart in das heilige Land nach Hierusalem/ des Durchlauchtigen vnd Hochgebornen F\u00fcrsten vnnd Herrn/ Herrn Albrechten/ Hertzogen zu Sachssen/ Landgraffen in D\u00fcringen/ Marggraffen zu Meissen/ etc. Hochl\u00f6blicher gedechtn\u00fcs; Dabey ein kurtzer Au\u00dfzug der Pilgramschafft ins gelobte Land/ Hertzog Wilhelmen zu Sachssen/ auch anderer F\u00fcrsten aus diesem hochl\u00f6blichen Stammen/ So wol etlicher Graffen/ vom Adel/ vnd anderer/ so mit vnd darbey gewesen/ zubefinden; Gestellet durch Den Gestrengen vnd vesten Hansen von Mergenthal/ etc. So selbsten pers\u00f6nlich mit vnd darbey gewesen/ etc. Jetzund zum ersten mal in Druck au\u00dfgangen",
     "entities": {
       "locations": [
@@ -2069,52 +1693,6 @@
         "Hansen von Mergenthal",
         "Dabey",
         "Albrechten Hertzogen"
-      ]
-    }
-  },
-  {
-    "identifier": "AC10145230",
-    "barcodes": [
-      "Z174856609"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ174856609"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Marne, Claude <<de>>",
-      "Aubry, Johann"
-    ],
-    "printers": [
-      "Marne, Claude <<de>>"
-    ],
-    "people": [
-      "Marne, Claude <<de>>",
-      "Aubry, Johann"
-    ],
-    "date": 1595,
-    "marker_regions": [
-      "Asien",
-      "Europa",
-      "Orient"
-    ],
-    "work_title": "Annales sultanorum Othmanidarum",
-    "title_full": "Neuwe Chronica T\u00fcrckischer nation/ von T\u00fcrcken selbs beschrieben: Volgendts gemehrt/ vnnd in vier B\u00fccher abgetheilt:; Das Erst/ Gitabi Teuarichi, Chronic oder Zeitbuch der F\u00fcrsten Osmanischen Stammens: von jhrem Vrsprung/ Auffnemen/ Regiment/ Gewalt/ Kriegen/ Tugendt/ Vntugendt/ succession, vom ersten Osman Chan/ bi\u00df auff den Sultan Suleiman Chan/ vnd das 1550. Jar Christi: Welcher der Edel vnd Gestreng/ Herr Jeronymus Beck von Leopoldstorff/ etc. im nechstfolgendem 1551. Jar von Constantinopol mit sich bracht. Das Ander/ Von T\u00fcrckischen Geschichten/ die nach dem 1550. Jar Christi/ bi\u00df auffs 1590. zugetragen. Das Dritt/ Pandectes T\u00fcrckischer Histori/ Das ist/ vollkomner Bericht allerley T\u00fcrckischer Sachen/ vnd Erkl\u00e4rung derselben. Das Vierd/ Etliche Particular Beschreibungen mercklicher/ vnd zur T\u00fcrckischen Histori geh\u00f6rigen Geschicht; Alles jetzo durch Hansen Lewenklaw von Amelbeurn/ vnser Teutschen Nation zu sonderm Nutz vnd Wolgefallen zusammen gefasset/ gestellt/ vbersehen/ vnnd in Truck verfertigt",
-    "entities": {
-      "locations": [
-        "Amelbeurn",
-        "Jar"
-      ],
-      "people": [
-        "Hansen Lewenklaw",
-        "Jar Christi",
-        "Constantinopol",
-        "Jeronymus Beck von Leopoldstorff",
-        "Suleiman Chan vnd",
-        "Osman Chan",
-        "Tugendt Vntugendt",
-        "Osmanischen Stammens",
-        "Chronic"
       ]
     }
   },
@@ -2147,33 +1725,39 @@
     }
   },
   {
-    "identifier": "AC10163082",
+    "identifier": "AC10732756",
     "barcodes": [
-      "Z170807203"
+      "Z160260500"
     ],
     "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ170807203"
+      "http://data.onb.ac.at/ABO/%2BZ160260500"
     ],
-    "place_of_publication": "[Unknown]",
+    "place_of_publication": "Antwerpen",
     "publishers": [
-      "[Unknown]"
+      "Silvius, Willem"
     ],
     "printers": [
-      "[Unknown]"
+      "Silvius, Willem"
     ],
     "people": [
-      "[Unknown]"
+      "Silvius, Willem"
     ],
-    "date": 1596,
+    "date": 1576,
     "marker_regions": [
-      "Nordamerika"
+      "Orient",
+      "Afrika",
+      "Asien",
+      "Europa"
     ],
-    "work_title": "",
-    "title_full": "Nova Novorvm. Newe zeitungen aus \u00f6sten/ Westen/ von newen gefundenen Landen/ Newen V\u00f6lkeren/ Newen handtierungen/ vngehorten sprachen vnd schriften: Von Francisci Draci, Jndische oder Amerische expedition; Mit deren Landen eigentliche vnd wahre beschreibung",
+    "work_title": "<<Les>> quatres premiers livres des navigations et p\u00e9r\u00e9grinations orientales; (DE-588)7517609-9",
+    "title_full": "Vier Bucher Von de Raisz vnd Schiffart in die Turckey, beschrieben durch Hern N. Nicolai/ B\u00fcrtig au\u00df dem Delphinat/ Kammerling vnd Geograff Ko. Mr. inn Franckreich; Mit ein vnnd sextzich [!] Man vnnd Weibliche Figuren/ nach dem leben abgesetzt/ nach verenderung vnd gestalt der Lender/ vnd gebrauch der selber/ mit beschreibung jres art vnd leben/ so wol inn Frid als Kriegzeiten. Neben anzeigung etlicher namhaftiger geschichten bey vnsern zeiten geschehen",
     "entities": {
       "locations": [],
       "people": [
-        "Francisci Draci"
+        "Frid",
+        "Franckreich",
+        "N. Nicolai B\u00fcrtig",
+        "Von de Raisz"
       ]
     }
   },
@@ -2255,6 +1839,93 @@
     }
   },
   {
+    "identifier": "AC11092625",
+    "barcodes": [
+      "Z185157107"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ185157107"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Theodor de Bry der \u00c4ltere Erben"
+    ],
+    "printers": [
+      "Becker, Matthaeus"
+    ],
+    "people": [
+      "Theodor de Bry der \u00c4ltere Erben",
+      "Becker, Matthaeus"
+    ],
+    "date": 1599,
+    "marker_regions": [
+      "Nordamerika",
+      "S\u00fcdamerika"
+    ],
+    "work_title": "Discoverie of Guiana; (DE-588)4489710-8",
+    "title_full": "Americ\u00e6 Achter Theil/ Jn welchem Erstlich beschrieben wirt das M\u00e4chtige vnd Goldtreiche K\u00f6nigreich Guiana/ zu Norden de\u00df grossen Flusses Oronoke, sonsten Oregliana genannt/ gelegen/ sampt desselbigen f\u00fcrnembsten vnd reichsten Hauptst\u00e4tten Manoa vnd Macuieguarai, auch die f\u00fcrnembste vnd k\u00f6stlichste Kauffmannschafften die dieses K\u00f6nigreich vberfl\u00fcssig in sich hat; Jtem/ Eine kurtze Beschreibung der vmbligenden Landtschafften Emereia, Arromaia, Amapaia,  Topago, &c. in welchen neben andern V\u00f6lckern die Kriegische Weiber/ von den Alten Amazones genannt/ wohnen/ sampt kurtzer meldung 53. grosser Wasserstr\u00f6hm/ vnter denen der Oronoke der gr\u00f6ste ist/ vnd sich wol 500. Teutscher Meil in das Landt hineyn/ bey nahe an die m\u00e4chtige Statt Quito in Peru, erstreckt. Alles mit flei\u00df beschrieben durch den gestrengen/ Edlen vn[d] vesten Walthern Ralegh, Rittern/ vnd Hauptmann vber jrer K\u00f6n. Mayest. au\u00df Engellandt Leibs Guardi/ welcher neben dem auff dem Meer auch wolge\u00fcbten Hauptmann/ Lorentz Keymis alles selber erfahren vnd gesehen hat im Jar 1595. vnd 1596. Zum andern/ die Reyse de\u00df Edlen vnd vesten Thomas Candisch, welcher im Jar 1586. mit 3. Schiffen in Engellandt au\u00dfgefahren/ vnd nach dem er das Meer bey die 13000. Engell\u00e4ndischer Meil besegelt/ in Anno 1588. wider an ist gelanget/ sampt Erzehlung aller Abentheuwer vnd Geschichten so jm auff dieser Rey\u00df zu handen gestossen seynd. Durch Frantzen Prettie einen Engell\u00e4nder/ welcher dieser Fahrt Pers\u00f6nlich hat beygewohnet/ von Tag zu Tag auffgezeichnet. Vnd zum dritten die letzte Rey\u00df der gestrengen/ Edlen vnd vesten Frantzen Draeck vnd Iohan Havckens, Rittern/ welche Anno 1595. mit 6. der K\u00f6nigin vnd 21. andern Schiffen/ darauff 2500. Mann gewesen/ in Engellandt abgesegelt in die Occidentalische Jndien/ die Statt Panama eynzunemmen/ Auff welcher Reyse sie beyde jr Leben beschlossen haben. Alles erstlich in Engell\u00e4ndischer Sprach au\u00dfgangen/ jetzt aber au\u00df der Holl\u00e4ndischen translation in die Hochteutsche Sprache gebracht/ durch Avgvstinvm Cassiodorvm Reinivm. Mit etlichen sch\u00f6nen Kupfferst\u00fccken geziert vnd an Tag gegeben/ durch Dieterichen von Bry seligen/ hinderlassene Erben",
+    "entities": {
+      "locations": [
+        "Engellandt",
+        "Jar",
+        "Peru",
+        "Quito",
+        "Amapaia",
+        "Arromaia",
+        "Guiana"
+      ],
+      "people": [
+        "Avgvstinvm Cassiodorvm Reinivm",
+        "Iohan Havckens",
+        "Frantzen Draeck",
+        "Vnd",
+        "Frantzen Prettie",
+        "Thomas Candisch",
+        "Lorentz Keymis",
+        "Engellandt Leibs Guardi",
+        "Walthern Ralegh",
+        "Teutscher Meil",
+        "Macuieguarai"
+      ]
+    }
+  },
+  {
+    "identifier": "AC09705460",
+    "barcodes": [
+      "Z184959307"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ184959307"
+    ],
+    "place_of_publication": "Augsburg",
+    "publishers": [
+      "Kriegstein, Melchior"
+    ],
+    "printers": [
+      "Kriegstein, Melchior"
+    ],
+    "people": [
+      "Kriegstein, Melchior"
+    ],
+    "date": 1543,
+    "marker_regions": [
+      "Asien",
+      "Europa",
+      "Orient"
+    ],
+    "work_title": "Libri tre delle cose de Turchi; 1539",
+    "title_full": "Beschreibung der Kaiserlichen Statt Constantinopel/; Derselben gegendt/ gelegenheit/ Erwabung und bewonung: Dergleich[e]n der T\u00fcrcken vrsprung/ anfang/ jr Regierung: Wie das Hau\u00df Ottomani darz\u016f kommen/ vnd von ainem auf den anndern erwachsen ist: Auch aines yeden besonnder begangne f\u00fcrnemlichste thaten/ bis auf den yetzt regierenden Solyman/ Des selben Hofhaltung/ Frawenzim[m]er/ R\u00e4ten/ Dienern/ Amptle\u00fcten/ Prouisionern/ Kriegsle\u00fcten/ vn[d] derselben aller Bes\u00f6ldung/ vom minsten bis zum maisten: Besatzung vnnd Regierung aller seiner Reich vnd Land/ wie die sein[n] vnd grenitzen: Seine Einkommen/ vnnd was darauf geet/ etc. Au\u00df Jtalianischem verte\u00fctscht; [Benedetto Ramberti]",
+    "entities": {
+      "locations": [],
+      "people": [
+        "Benedetto Ramberti",
+        "Ottomani",
+        "de Turchi",
+        "Libri"
+      ]
+    }
+  },
+  {
     "identifier": "AC10232182",
     "barcodes": [
       "Z156771000"
@@ -2322,35 +1993,106 @@
     }
   },
   {
-    "identifier": "AC10264057",
+    "identifier": "AC09974254",
     "barcodes": [
-      "Z175148507"
+      "Z168354106"
     ],
     "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ175148507"
+      "http://data.onb.ac.at/ABO/%2BZ168354106"
     ],
     "place_of_publication": "N\u00fcrnberg",
     "publishers": [
-      "St\u00fcchs, Georg"
+      "Hulsius, Levinus"
     ],
     "printers": [
-      "St\u00fcchs, Georg"
+      "Lochner, Christoph"
     ],
     "people": [
-      "St\u00fcchs, Georg"
+      "Lochner, Christoph",
+      "Hulsius, Levinus"
     ],
-    "date": 1508,
+    "date": 1599,
     "marker_regions": [
-      "Afrika",
-      "S\u00fcdamerika",
-      "Nordamerika"
+      "S\u00fcdamerika"
     ],
-    "work_title": "Paesi novamente retrovati; (DE-588)7517603-8",
-    "title_full": "Newe vnbekanthe landte Und ein newe weldte in kurtz vergangner zeythe erfunden; [Kompilator: Fracanzano da Montalboddo ; \u00dcbersetzer: Jobst Ruchamer]",
+    "work_title": "Wahrhafftige Historien einer wunderbaren Schiffart; (DE-588)4247028-6",
+    "title_full": "Vierte Schiffart. Warhafftige Historien Einer Wunderbaren Schiffart/ welche Vlrich Schmidel von Straubing/ von Anno 1534. bi\u00df Anno 1554 in Americam oder Newenwelt/ bey Brasilia vnd Rio della Plata gethan; Was er in diesen Neuntzehen Jahren au\u00dfgestanden/ vnd was er f\u00fcr seltzame Wunderbare L\u00e4nder vnd Leut er gesehen; durch ermelten Schmidel selbs beschrieben / An jetzt aber an Tag geben mit Verbesserung vnd Corrigierung der St\u00e4tt/ L\u00e4nder vnd Fl\u00fc\u00df namen/ de\u00dfgleichen mit einer nothwendigen Landtaffel/ Figuren/ vnd anderer mehr Erklerung/ gezieret/ Durch Levinvm Hvlsivm",
+    "entities": {
+      "locations": [
+        "Americam"
+      ],
+      "people": [
+        "Levinvm Hvlsivm",
+        "Schmidel",
+        "Schmidel von Straubing von Anno"
+      ]
+    }
+  },
+  {
+    "identifier": "AC10477476",
+    "barcodes": [
+      "Z18515720X"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ18515720X"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Bry, Theodor <<de>>"
+    ],
+    "printers": [
+      "Bry, Theodor <<de>>"
+    ],
+    "people": [
+      "Bry, Theodor <<de>>"
+    ],
+    "date": 1597,
+    "marker_regions": [
+      "S\u00fcdamerika"
+    ],
+    "work_title": "Wahrhafftige Historien einer wunderbaren Schiffart; (DE-588)4247028-6",
+    "title_full": "Das VII. Theil America. Warhafftige vnnd liebliche Beschreibung etlicher f\u00fcrnemmen Jndianischen Landschafften vnd Jnsulen/ die vormals in keiner Chronicken gedacht/ vnd erstlich in der Schiffart Vlrici Schmidts von Straubingen/ mit grosser gefahr erk\u00fcndigt/; vnd von jhm selber auffs fleissigst beschrieben vnd dargethan. Vnd an Tag gebracht durch Dieterich von Bry",
     "entities": {
       "locations": [],
       "people": [
-        "Jobst Ruchamer"
+        "Dieterich von Bry",
+        "Vlrici Schmidts"
+      ]
+    }
+  },
+  {
+    "identifier": "AC09878147",
+    "barcodes": [
+      "Z256472808"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ256472808"
+    ],
+    "place_of_publication": "N\u00fcrnberg",
+    "publishers": [
+      "Gerlach, Katharina"
+    ],
+    "printers": [
+      "Gerlach, Katharina"
+    ],
+    "people": [
+      "Gerlach, Katharina"
+    ],
+    "date": 1580,
+    "marker_regions": [
+      "Nordamerika",
+      "Arktis"
+    ],
+    "work_title": "<<A>> true reporte of the laste voyage into the west and northwest regions",
+    "title_full": "Beschreibung Der schiffart des Haubtmans Martini Forbi\u00dfher au\u00df Engelland/ in die Lender gegen West vnd Nordwest/ im Jar 1577.; Darinnen diser Lender Jnwohner sitten vnd wei\u00df zu leben/ sampt jren Trachten vnd Waffen Abcontrefeiung/ auch andern/ zuuor vnbekandten vnd sonderlichen sachen/ angezeigt wirdt. Au\u00df dem Frantz\u00f6sischen auffs trewlich in das Teutsche gebracht",
+    "entities": {
+      "locations": [
+        "Jar",
+        "Nordwest",
+        "Engelland"
+      ],
+      "people": [
+        "Martini Forbi\u00dfher"
       ]
     }
   },
@@ -2528,6 +2270,84 @@
     }
   },
   {
+    "identifier": "AC09625464",
+    "barcodes": [
+      "Z163300909"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ163300909"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Bry, Theodor <<de>>"
+    ],
+    "printers": [
+      "Bry, Theodor <<de>>"
+    ],
+    "people": [
+      "Bry, Theodor <<de>>"
+    ],
+    "date": 1593,
+    "marker_regions": [
+      "S\u00fcdamerika"
+    ],
+    "work_title": "Wahrhaftige Historia; (DE-588)4401116-7",
+    "title_full": "Dritte Buch Americ\u00e6, Darinn Brasilia durch Johann Staden von Homberg aus Hessen/ aus eigener erfahrung in Teutsch beschrieben; Item Historia der Schiffart Ioannis Lerij in Brasilien/ welche er selbst publiciert hat/ jetzt von Newem verteutscht/ Durch Teucrium Ann\u00e6um Priuatum, C. Vom Wilden unerh\u00f6rtem wesen der Jnnwohner/ von allerley frembden Gethieren vnd Gew\u00e4chsen/ sampt einem Colloquio, in der Wilden Sprach Alles von newem mit k\u00fcnstlichen Figuren in Kupffer gestochen vnd an Tag geben/ Durch Dieterich Bry von L\u00fcttich/ jetzt Burger zu Franckfurt am Mayn",
+    "entities": {
+      "locations": [
+        "L\u00fcttich",
+        "Brasilien",
+        "Hessen",
+        "Homberg",
+        "Darinn Brasilia"
+      ],
+      "people": [
+        "Dieterich Bry",
+        "Ioannis Lerij",
+        "Johann Staden"
+      ]
+    }
+  },
+  {
+    "identifier": "AC11085838",
+    "barcodes": [
+      "Z185142207"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ185142207"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Bry, Theodor <<de>>"
+    ],
+    "printers": [
+      "Bry, Theodor <<de>>"
+    ],
+    "people": [
+      "Bry, Theodor <<de>>"
+    ],
+    "date": 1593,
+    "marker_regions": [
+      "S\u00fcdamerika"
+    ],
+    "work_title": "Wahrhaftige Historia; (DE-588)4401116-7",
+    "title_full": "Dritte Buch Americ\u00e6, Darinn Brasilia durch Johann Staden von Homberg au\u00df Hessen/ au\u00df eigener erfahrung in Teutsch beschrieben; Item Historia der Schiffart Ioannis Lerij in Brasilien/ welche er selbst publiciert hat/ jetzt von Newem verteutscht/ Durch Teucrium Ann\u00e6um Priuatum, C. Vom Wilden vnerh\u00f6rtem wesen der Jnnwoner/ von allerley frembden Gethieren vnd Gew\u00e4chsen/ sampt einem Colloquio, in der Wilden Sprach. Alles von Newem mit k\u00fcnstlichen Figuren in Kupffer gestochen vnd an Tag geben/ Durch Dieterich Bry von L\u00fcttich/ jetzt Burger zu Franckfurt am Mayn",
+    "entities": {
+      "locations": [
+        "L\u00fcttich",
+        "Brasilien",
+        "Hessen",
+        "Homberg",
+        "Darinn Brasilia"
+      ],
+      "people": [
+        "Dieterich Bry",
+        "Ioannis Lerij",
+        "Johann Staden"
+      ]
+    }
+  },
+  {
     "identifier": "AC10336601",
     "barcodes": [
       "Z165780108"
@@ -2571,6 +2391,102 @@
     }
   },
   {
+    "identifier": "AC10474081",
+    "barcodes": [],
+    "urls": [],
+    "place_of_publication": "Marburg",
+    "publishers": [
+      "Kolbe, Andreas"
+    ],
+    "printers": [
+      "Kolbe, Andreas"
+    ],
+    "people": [
+      "Kolbe, Andreas"
+    ],
+    "date": 1557,
+    "marker_regions": [
+      "S\u00fcdamerika"
+    ],
+    "work_title": "Wahrhaftige Historia; (DE-588)4401116-7",
+    "title_full": "Varhaftige beschreibung eyner Landschafft der wilden nacketen/ grimmigen menschenfresser leuthe/ in der newen welt America gelegen.; Vor vnd nach Christi geburt im land z\u016f Hessen vnbekant/ bi\u00df vff dise zwey negst vergangene jar/ Da sie Hans Staden von Homburg au\u00df Hessen durch sein eygne erfarung erkant/ vnd ytzt durch den truck an tag gibt. Vnd zum andern mal fleissig corrigirt vnd gebessert; Hans Staden von Homburg au\u00df Hessen ; Mit eyner vorrede D Ioh. Dryandri/ genant Eychman/ Ordinarij Professoris Medici z\u016f Marpurg",
+    "entities": {
+      "locations": [
+        "Hessen",
+        "Homburg",
+        "Christi"
+      ],
+      "people": [
+        "Eychman Ordinarij Professoris Medici",
+        "Dryandri",
+        "Vnd",
+        "Hans Staden"
+      ]
+    }
+  },
+  {
+    "identifier": "AC09661418",
+    "barcodes": [
+      "Z182900000"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ182900000"
+    ],
+    "place_of_publication": "Augsburg",
+    "publishers": [
+      "Ulhart, Philipp"
+    ],
+    "printers": [
+      "Ulhart, Philipp"
+    ],
+    "people": [
+      "Ulhart, Philipp"
+    ],
+    "date": 1530,
+    "marker_regions": [
+      "Europa"
+    ],
+    "work_title": "Ain kurtze anzaygung und beschreybung R\u00f6mischer Kayserlicher Maiestat einreyten",
+    "title_full": "Ain kurtze anzaygung vnd beschreybung R\u00f6mischer Kayserlicher Maiestat einreyten Erstlich von Jnn\u00dfpruck gen Schwatz/ volgendt z\u016f M\u00fcnchen/ vn[d] z\u016fletst gen Augspurg auf den Reychstag/ vnd was sich mittler zeyt daselbst t\u00e4glich verlauffen vnnd z\u016fgetragen hatt/ Anno. etc. 1530.",
+    "entities": {
+      "locations": [
+        "M\u00fcnchen"
+      ],
+      "people": []
+    }
+  },
+  {
+    "identifier": "AC10478357",
+    "barcodes": [
+      "Z18244920X"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ18244920X"
+    ],
+    "place_of_publication": "Augsburg",
+    "publishers": [
+      "Ulhart, Philipp"
+    ],
+    "printers": [
+      "Ulhart, Philipp"
+    ],
+    "people": [
+      "Ulhart, Philipp"
+    ],
+    "date": 1530,
+    "marker_regions": [
+      "Europa"
+    ],
+    "work_title": "Ain kurtze anzaygung und beschreybung R\u00f6mischer Kayserlicher Meistat einreyten",
+    "title_full": "Ain kurtze anzaygung vnd beschreybung R\u00f6mischer Kayserlicher Maiestat einreyten/ Erstlich von Jnn\u00dfpruck gen Schwatz/ volgendt z\u016f M\u00fcnchen/ vn[d] z\u016fletst gen Augspurg auf den Reychstag/ vnd was sich mittler zeyt daselbst t\u00e4glich verlauffen vnnd z\u016fgetragen hatt/ Anno. etc. 1530.",
+    "entities": {
+      "locations": [
+        "M\u00fcnchen"
+      ],
+      "people": []
+    }
+  },
+  {
     "identifier": "AC10388659",
     "barcodes": [
       "Z159579501"
@@ -2584,7 +2500,8 @@
       "Han, Weigand"
     ],
     "printers": [
-      "Rab, Georg"
+      "Rab, Georg",
+      "Han, Weigand"
     ],
     "people": [
       "Rab, Georg",
@@ -2597,7 +2514,7 @@
       "Europa",
       "Orient"
     ],
-    "work_title": "",
+    "work_title": "Reise in das Gelobte Land; (DE-588)4698157-3",
     "title_full": "Gr\u00fcndtlicher und Eigentlicher Bericht der Meerfart/ Johan Th\u016fcher/ einer de\u00df kleinen Rahts vnnd Burger z\u016f N\u00fcrnberg/ gen Venedig/ Jerusalem/ z\u016f S. Katharinen Berg/ Sinay/ Alexandria/ vn[d] wider gen N\u00fcrnberg gethan/; Was wunders er z\u016f Wasser vnd Land/ vnd was sich die Bilger in dem heyligen Landt/ auch in der W\u00fcsten bi\u00df zum Roten Meer/ leyden m\u00fcssen/ erfaren hat/ mit flei\u00df beschriben/ vnd in den Truck verfertiget",
     "entities": {
       "locations": [
@@ -2666,8 +2583,8 @@
       "Lochner, Christoph"
     ],
     "people": [
-      "Hulsius, Levinus",
-      "Lochner, Christoph"
+      "Lochner, Christoph",
+      "Hulsius, Levinus"
     ],
     "date": 1598,
     "marker_regions": [
@@ -2675,7 +2592,7 @@
       "Europa",
       "Nordamerika"
     ],
-    "work_title": "Waerachtighe beschryvinghe van drie seylagien; 1598",
+    "work_title": "Waerachtighe beschryvinghe van drie seylagien, ter werelt noyt soo vreemt ghehoort; (DE-588)7758978-6",
     "title_full": "Warhafftige Relation. Der dreyen newen vnerh\u00f6rten/ seltzamen Schiffart/ so die Holl\u00e4ndischen vnd Seel\u00e4ndischen Schiff gegen Mitternacht/ drey Jar nach einander/ als Anno 1594. 1595. vnd 1596 verricht; Wie sie Nortvvegen, Lappiam, Biarmiam, vnd Russiam, oder Moscoviam (vorhabens ins K\u00f6nigreich Cathay vnd China zukommen) vmsegelt haben. Auch auch wie sie das Fretum Nassovi\u00e6, VVaygats, Novam Semblam, vnd das Land vnter dem 80. Gradu latitud, so man vermeint das Groenland sey/ gefunden: vnd was f\u00fcr gefahr/ wegen der erschr\u00f6cklichen Bern/ Meerwunder/ vnd dem Ey\u00df/ sie au\u00dfgestanden; Erstlich in Niderl\u00e4ndischer sprach beschrieben/ durch Gerhart de Ver, so selbsten die letzten zwo Reysen hat helffen verrichten/ jetzt aber ins Hochteutsch gebracht/ Durch Levinum Hulsium",
     "entities": {
       "locations": [
@@ -2686,46 +2603,6 @@
       "people": [
         "Gerhart de Ver",
         "Lappiam"
-      ]
-    }
-  },
-  {
-    "identifier": "AC10401907",
-    "barcodes": [
-      "Z168096506"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ168096506"
-    ],
-    "place_of_publication": "Ingolstadt",
-    "publishers": [
-      "Sartorius, David"
-    ],
-    "printers": [
-      "Sartorius, David"
-    ],
-    "people": [
-      "Sartorius, David"
-    ],
-    "date": 1586,
-    "marker_regions": [
-      "Asien"
-    ],
-    "work_title": "Historia das Missoens da Oriente at\u00e9 o anno de 1568; 1568",
-    "title_full": "Kurtze Verzeichnu\u00df Vnd Historische Beschreibung deren dingen/ so von der Societet Iesv in Orient/ von dem Jar nach Christi Geburt/ 1542. bi\u00df auff das 1568. gehandelt worden; Erstlich Druch Ioannem Petrum Maffeium, au\u00df Portugalesischer sprach in Latein/ vnd jetzo neben etlichen Japonischen Sendtschreiben/ vom Jar 1548. bi\u00df auff 1555. allen frommen Catholischen zu Lieb vnd Trost ins Teutsch gebracht/ vnnd zum ersten mal an Tag geben: Durch weylandt den Hochgelehrten Herrn Ioannem Georgium G\u00f6tzen/ beyder Rechten Doctorn/ auch F\u00fcrstlichen Bischofflichen Constantzischen Rath vnnd Secretarien/ etc.",
-    "entities": {
-      "locations": [
-        "Jar",
-        "Christi",
-        "Orient"
-      ],
-      "people": [
-        "Constantzischen Rath",
-        "Ioannem Georgium",
-        "Portugalesischer",
-        "Ioannem Petrum Maffeium",
-        "Iesv",
-        "Kurtze Verzeichnu\u00df Vnd"
       ]
     }
   },
@@ -2787,6 +2664,388 @@
       "locations": [],
       "people": [
         "Mundus novus"
+      ]
+    }
+  },
+  {
+    "identifier": "AC09974246",
+    "barcodes": [
+      "Z168353709"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ168353709"
+    ],
+    "place_of_publication": "N\u00fcrnberg",
+    "publishers": [
+      "Hulsius, Levinus"
+    ],
+    "printers": [
+      "Lochner, Christoph"
+    ],
+    "people": [
+      "Lochner, Christoph",
+      "Hulsius, Levinus"
+    ],
+    "date": 1598,
+    "marker_regions": [
+      "Asien"
+    ],
+    "work_title": "Verhael vande Reyse by de Hollandtsche Schepen gedaen naer Oost Indien",
+    "title_full": "Kurtze Warhafftige Beschreibung der newen Reyse oder Schiffahrt/ so die Hollendischen Schiff/ in denn Orientalischen Indien verricht: Welche Anno 1595. in Martio, Alda au\u00dfgefahrn vnd erst im Augusto de\u00df verlauffenen 1597 Jahrs/ widerkommen seind; Darinne der gantz succes der Reyse/ was sich t\u00e4glich verlauffen vnd zugetragen/ erz\u00e4lt wird; Au\u00df der Niderlendischen jn hochteutsche Sprach treulich verdolmetschet/ Durch Levinum Hulsium. Es seind auch etliche n\u00f6tige erklerung darzwischen gebracht/ vnd mit Carten vnd figurn geziert worden",
+    "entities": {
+      "locations": [
+        "Martio",
+        "Orientalischen Indien",
+        "Oost Indien"
+      ],
+      "people": []
+    }
+  },
+  {
+    "identifier": "AC09974253",
+    "barcodes": [
+      "Z168353801"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ168353801"
+    ],
+    "place_of_publication": "N\u00fcrnberg",
+    "publishers": [
+      "Hulsius, Levinus"
+    ],
+    "printers": [
+      "Hulsius, Levinus"
+    ],
+    "people": [
+      "Hulsius, Levinus"
+    ],
+    "date": 1599,
+    "marker_regions": [
+      "Asien"
+    ],
+    "work_title": "Verhael vande Reyse by de Hollandtsche Schepen gedaen naer Oost Indien",
+    "title_full": "Erste Schiffart. Kurtze Warhafftige Beschreibung der Newen Reyse oder Schiffart/ so die Hollendischen Schiff in den Orientalischen Jndien/ verricht: Welche Anno 1595. in Martio/ Alda au\u00dfgefahren/ vnd erst im Augusto des verlauffenen 1597. Jahrs/ wider kommen seind; Darinne der gantz Succes der Reyse/ was sich t\u00e4glich verlauffen vnnd zugetragen/ erzehlt wird. Au\u00df der Niderl\u00e4ndischen in Hochteutsche sprach trewlich verdolmetschet. Durch Levinum Hulssium. Es sind auch etliche n\u00f6tige erklehrung darzwischen gebracht/ vnd mit Carten vnnd Figuren geziret worden",
+    "entities": {
+      "locations": [
+        "Hochteutsche",
+        "Martio Alda",
+        "Oost Indien"
+      ],
+      "people": [
+        "Kurtze"
+      ]
+    }
+  },
+  {
+    "identifier": "AC07689699",
+    "barcodes": [
+      "Z167120604"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ167120604"
+    ],
+    "place_of_publication": "Dillingen a.d. Donau",
+    "publishers": [
+      "Mayer, Johann"
+    ],
+    "printers": [
+      "Mayer, Johann"
+    ],
+    "people": [
+      "Mayer, Johann"
+    ],
+    "date": 1589,
+    "marker_regions": [
+      "Asien"
+    ],
+    "work_title": "",
+    "title_full": "Sendtschreiben Au\u00df den weitberh\u00fcmpten Landschafften China/ Japon vn[d] Jndia/ de\u00df sechs vnnd achtzigisten/ vnnd siben vnd achtzigisten Jahrs; Sampt Angehenckter erzehlung eines mercklichen Schiffbruchs/ wie in andern schreiben de\u00df P. Petri Martonez an den Ehrw\u00fcrdigen P. General der Societet Iesv den 9. Decembris/ Anno 1586. gethan/ vermeldet wirdt",
+    "entities": {
+      "locations": [
+        "China Japon"
+      ],
+      "people": [
+        "P. Petri Martonez"
+      ]
+    }
+  },
+  {
+    "identifier": "AC09673645",
+    "barcodes": [
+      "Z224214403"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ224214403"
+    ],
+    "place_of_publication": "N\u00fcrnberg",
+    "publishers": [
+      "Peypus, Friedrich"
+    ],
+    "printers": [
+      "Peypus, Friedrich"
+    ],
+    "people": [
+      "Peypus, Friedrich"
+    ],
+    "date": 1520,
+    "marker_regions": [
+      "Nordamerika"
+    ],
+    "work_title": "",
+    "title_full": "Ein auszug ettlicher sendbrieff dem aller durchle\u00fcchtigisten gro\u00dfmechtigiste[n] F\u00fcrsten vnd Herren Herren Carl R\u00f6mischen vnd Hyspanische[n] K\u00f6nig etc. vnserm gnedigen hern durch ire verordent Hauptleut/ von wegen einer newgefunde[n] Jnseln/ der selbe[n] gelegenheit vnd jnwoner sitten vn[d] gewonheite[n] vor kurtzuerschinen tagen zugesandt",
+    "entities": {
+      "locations": [],
+      "people": [
+        "Carl R\u00f6mischen"
+      ]
+    }
+  },
+  {
+    "identifier": "AC09701779",
+    "barcodes": [
+      "Z157711400"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ157711400"
+    ],
+    "place_of_publication": "K\u00f6ln",
+    "publishers": [
+      "Keschedt, Peter"
+    ],
+    "printers": [
+      "Keschedt, Peter"
+    ],
+    "people": [
+      "Keschedt, Peter"
+    ],
+    "date": 1598,
+    "marker_regions": [
+      "Asien"
+    ],
+    "work_title": "",
+    "title_full": "Warhaffter/ Klarer/ Eigentlicher Bericht/ von der Weiten/ wunderbarer vnd nie beuor gethaner Rei\u00df oder Schiffart/ bi\u00df in Jndia gegen der Sonnen auffgang gelegen/; welche Rei\u00df oder Schiffart/ gethan drey Schiffe/ das eine war genant Mauritius/ das ander Hollandia/ das dritte Amsterdam/ vnnd eine Pinasse/ waren von etlichen Kauffherren in Hollandt zuger\u00fcst/ vnd mit Gelt auch Kauffmans waaren vol versehen. Au\u00df Niderl\u00e4ndischer Spraach in Hochteutsch bracht/ durch Conrad Lew aller Historien Liebhaber",
+    "entities": {
+      "locations": [
+        "Hochteutsch",
+        "Hollandt",
+        "Amsterdam",
+        "Jndia"
+      ],
+      "people": [
+        "Conrad Lew",
+        "Hollandia",
+        "Mauritius"
+      ]
+    }
+  },
+  {
+    "identifier": "AC09705712",
+    "barcodes": [
+      "Z177157603"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ177157603"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Feyerabend, Hieronymus"
+    ],
+    "printers": [
+      "Schmidt, Johann"
+    ],
+    "people": [
+      "Feyerabend, Hieronymus",
+      "Schmidt, Johann"
+    ],
+    "date": 1576,
+    "marker_regions": [
+      "Europa"
+    ],
+    "work_title": "",
+    "title_full": "Herrliche/ Warhaffte Beschreibung/ der beyder F\u00fcrstlichen Heimfahrt/ so mit de\u00df Durchleuchtigen vnd Hochgebornen F\u00fcrsten vnd Herrn/ Herrn Wilhelmen/ Hertzogen zu G\u00fclich Cleue vnd Berg/ Grauen  zu der Marck vnd Rauensberg/ Herrn zu Rauenstein/ etc. zweyen \u00e4ltern T\u00f6chtern/ Hertzogin Maria Leonora in das Landt zu Preussen/ vnd Hertzogin Anna/ in das F\u00fcrstenthumb Newburg/ in der obern Pfaltz/ zu vnterschiedlichen zeiten beschehen; Allen Hohes vnd nidrigs Standes Personen n\u00fctzlich vnd lustig zu lesen",
+    "entities": {
+      "locations": [
+        "F\u00fcrstenthumb Newburg"
+      ],
+      "people": [
+        "Anna",
+        "Maria Leonora",
+        "G\u00fclich Cleue",
+        "Wilhelmen Hertzogen"
+      ]
+    }
+  },
+  {
+    "identifier": "AC09705794",
+    "barcodes": [
+      "Z167120501"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ167120501"
+    ],
+    "place_of_publication": "Dillingen a.d. Donau",
+    "publishers": [
+      "Mayer, Johann"
+    ],
+    "printers": [
+      "Mayer, Johann"
+    ],
+    "people": [
+      "Mayer, Johann"
+    ],
+    "date": 1587,
+    "marker_regions": [
+      "Europa"
+    ],
+    "work_title": "",
+    "title_full": "Newe/ warhaffte/ au\u00dff\u00fchrliche Beschreibu[n]g/ der J\u00fcngstabgesandten Japonischen Legation gantzen Rai\u00df/ au\u00df Japon bi\u00df gen Rom/ vnd widerumb von dannen in Portugal/ bi\u00df z\u016f jhrem abschid au\u00df Li\u00dfbona; Auch vonn grossen Ehren/ so jhnen allenthalben / von F\u00fcrsten vnnd Herrn erzaigt/ vnd was sich sunst mit jhnen verloffen. Mit vorgehender beschreibung der Japonischen Landsart/ Gebreuch/ Sitten vnd Natur. Jetzt au\u00df dem Jtalianischen in Teutsche Sprach gebracht",
+    "entities": {
+      "locations": [
+        "Teutsche Sprach",
+        "Portugal",
+        "Rom"
+      ],
+      "people": [
+        "Japon",
+        "Rai\u00df"
+      ]
+    }
+  },
+  {
+    "identifier": "AC09788184",
+    "barcodes": [],
+    "urls": [],
+    "place_of_publication": "N\u00fcrnberg",
+    "publishers": [
+      "H\u00f6ltzel, Hieronymus"
+    ],
+    "printers": [
+      "H\u00f6ltzel, Hieronymus"
+    ],
+    "people": [
+      "H\u00f6ltzel, Hieronymus"
+    ],
+    "date": 1515,
+    "marker_regions": [
+      "S\u00fcdamerika"
+    ],
+    "work_title": "",
+    "title_full": "Copia der Newen Zeytung au\u00df Presillg Landt",
+    "entities": {
+      "locations": [],
+      "people": [
+        "Copia"
+      ]
+    }
+  },
+  {
+    "identifier": "AC09821237",
+    "barcodes": [
+      "Z170807409"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ170807409"
+    ],
+    "place_of_publication": "K\u00f6ln",
+    "publishers": [
+      "Claus, Johann"
+    ],
+    "printers": [
+      "Claus, Johann"
+    ],
+    "people": [
+      "Claus, Johann"
+    ],
+    "date": 1596,
+    "marker_regions": [
+      "Nordamerika"
+    ],
+    "work_title": "",
+    "title_full": "Franciscus Dracus Redivivvs. Das ist/ Kurtze Beschreibung/ aller vornehmbsten Reysen / Schiffarten vnnd Wasserschlachten / So der weitber\u00fcmbte Englische Admiral, Franciscus Dracus, welcher inn zwey Jahren vnd zehen Monaten orbem Mundi beschiffet/ hin vnd wider bey Pleymeuten/ Cartsag: S. Domingo. August: Florida vnd der Jnsul Cuba/ in seinem Leben gl\u00fccklich gehalten vnd vollbracht. Jtem von der jetzigen Engelischen Admiraln vnnd Schiffobersten bey Calis Malis verrichten vnd Abzug/ vnd was sie noch weiter daselbsten herumb bi\u00df Dato vorhaben/ ect. Alles in drey Kupfferst\u00fcck ordentlich vorgebildet/ vnd durch Ziffern erkl\u00e4ret/ etc.",
+    "entities": {
+      "locations": [
+        "Calis Malis",
+        "Florida"
+      ],
+      "people": [
+        "Jnsul Cuba",
+        "S. Domingo",
+        "bey Pleymeuten Cartsag",
+        "Franciscus Dracus",
+        "Kurtze",
+        "Franciscus Dracus Redivivvs"
+      ]
+    }
+  },
+  {
+    "identifier": "AC09923694",
+    "barcodes": [
+      "Z159579604"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ159579604"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Rab, Georg",
+      "Han, Weigand"
+    ],
+    "printers": [
+      "Rab, Georg",
+      "Han, Weigand"
+    ],
+    "people": [
+      "Rab, Georg",
+      "Han, Weigand"
+    ],
+    "date": 1561,
+    "marker_regions": [
+      "Asien",
+      "Orient"
+    ],
+    "work_title": "Warhafftige beschreybung der Meerfart",
+    "title_full": "Warhafftige beschreybung der Meerfart; so von den Gestrengen/ Edlen vn[d] Ehrenfesten Stephan von Gumpenberg/ Friderich von Wolffskel/ vnnd Hans von Rameraw/ Auch dem Ehrsamen Hans Strigel vnd Nicolao Magerer/ bede Burger z\u016f W\u00fcrtzburg/ sampt vier Dienern/ eim Koch/ eim Maler/ eim Re\u00fcter/ eim Schreyber/ vnnd eim Caplan von W\u00fcrtzburg/ so Johann Eyselsaner geheissen/ im Winter ist vollbracht worden/ wie sie mit h\u00fclff de\u00df Allmechtigen zum heyligen Grab/ vnd f\u00fcrters gen Damascon/ da Sanct Paulus bekert ist worden/ vnnd andere end der Heydenschafft/ gewe\u00dft/ vnd was f\u00fcr angst/ not vnd gefar sie erlitten/ auch wunders gesehen vnd erfaren haben/ etc. Von tag z\u016f tag fleissig vnd gr\u00fcndtlich beschriben/ vnd in Truck verfertigt/ vor niemals gesehen",
+    "entities": {
+      "locations": [
+        "Damascon",
+        "W\u00fcrtzburg"
+      ],
+      "people": [
+        "Sanct Paulus",
+        "Johann Eyselsaner",
+        "Hans Strigel",
+        "Stephan von Gumpenberg Friderich von Wolffskel vnnd Hans von Rameraw"
+      ]
+    }
+  },
+  {
+    "identifier": "AC10163082",
+    "barcodes": [
+      "Z170807203"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ170807203"
+    ],
+    "place_of_publication": "[Unknown]",
+    "publishers": [
+      "[Unknown]"
+    ],
+    "printers": [
+      "[Unknown]"
+    ],
+    "people": [
+      "[Unknown]"
+    ],
+    "date": 1596,
+    "marker_regions": [
+      "Nordamerika"
+    ],
+    "work_title": "",
+    "title_full": "Nova Novorvm. Newe zeitungen aus \u00f6sten/ Westen/ von newen gefundenen Landen/ Newen V\u00f6lkeren/ Newen handtierungen/ vngehorten sprachen vnd schriften: Von Francisci Draci, Jndische oder Amerische expedition; Mit deren Landen eigentliche vnd wahre beschreibung",
+    "entities": {
+      "locations": [],
+      "people": [
+        "Francisci Draci"
       ]
     }
   },
@@ -2855,255 +3114,6 @@
       "people": [
         "vnd Heyland Christus",
         "bi\u00dfhero"
-      ]
-    }
-  },
-  {
-    "identifier": "AC10474081",
-    "barcodes": [],
-    "urls": [],
-    "place_of_publication": "Marburg",
-    "publishers": [
-      "Kolbe, Andreas"
-    ],
-    "printers": [
-      "Kolbe, Andreas"
-    ],
-    "people": [
-      "Kolbe, Andreas"
-    ],
-    "date": 1557,
-    "marker_regions": [
-      "S\u00fcdamerika"
-    ],
-    "work_title": "Wahrhaftige Historia; (DE-588)4401116-7",
-    "title_full": "Varhaftige beschreibung eyner Landschafft der wilden nacketen/ grimmigen menschenfresser leuthe/ in der newen welt America gelegen.; Vor vnd nach Christi geburt im land z\u016f Hessen vnbekant/ bi\u00df vff dise zwey negst vergangene jar/ Da sie Hans Staden von Homburg au\u00df Hessen durch sein eygne erfarung erkant/ vnd ytzt durch den truck an tag gibt. Vnd zum andern mal fleissig corrigirt vnd gebessert; Hans Staden von Homburg au\u00df Hessen ; Mit eyner vorrede D Ioh. Dryandri/ genant Eychman/ Ordinarij Professoris Medici z\u016f Marpurg",
-    "entities": {
-      "locations": [
-        "Hessen",
-        "Homburg",
-        "Christi"
-      ],
-      "people": [
-        "Eychman Ordinarij Professoris Medici",
-        "Dryandri",
-        "Vnd",
-        "Hans Staden"
-      ]
-    }
-  },
-  {
-    "identifier": "AC10478357",
-    "barcodes": [
-      "Z18244920X"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ18244920X"
-    ],
-    "place_of_publication": "Augsburg",
-    "publishers": [
-      "Ulhart, Philipp"
-    ],
-    "printers": [
-      "Ulhart, Philipp"
-    ],
-    "people": [
-      "Ulhart, Philipp"
-    ],
-    "date": 1530,
-    "marker_regions": [
-      "Europa"
-    ],
-    "work_title": "",
-    "title_full": "Ain kurtze anzaygung vnd beschreybung R\u00f6mischer Kayserlicher Maiestat einreyten/ Erstlich von Jnn\u00dfpruck gen Schwatz/ volgendt z\u016f M\u00fcnchen/ vn[d] z\u016fletst gen Augspurg auf den Reychstag/ vnd was sich mittler zeyt daselbst t\u00e4glich verlauffen vnnd z\u016fgetragen hatt/ Anno. etc. 1530.",
-    "entities": {
-      "locations": [
-        "M\u00fcnchen"
-      ],
-      "people": []
-    }
-  },
-  {
-    "identifier": "AC10479820",
-    "barcodes": [
-      "http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00071764-3",
-      "Z161792207",
-      "Z167205208",
-      "Z167203704"
-    ],
-    "urls": [
-      "http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00071764-3",
-      "http://data.onb.ac.at/ABO/%2BZ161792207",
-      "http://data.onb.ac.at/ABO/%2BZ167205208",
-      "http://data.onb.ac.at/ABO/%2BZ167203704"
-    ],
-    "place_of_publication": "Wien",
-    "publishers": [
-      "Zimmermann, Michael"
-    ],
-    "printers": [
-      "Zimmermann, Michael"
-    ],
-    "people": [
-      "Zimmermann, Michael"
-    ],
-    "date": 1557,
-    "marker_regions": [
-      "Europa"
-    ],
-    "work_title": "Rerum Moscoviticarum commentarii; 1549; (DE-588)4210036-7",
-    "title_full": "Moscouia der Hauptstat in Reissen/ durch Herrn Sigmunden Freyherrn zu Herberstain/ Neyperg vnd Guetenhag Obristen Erbcamrer/ vnd \u00f6bristen Erbtruckhsessen in K\u00e4rntn/ R\u00f6mischer zu Hungern vnnd Beheim Kh\u00fc. May. etc. Rat/ Camrer vnd Presidenten der Nider\u00f6sterreichischen Camer zusamen getragen; Sambt des Moscouiter gepiet/ vnd seiner anrainer beschreibung vnd anzaigung/ in weu sy glaubens halb/ mit vns nit gleichhellig. Wie die Potschafften oder Gesanten durch sy emphangen vnd gehalten werden/ sambt zwayen vnderschidlichen Raisen in die Mosqua; durch Herrn Sigmunden Freyherrn zu Herberstain/ Neyperg vnd Guetenhag Obristen Erbcamrer/ vnd \u00f6bristen Erbtruchsessen in K\u00e4rntn/ R\u00f6mischer zu Hungern vnnd Beheim Kh\u00fc. May. etc. Rat/ Camrer vnd Presidenten der Nider\u00f6sterreichischen Camer zusamen getragen",
-    "entities": {
-      "locations": [
-        "K\u00e4rntn R\u00f6mischer",
-        "Herberstain Neyperg"
-      ],
-      "people": [
-        "May",
-        "Beheim Kh\u00fc"
-      ]
-    }
-  },
-  {
-    "identifier": "AC10732756",
-    "barcodes": [
-      "Z160260500"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ160260500"
-    ],
-    "place_of_publication": "Antwerpen",
-    "publishers": [
-      "Silvius, Willem"
-    ],
-    "printers": [
-      "Silvius, Willem"
-    ],
-    "people": [
-      "Silvius, Willem"
-    ],
-    "date": 1576,
-    "marker_regions": [
-      "Orient",
-      "Afrika",
-      "Asien",
-      "Europa"
-    ],
-    "work_title": "<<Les>> quatres premiers livres des navigations et p\u00e9r\u00e9grinations orientales; (DE-588)7517609-9",
-    "title_full": "Vier Bucher Von de Raisz vnd Schiffart in die Turckey, beschrieben durch Hern N. Nicolai/ B\u00fcrtig au\u00df dem Delphinat/ Kammerling vnd Geograff Ko. Mr. inn Franckreich; Mit ein vnnd sextzich [!] Man vnnd Weibliche Figuren/ nach dem leben abgesetzt/ nach verenderung vnd gestalt der Lender/ vnd gebrauch der selber/ mit beschreibung jres art vnd leben/ so wol inn Frid als Kriegzeiten. Neben anzeigung etlicher namhaftiger geschichten bey vnsern zeiten geschehen",
-    "entities": {
-      "locations": [],
-      "people": [
-        "Frid",
-        "Franckreich",
-        "N. Nicolai B\u00fcrtig",
-        "Von de Raisz"
-      ]
-    }
-  },
-  {
-    "identifier": "AC10852370",
-    "barcodes": [],
-    "urls": [],
-    "place_of_publication": "[Unknown]",
-    "publishers": [
-      "[Unknown]"
-    ],
-    "printers": [
-      "[Unknown]"
-    ],
-    "people": [
-      "[Unknown]"
-    ],
-    "date": 1500,
-    "marker_regions": [
-      "Asien",
-      "Europa",
-      "Orient"
-    ],
-    "work_title": "Geschichte von der T\u00fcrkei",
-    "title_full": "Antzeygung kurtzliche[n] vn[d] volfurung den vrsprung de\u00df Thurckyschen vnnd hundtyschen volcks ...; Mit erweitertem Anhang",
-    "entities": {
-      "locations": [
-        "T\u00fcrkei"
-      ],
-      "people": []
-    }
-  },
-  {
-    "identifier": "AC06547319",
-    "barcodes": [
-      "Z25647300X"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ25647300X"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Feyerabend, Sigmund"
-    ],
-    "printers": [
-      "Feyerabend, Sigmund"
-    ],
-    "people": [
-      "Feyerabend, Sigmund"
-    ],
-    "date": 1589,
-    "marker_regions": [
-      "Asien"
-    ],
-    "work_title": "Historia de las cosas m\u00e1s notables, ritos y costumbres del gran Reyno de la China; 1585",
-    "title_full": "<<Ein>> Neuwe/ Kurtze/ doch warhafftige Beschreibung de\u00df gar gro\u00dfm\u00e4chtigen weitbegriffenen/ bi\u00dfhero vnbekandten K\u00f6nigreichs China:; Seiner f\u00fcnffzehen gewaltigen Prouincien: vns\u00e4glicher grosser  vnd vieler St\u00e4tt/ Fruchtbarkeit/ vberschwenglichen grossen Reichthumbs an Perlen/ Edelgesteinen/ Goldt/ Silber vnd andern Metallen/ grosser  vnerh\u00f6rter Kriegsmacht/ zu Wasser vnnd Landt/ auch f\u00fcrtrefflichem/ wolangestelltem/ vern\u00fcnfftigem Regiment vnnd Policey/ vnd de\u00df Volcks in gemein Geschick vnd Scharpfsinnigkeit/ dergleichen in keiner Historien/ weder bey Meden/ Persen/ Assyrier/ Jnden/ Griechen/ R\u00f6mern/ noch einigen andern V\u00f6lckern in der weiten Welt jemals befunden. Bey gantz neuwlichen Jahren erk\u00fcndiget/ hernacher in Hispanischer Sprach beschrieben/ au\u00df derselbigen in die Jtalianische/ vnnd nunmehr in HochTeutsch gebracht. Den vbrigen Jnhalt wirdt die Vorrede au\u00dfweisen; [Juan Gonz\u00e1lez de Mendoza. \u00dcbersetzer: Johann Kellner]",
-    "entities": {
-      "locations": [
-        "HochTeutsch",
-        "China",
-        "gran Reyno de la China"
-      ],
-      "people": [
-        "Johann Kellner",
-        "Juan Gonz\u00e1lez de Mendoza",
-        "Bey",
-        "Goldt",
-        "Kurtze",
-        "cosas"
-      ]
-    }
-  },
-  {
-    "identifier": "AC05753248",
-    "barcodes": [
-      "Z253367704"
-    ],
-    "urls": [
-      "http://data.onb.ac.at/ABO/%2BZ253367704"
-    ],
-    "place_of_publication": "Frankfurt am Main",
-    "publishers": [
-      "Feyerabend, Sigmund"
-    ],
-    "printers": [
-      "Rab, Georg"
-    ],
-    "people": [
-      "Feyerabend, Sigmund",
-      "Rab, Georg"
-    ],
-    "date": 1577,
-    "marker_regions": [
-      "Orient",
-      "Asien",
-      "Europa"
-    ],
-    "work_title": "Palinodia de los Turcos",
-    "title_full": "T\u00fcrckische Chronica; Warhaffte eigentliche vnd kurtze Beschreibung/ der Tuercken Ankunfft/ Regierung/ K\u00f6nigen/ vnd Keysern/ Kriegen/ Schlachten/ Victorien vnd Sigen/ wider Christen vnd Heyden. Von Emptern/ Befelchs vnd Krieg\u00dfleuten/ der T\u00fcrckischen Soldanen/ vnd wie man wider den T\u00fcrcken kriegen sol. Jtem: Von der T\u00fcrcken Religion vnd Gesatz/ von jrem Gerichts Proce\u00df/ von der gemeinen T\u00fcrcken Leben/ Wesen/ Handel vnd Wandel/ vnd de\u00df T\u00fcrckischen Keysers Hofordnung vnd Hofgesind. Von der Auffruhr zwischen dem Keyser Baiazeth vnd seinen S\u00f6nen. Sampt einer T\u00fcrckischen Prophecey: Vnd vom Elend der armen gefangnen Christen etc. Endtlich ist mit angehenckt von Vrsachen der Christen verderben/ vnd wie man sich in solchen n\u00f6hten schicken soll. Alles in drey B\u00fccher eyngetheilt/ wie bald nach der Vorred zu sehen; Vormals au\u00df Jtali\u00e4nischer Sprach in vnser Teutsche verdolmetscht/ durch weyland den Hochgelehrten Heinrich M\u00fcller/ der Rechten Licentiaten/ vnd der freyen K\u00fcnst Magister: Jetzund aber bi\u00df auff den jetzregierenden T\u00fcrckischen Keyser Amurath/ den andern/ erlengt/ au\u00df sonderm flei\u00df durchsehen/ mit sch\u00f6nen neuwen Figuren geziert/ vnd Teutscher Nation zu gut an tag geben",
-    "entities": {
-      "locations": [
-        "Baiazeth vnd"
-      ],
-      "people": [
-        "Heinrich M\u00fcller",
-        "Jtem"
       ]
     }
   }

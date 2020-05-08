@@ -27,7 +27,7 @@ class App {
 
   loadData = () => {
     // Load metadata
-    const fMetadata = axios.get('TravelogueD16.json')
+    const fMetadata = axios.get('TravelogueD17.json')
       .then(response => {
         this.records = response.data;
         this.timeline = new Timeline(response.data);
@@ -39,7 +39,7 @@ class App {
         this.similaritiesNGRAM = new SimilaritiesNGRAM(response.data));
 
     // Load geo similarities
-    const fSimilaritiesSpatial = axios.get('similarities_spatial_16C.csv')
+    const fSimilaritiesSpatial = axios.get('similarities_spatial_17C.csv')
       .then(response =>
         this.similaritiesSpatial = new SimilaritiesSpatial(response.data));
 
