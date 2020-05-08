@@ -34,7 +34,7 @@ class App {
     });
 
     // Load NGRAM similarities
-    const fSimilaritiesNGRAM = axios.get('similarities_ngram_16C.csv')
+    const fSimilaritiesNGRAM = axios.get('similarities_ngram_17C.csv')
       .then(response =>
         this.similaritiesNGRAM = new SimilaritiesNGRAM(response.data));
 
