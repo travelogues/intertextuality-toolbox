@@ -87,7 +87,7 @@ class App {
 
     const reissuesToggle = new ReissuesToggle(containerEl);
     reissuesToggle.on('change', showReissues => {
-      this.showReissues = showReissues;
+      this.hideReissues = !showReissues;
       this.update();
     });
 
@@ -150,10 +150,9 @@ class App {
       spatial: this.similaritiesSpatial.getLinks(THRESHOLDS.spatial)
     };
 
-    if (!this.showReissues) {
+    if (this.hideReissues) {
       l.ngram = l.ngram.filter(l => !this.timeline.isReissueOf(l.Source, l.Target));
       l.spatial = l.spatial.filter(l => !this.timeline.isReissueOf(l.Source, l.Target));
-      console.log('after', l.ngram);
     }
 
     this.updateArcs(l);
@@ -192,7 +191,7 @@ class App {
     let spatial = barcodes.reduce((links, barcode) => 
       links.concat(this.similaritiesSpatial.getLinksForBarcode(barcode, THRESHOLDS.spatial)), []);
 
-    if (!this.showReissues) {
+    if (this.hideReissues) {
       ngram = ngram.filter(l => !this.timeline.isReissueOf(l.Source, l.Target));
       spatial = spatial.filter(l => !this.timeline.isReissueOf(l.Source, l.Target));
     }
