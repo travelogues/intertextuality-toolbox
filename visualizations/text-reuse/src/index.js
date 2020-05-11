@@ -4,6 +4,7 @@ import Timeline from './Timeline';
 import SimilaritiesNGRAM from './SimilaritiesNGRAM';
 import SimilaritiesSpatial from './SimilartiesSpatial';
 import ThresholdsControl from './controls/Thresholds';
+import ReissuesToggle from './controls/ReissuesToggle';
 import HoverPopup from './controls/HoverPopup';
 import { WIDTH, HEIGHT } from './Const';
 
@@ -27,19 +28,19 @@ class App {
 
   loadData = () => {
     // Load metadata
-    const fMetadata = axios.get('TravelogueD17.json')
+    const fMetadata = axios.get('TravelogueD16.json')
       .then(response => {
         this.records = response.data;
         this.timeline = new Timeline(response.data);
     });
 
     // Load NGRAM similarities
-    const fSimilaritiesNGRAM = axios.get('similarities_ngram_17C.csv')
+    const fSimilaritiesNGRAM = axios.get('similarities_ngram_16C.csv')
       .then(response =>
         this.similaritiesNGRAM = new SimilaritiesNGRAM(response.data));
 
     // Load geo similarities
-    const fSimilaritiesSpatial = axios.get('similarities_spatial_17C.csv')
+    const fSimilaritiesSpatial = axios.get('similarities_spatial_16C.csv')
       .then(response =>
         this.similaritiesSpatial = new SimilaritiesSpatial(response.data));
 
@@ -82,16 +83,21 @@ class App {
   renderControls = (ngramRange, spatialRange) => {
     const containerEl = document.createElement('DIV');
     containerEl.className = 'controls';
-
     this.elem.appendChild(containerEl);
 
-    const controls = new ThresholdsControl({
+    const reissuesToggle = new ReissuesToggle(containerEl);
+    reissuesToggle.on('change', showReissues => {
+      this.showReissues = showReissues;
+      this.update();
+    });
+
+    const sliders = new ThresholdsControl({
       containerEl, 
       ngramStart: THRESHOLDS.ngram[0],
       spatialStart: THRESHOLDS.spatial[0]
     });
 
-    controls.on('change', ranges => {
+    sliders.on('change', ranges => {
       THRESHOLDS = ranges;
       this.update();
     });
@@ -144,6 +150,14 @@ class App {
       spatial: this.similaritiesSpatial.getLinks(THRESHOLDS.spatial)
     };
 
+    if (!this.showReissues) {
+      console.log('removing reissues');
+      console.log('before: ' + (l.ngram.length + l.spatial.length));
+      l.ngram = l.ngram.filter(l => !this.timeline.isReissueOf(l.Source, l.Target));
+      l.spatial = l.spatial.filter(l => !this.timeline.isReissueOf(l.Source, l.Target));
+      console.log('after: ' + (l.ngram.length + l.spatial.length));
+    }
+
     this.updateArcs(l);
     this.updateDots(l);
   }
@@ -167,6 +181,7 @@ class App {
 
   /** Helper to get the links for a specific year **/
   _getLinksForYear = year => {
+    // TODO filter by reissue
     const records = this.timeline.getRecordsForYear(year);
 
     // Flatmap those barcodes!
