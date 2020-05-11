@@ -151,11 +151,9 @@ class App {
     };
 
     if (!this.showReissues) {
-      console.log('removing reissues');
-      console.log('before: ' + (l.ngram.length + l.spatial.length));
       l.ngram = l.ngram.filter(l => !this.timeline.isReissueOf(l.Source, l.Target));
       l.spatial = l.spatial.filter(l => !this.timeline.isReissueOf(l.Source, l.Target));
-      console.log('after: ' + (l.ngram.length + l.spatial.length));
+      console.log('after', l.ngram);
     }
 
     this.updateArcs(l);
@@ -181,7 +179,6 @@ class App {
 
   /** Helper to get the links for a specific year **/
   _getLinksForYear = year => {
-    // TODO filter by reissue
     const records = this.timeline.getRecordsForYear(year);
 
     // Flatmap those barcodes!
@@ -189,11 +186,16 @@ class App {
       barcodes.concat(record.barcodes), []);
 
     // Flatmap those links!
-    const ngram = barcodes.reduce((links, barcode) => 
+    let ngram = barcodes.reduce((links, barcode) => 
       links.concat(this.similaritiesNGRAM.getLinksForBarcode(barcode, THRESHOLDS.ngram)), []);
 
-    const spatial = barcodes.reduce((links, barcode) => 
+    let spatial = barcodes.reduce((links, barcode) => 
       links.concat(this.similaritiesSpatial.getLinksForBarcode(barcode, THRESHOLDS.spatial)), []);
+
+    if (!this.showReissues) {
+      ngram = ngram.filter(l => !this.timeline.isReissueOf(l.Source, l.Target));
+      spatial = spatial.filter(l => !this.timeline.isReissueOf(l.Source, l.Target));
+    }
 
     return { records, ngram, spatial };
   }

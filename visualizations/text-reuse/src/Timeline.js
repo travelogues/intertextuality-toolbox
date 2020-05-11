@@ -79,12 +79,8 @@ export default class Timeline {
     const a = this.barcodeRecordIndex[barcodeA];
     const b = this.barcodeRecordIndex[barcodeB];
 
-    console.log(a);
-    console.log(b);
-
     const isReissue = a && b && a.reissueOf === b.reissueOf;
 
-    console.log('isReissue: ' + isReissue);
     return isReissue;
   }
 
