@@ -11,7 +11,7 @@ import './index.scss';
 
 
 /** GUI: vertical offset of the x-axis **/
-const VERTICAL_OFFSET = 200;
+const VERTICAL_OFFSET = HEIGHT / 2;
 
 /** Similarity selection threshold **/
 let THRESHOLDS = {
