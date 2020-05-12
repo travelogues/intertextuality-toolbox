@@ -6,7 +6,7 @@ import SimilaritiesSpatial from './SimilartiesSpatial';
 import ThresholdsControl from './controls/Thresholds';
 import ReissuesToggle from './controls/ReissuesToggle';
 import HoverPopup from './controls/HoverPopup';
-import { WIDTH, HEIGHT } from './Const';
+import { WIDTH, HEIGHT, CENTURY } from './Const';
 
 import './index.scss';
 
@@ -16,8 +16,8 @@ const VERTICAL_OFFSET = HEIGHT / 2;
 
 /** Similarity selection threshold **/
 let THRESHOLDS = {
-  ngram:   [0.09, 1],
-  spatial: [0.16, 1]
+  ngram:   [0.14, 1],
+  spatial: [0.3, 1]
 }
 
 class App {
@@ -28,19 +28,19 @@ class App {
 
   loadData = () => {
     // Load metadata
-    const fMetadata = axios.get('TravelogueD16.json')
+    const fMetadata = axios.get(`TravelogueD${CENTURY}.json`)
       .then(response => {
         this.records = response.data;
         this.timeline = new Timeline(response.data);
     });
 
     // Load NGRAM similarities
-    const fSimilaritiesNGRAM = axios.get('similarities_ngram_16C.csv')
+    const fSimilaritiesNGRAM = axios.get(`similarities_ngram_${CENTURY}C.csv`)
       .then(response =>
         this.similaritiesNGRAM = new SimilaritiesNGRAM(response.data));
 
     // Load geo similarities
-    const fSimilaritiesSpatial = axios.get('similarities_spatial_16C.csv')
+    const fSimilaritiesSpatial = axios.get(`similarities_spatial_${CENTURY}C.csv`)
       .then(response =>
         this.similaritiesSpatial = new SimilaritiesSpatial(response.data));
 
