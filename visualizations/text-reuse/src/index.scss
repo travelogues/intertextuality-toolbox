@@ -1,3 +1,5 @@
+$signature:#3f99ff;
+
 html, body {
   margin:0;
   padding:0;
@@ -76,40 +78,39 @@ h2.label.places {
       -moz-transition: all 0.3s ease-out;
       -ms-transition: all 0.3s ease-out;
       -o-transition: all 0.3s ease-out;
-      border: 2px solid #009BFF;
+      border: 2px solid $signature;
     }
     
     
     .checkbox-label input:checked ~ .checkbox-custom {
-        background-color: #009BFF;
-        border-radius: 5px;
-        -webkit-transform: rotate(0deg) scale(1);
-        -ms-transform: rotate(0deg) scale(1);
-        transform: rotate(0deg) scale(1);
-        opacity:1;
-        border: 2px solid #FFFFFF;
+      background-color: $signature;
+      border-radius: 5px;
+      -webkit-transform: rotate(0deg) scale(1);
+      -ms-transform: rotate(0deg) scale(1);
+      transform: rotate(0deg) scale(1);
+      opacity:1;
+      border: 2px solid #FFF;
     }
-    
-    
+        
     .checkbox-label .checkbox-custom::after {
-        position: absolute;
-        content: '';
-        left: 12px;
-        top: 12px;
-        height: 0px;
-        width: 0px;
-        border-radius: 5px;
-        border: solid #009BFF;
-        border-width: 0 3px 3px 0;
-        -webkit-transform: rotate(0deg) scale(0);
-        -ms-transform: rotate(0deg) scale(0);
-        transform: rotate(0deg) scale(0);
-        opacity:1;
-        transition: all 0.3s ease-out;
-        -webkit-transition: all 0.3s ease-out;
-        -moz-transition: all 0.3s ease-out;
-        -ms-transition: all 0.3s ease-out;
-        -o-transition: all 0.3s ease-out;
+      position: absolute;
+      content: '';
+      left: 12px;
+      top: 12px;
+      height: 0px;
+      width: 0px;
+      border-radius: 5px;
+      border: solid $signature;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(0deg) scale(0);
+      -ms-transform: rotate(0deg) scale(0);
+      transform: rotate(0deg) scale(0);
+      opacity:1;
+      transition: all 0.3s ease-out;
+      -webkit-transition: all 0.3s ease-out;
+      -moz-transition: all 0.3s ease-out;
+      -ms-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
     }
     
     .checkbox-label input:checked ~ .checkbox-custom::after {
@@ -187,7 +188,7 @@ h2.label.places {
   }
 
   .noUi-connect {
-    background-color:#4b91f4;
+    background-color:$signature;
   }
 
   .noUi-horizontal .noUi-handle {
@@ -223,7 +224,7 @@ svg {
 }
 
 .works-per-year.has-links {
-  fill:#3f99ff;
+  fill:$signature;
 }
 
 .arcs path {
