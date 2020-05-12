@@ -16,8 +16,8 @@ const VERTICAL_OFFSET = HEIGHT / 2;
 
 /** Similarity selection threshold **/
 let THRESHOLDS = {
-  ngram:   [0.09, 1],
-  spatial: [0.2, 1]
+  ngram:   [0.12, 1],
+  spatial: [0.3, 1]
 }
 
 class App {
