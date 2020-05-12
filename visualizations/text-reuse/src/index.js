@@ -23,6 +23,22 @@ let THRESHOLDS = {
 class App {
 
   constructor(elem) {
+    document.querySelector('.container > h1').innerHTML = `Intertextuality: ${CENTURY}th Century`;
+
+    const visualization = document.createElement('DIV');
+    visualization.className = 'visualization';
+
+    const appendLabel = (label, cssClass) => {
+      const h2 = document.createElement('h2');
+      h2.className = `label ${cssClass}`;
+      h2.innerHTML = label;
+      visualization.append(h2);
+    }
+
+    appendLabel('Text Reuse', 'text-reuse');
+    appendLabel('Common Places', 'places');
+
+    elem.appendChild(visualization);
     this.elem = elem;
   }
 
@@ -104,7 +120,7 @@ class App {
   }
 
   render() {
-    this.svg = d3.select(this.elem)
+    this.svg = d3.select(this.elem.querySelector('.visualization'))
       .append('svg')
         .attr('width', WIDTH)
         .attr('height', HEIGHT);

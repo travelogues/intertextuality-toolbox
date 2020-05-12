@@ -19,6 +19,10 @@ html, body {
   position:relative;
 }
 
+.visualization {
+  position:relative;
+}
+
 h2.label {
   position:absolute;
   left:30px;
@@ -32,7 +36,7 @@ h2.label.text-reuse {
 }
 
 h2.label.places {
-  top:360px;
+  bottom:20px;
 }
 
 
@@ -252,7 +256,7 @@ svg {
     font-weight:normal;
     border-top-left-radius:5px;
     border-top-right-radius:5px;  
-    background-color:#4b91f4;  
+    background-color:$signature;  
     color:#fff;
 
     span {
@@ -262,10 +266,10 @@ svg {
   }
 
   .pairs-container {
-    background-color:#f0f6ff;
+    background-color:lighten($signature, 58%);
     padding:10px 0;
-    border-top:1px solid #d0def3;
-    color:#4d91f4;
+    border-top:1px solid rgba($signature, 0.15);
+    color:darken($signature, 5%);
 
     ul:empty::before {
       content:'-- no connections --';
