@@ -15,8 +15,8 @@
       "Angermaier, Elisabeth"
     ],
     "people": [
-      "Angermaier, Elisabeth",
-      "Officina Typographica Ederiana"
+      "Officina Typographica Ederiana",
+      "Angermaier, Elisabeth"
     ],
     "date": 1617,
     "marker_regions": [
@@ -500,8 +500,8 @@
       "Fievet, Philipp"
     ],
     "people": [
-      "Fievet, Philipp",
-      "Le Blon, Christoph"
+      "Le Blon, Christoph",
+      "Fievet, Philipp"
     ],
     "date": 1648,
     "marker_regions": [
@@ -1031,8 +1031,8 @@
       "Endter, Michael"
     ],
     "people": [
-      "Endter, Michael",
-      "Endter, Johann Friedrich"
+      "Endter, Johann Friedrich",
+      "Endter, Michael"
     ],
     "date": 1664,
     "marker_regions": [
@@ -1104,8 +1104,8 @@
       "Naumann, Johann"
     ],
     "people": [
-      "Liebezeit, Gottfried",
-      "Naumann, Johann"
+      "Naumann, Johann",
+      "Liebezeit, Gottfried"
     ],
     "date": 1678,
     "marker_regions": [
@@ -1768,8 +1768,8 @@
       "Felsecker, Wolfgang Eberhard"
     ],
     "people": [
-      "Felsecker, Wolfgang Eberhard",
-      "Kramer, Johann"
+      "Kramer, Johann",
+      "Felsecker, Wolfgang Eberhard"
     ],
     "date": 1664,
     "marker_regions": [
@@ -1869,8 +1869,8 @@
       "Gerhard, Christoph"
     ],
     "people": [
-      "Paul F\u00fcrst Witwe und Erben",
-      "Gerhard, Christoph"
+      "Gerhard, Christoph",
+      "Paul F\u00fcrst Witwe und Erben"
     ],
     "date": 1669,
     "marker_regions": [
@@ -1954,6 +1954,43 @@
     }
   },
   {
+    "identifier": "AC08826003",
+    "barcodes": [
+      "Z255419501"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ255419501"
+    ],
+    "place_of_publication": "Leipzig",
+    "publishers": [
+      "Kloss, Johann Herbord"
+    ],
+    "printers": [
+      "Kloss, Johann Herbord"
+    ],
+    "people": [
+      "Kloss, Johann Herbord"
+    ],
+    "date": 1693,
+    "marker_regions": [
+      "TravelogueD17",
+      "Nordamerika"
+    ],
+    "work_title": "<<The>> English-american, his travail by sea and land; 1648",
+    "title_full": "<<Thomas Gage>> Neue merckw\u00fcrdige Reise=Beschreibung Nach Neu=Spanien/; Was ihm daselbst seltsames begegnet / und wie er durch die Provintz Nicaragua wider zur\u00fcck nach der Havana gekehret ; Jn welcher zu finden ist Ein ausf\u00fchrlicher Bericht von der Stadt Mexico, wie selbte so wol vor Alters gewesen/ als auch wie sie ietzo beschaffen sey: Jngleichen Eine vollkommene Beschreibung aller L\u00e4nder und Provinzen/ welche die Spanier in gantz America besitzen; von ihrem Kirchen= und Policey:Regiment: ihrem Handel: wie auch von ihren und der Criollen, Mestisen, Mularen, Jndianer und Schwartzen/ Sitten und Lebens=Art. Deme allem zum Beschlu\u00df noch beygef\u00fcget ist Ein kurtzer Unterricht von der Poconchischen oder Pocomanischen Sprache. Aus dem Frantz\u00f6sischen ins Deutsche \u00fcbersetzt",
+    "entities": {
+      "locations": [
+        "Mexico",
+        "Havana",
+        "Nicaragua",
+        "Spanien"
+      ],
+      "people": [
+        "Thomas"
+      ]
+    }
+  },
+  {
     "identifier": "AC05859790",
     "barcodes": [
       "Z168354805"
@@ -2006,8 +2043,8 @@
       "Schultes, Hans"
     ],
     "people": [
-      "Schultes, Hans",
-      "Custos, Dominicus"
+      "Custos, Dominicus",
+      "Schultes, Hans"
     ],
     "date": 1600,
     "marker_regions": [
@@ -2048,8 +2085,8 @@
       "Fries, Heinrich"
     ],
     "people": [
-      "Fries, Heinrich",
-      "Zunner, Johann David"
+      "Zunner, Johann David",
+      "Fries, Heinrich"
     ],
     "date": 1674,
     "marker_regions": [
@@ -2294,8 +2331,8 @@
       "Dabertzhofer, Chrysostomus"
     ],
     "people": [
-      "Kr\u00fcger, Johann",
-      "Dabertzhofer, Chrysostomus"
+      "Dabertzhofer, Chrysostomus",
+      "Kr\u00fcger, Johann"
     ],
     "date": 1614,
     "marker_regions": [
@@ -2639,8 +2676,8 @@
       "Wei\u00df, Johann Friedrich"
     ],
     "people": [
-      "Hulsius, Friedrich <<van>>",
-      "Wei\u00df, Johann Friedrich"
+      "Wei\u00df, Johann Friedrich",
+      "Hulsius, Friedrich <<van>>"
     ],
     "date": 1623,
     "marker_regions": [
@@ -2750,9 +2787,9 @@
       "Koch, Melchior"
     ],
     "people": [
-      "Koch, Melchior",
+      "Naumann, Johann",
       "Wolff, Georg",
-      "Naumann, Johann"
+      "Koch, Melchior"
     ],
     "date": 1675,
     "marker_regions": [
@@ -2972,8 +3009,8 @@
       "Richter, Wolfgang"
     ],
     "people": [
-      "Richter, Wolfgang",
-      "Bry, Johann Theodor <<de>>"
+      "Bry, Johann Theodor <<de>>",
+      "Richter, Wolfgang"
     ],
     "date": 1603,
     "marker_regions": [
@@ -3015,9 +3052,9 @@
       "Richter, Wolfgang"
     ],
     "people": [
-      "Richter, Wolfgang",
       "Bry, Johann Theodor <<de>>",
-      "Bry, Johann Israel <<de>>"
+      "Bry, Johann Israel <<de>>",
+      "Richter, Wolfgang"
     ],
     "date": 1600,
     "marker_regions": [
@@ -3172,8 +3209,8 @@
       "Holwein, Johann"
     ],
     "people": [
-      "Guth, Christian",
-      "Holwein, Johann"
+      "Holwein, Johann",
+      "Guth, Christian"
     ],
     "date": 1658,
     "marker_regions": [
@@ -3210,9 +3247,9 @@
       "Richter, Wolfgang"
     ],
     "people": [
-      "Richter, Wolfgang",
       "Bry, Johann Theodor <<de>>",
-      "Bry, Johann Israel <<de>>"
+      "Bry, Johann Israel <<de>>",
+      "Richter, Wolfgang"
     ],
     "date": 1603,
     "marker_regions": [
@@ -3443,8 +3480,8 @@
       "Zeidler, Andreas"
     ],
     "people": [
-      "Zeidler, Andreas",
-      "Kroniger, Lorenz"
+      "Kroniger, Lorenz",
+      "Zeidler, Andreas"
     ],
     "date": 1697,
     "marker_regions": [
@@ -3693,9 +3730,9 @@
       "Richter, Wolfgang"
     ],
     "people": [
-      "Richter, Wolfgang",
       "Bry, Johann Theodor <<de>>",
-      "Bry, Johann Israel <<de>>"
+      "Bry, Johann Israel <<de>>",
+      "Richter, Wolfgang"
     ],
     "date": 1606,
     "marker_regions": [
@@ -3778,8 +3815,8 @@
       "Jansonius, Justus"
     ],
     "people": [
-      "Jansonius, Justus",
-      "Henning Grosse I. Erben"
+      "Henning Grosse I. Erben",
+      "Jansonius, Justus"
     ],
     "date": 1622,
     "marker_regions": [
@@ -3812,8 +3849,8 @@
       "Jansonius, Justus"
     ],
     "people": [
-      "Jansonius, Justus",
-      "Grosse, Henning"
+      "Grosse, Henning",
+      "Jansonius, Justus"
     ],
     "date": 1620,
     "marker_regions": [
@@ -4073,10 +4110,10 @@
       "Richter, Wolfgang"
     ],
     "people": [
-      "Richter, Wolfgang",
       "Bry, Katharina <<de>>",
       "Bry, Johann Theodor <<de>>",
-      "Bry, Johann Israel <<de>>"
+      "Bry, Johann Israel <<de>>",
+      "Richter, Wolfgang"
     ],
     "date": 1604,
     "marker_regions": [
@@ -4266,8 +4303,8 @@
       "Velsen, Jacob <<van>>"
     ],
     "people": [
-      "Boom, Hendrick",
       "Boom, Dirk",
+      "Boom, Hendrick",
       "Velsen, Jacob <<van>>"
     ],
     "date": 1671,
@@ -4320,8 +4357,8 @@
       "Boom, Dirk"
     ],
     "people": [
-      "Boom, Hendrick",
-      "Boom, Dirk"
+      "Boom, Dirk",
+      "Boom, Hendrick"
     ],
     "date": 1671,
     "marker_regions": [
@@ -4567,8 +4604,8 @@
       "Lochner, Christoph"
     ],
     "people": [
-      "Lochner, Christoph",
-      "Hulsius, Levinus"
+      "Hulsius, Levinus",
+      "Lochner, Christoph"
     ],
     "date": 1601,
     "marker_regions": [
@@ -4604,8 +4641,8 @@
       "Lochner, Christoph"
     ],
     "people": [
-      "Lochner, Christoph",
-      "Hulsius, Levinus"
+      "Hulsius, Levinus",
+      "Lochner, Christoph"
     ],
     "date": 1603,
     "marker_regions": [
@@ -5070,8 +5107,8 @@
       "Kempfer, Erasmus"
     ],
     "people": [
-      "Hulsius, Maria",
-      "Kempfer, Erasmus"
+      "Kempfer, Erasmus",
+      "Hulsius, Maria"
     ],
     "date": 1612,
     "marker_regions": [
@@ -5124,6 +5161,46 @@
       "people": [
         "Dieterich von Bry",
         "Vlrici Schmidts"
+      ]
+    }
+  },
+  {
+    "identifier": "AC05861716",
+    "barcodes": [
+      "Z168352705"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ168352705"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Hulsius, Maria"
+    ],
+    "printers": [
+      "Hoffmann, Nikolaus"
+    ],
+    "people": [
+      "Hulsius, Maria",
+      "Hoffmann, Nikolaus"
+    ],
+    "date": 1619,
+    "marker_regions": [
+      "TravelogueD17",
+      "Afrika",
+      "Asien",
+      "S\u00fcdamerika",
+      "Ozeanien"
+    ],
+    "work_title": "Journael ofte beschryvinghe van de wonderlicke reyse, ghedaen door Will Cornelisz Schouten van Hoorn, inde jaren 1615, 1616 en 1617; 1618",
+    "title_full": "<<Die>> sechzehende Schifffahrt. Journal/ Oder Beschreibung der wunderbaren Reise Wilhelm Schouten au\u00df Hollandt/ im Jahr 1615. 16. vnd 17.; Darinnen er eine neuwe Durchfahrt neben dem Freto Magellanico, welche bi\u00dfhero noch vnbekannt gewesen/ in die Suyd See entdeckt. Beneben erzehlung/ was f\u00fcr Land/ Jnsuln/ Leut/ allda gefunden/ vnd sich sonsten auff der Reise in der Suyd See zugetragen. Mit sch\u00f6nen LandCharten/ vnd Kupfferst\u00fccken erkl\u00e4rt",
+    "entities": {
+      "locations": [
+        "Suyd See",
+        "Hollandt"
+      ],
+      "people": [
+        "Wilhelm Schouten",
+        "Cornelisz Schouten van Hoorn"
       ]
     }
   },
@@ -5635,8 +5712,8 @@
       "Knorz, Andreas"
     ],
     "people": [
-      "Hoffmann, Johann",
-      "Knorz, Andreas"
+      "Knorz, Andreas",
+      "Hoffmann, Johann"
     ],
     "date": 1681,
     "marker_regions": [
@@ -5680,8 +5757,8 @@
       "Knorz, Andreas"
     ],
     "people": [
-      "Hoffmann, Johann",
-      "Knorz, Andreas"
+      "Knorz, Andreas",
+      "Hoffmann, Johann"
     ],
     "date": 1681,
     "marker_regions": [
@@ -5726,9 +5803,9 @@
       "M\u00fcller, Georg Heinrich"
     ],
     "people": [
+      "M\u00fcller, Georg Heinrich",
       "Fleischer, David",
-      "Fleischer, Johann Theodor",
-      "M\u00fcller, Georg Heinrich"
+      "Fleischer, Johann Theodor"
     ],
     "date": 1675,
     "marker_regions": [
@@ -5862,8 +5939,8 @@
       "Knorz, Andreas"
     ],
     "people": [
-      "Hoffmann, Johann",
-      "Knorz, Andreas"
+      "Knorz, Andreas",
+      "Hoffmann, Johann"
     ],
     "date": 1681,
     "marker_regions": [
@@ -5903,8 +5980,8 @@
       "Knorz, Andreas"
     ],
     "people": [
-      "Hoffmann, Johann",
-      "Knorz, Andreas"
+      "Knorz, Andreas",
+      "Hoffmann, Johann"
     ],
     "date": 1681,
     "marker_regions": [
@@ -5941,8 +6018,8 @@
       "Hoffmann, Johann"
     ],
     "people": [
-      "Hoffmann, Johann",
-      "Knorz, Andreas"
+      "Knorz, Andreas",
+      "Hoffmann, Johann"
     ],
     "date": 1681,
     "marker_regions": [
@@ -6100,8 +6177,8 @@
       "Lantzenberger, Michael"
     ],
     "people": [
-      "Lantzenberger, Michael",
-      "Grosse, Henning"
+      "Grosse, Henning",
+      "Lantzenberger, Michael"
     ],
     "date": 1608,
     "marker_regions": [
@@ -6545,8 +6622,8 @@
       "Kempfer, Erasmus"
     ],
     "people": [
-      "Hulsius, Maria",
-      "Kempfer, Erasmus"
+      "Kempfer, Erasmus",
+      "Hulsius, Maria"
     ],
     "date": 1612,
     "marker_regions": [
@@ -6603,6 +6680,46 @@
     }
   },
   {
+    "identifier": "AC05861612",
+    "barcodes": [
+      "Z168352201"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ168352201"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Hulsius, Maria"
+    ],
+    "printers": [
+      "Kempfer, Erasmus"
+    ],
+    "people": [
+      "Kempfer, Erasmus",
+      "Hulsius, Maria"
+    ],
+    "date": 1613,
+    "marker_regions": [
+      "TravelogueD17",
+      "Afrika",
+      "Asien"
+    ],
+    "work_title": "Kurtzer Verfolg und Continuirung der Reise, so von den Holl- und Seel\u00e4ndern in die OstIndien mit neun grossen und vier kleinen Schiffen vom 1607. bi\u00df in das 1612. Jahr, unter der Admiralschafft Peter Wilhelm Verhuffen verrichtet worden",
+    "title_full": "Eylffte Schiffart ander Theil/ Oder Kurtzer Verfolg vnd Continuirung der Reyse/ so von den Holl= vnd Seel\u00e4ndern in die OstJndien mit neun grossen vnd vier kleinen Schiffen vom 1607. bi\u00df in das 1612. Jahr/ vnter der Admiralschafft Peter Wilhelm Verhuffen verrichtet worden/ beneben etlichen Collpquien vnd Gesprechen/ in Teutscher/ Malaischer vnd Madagascarischer Sprach beschrieben/ allem so der Ost Jndianischen Reyse sich gebrauchen/ fast nutz vnd nothwendig zu lesen/ etc. Au\u00df kurtzer Verzeichnus Johann Verkens von Leipzig/ zusamen gebracht vnd an Tag geben/ durch M. G. A. D",
+    "entities": {
+      "locations": [
+        "Leipzig",
+        "Holl"
+      ],
+      "people": [
+        "M. G. A. D",
+        "Johann Verkens",
+        "Peter Wilhelm Verhuffen",
+        "Kurtzer"
+      ]
+    }
+  },
+  {
     "identifier": "AC11093749",
     "barcodes": [
       "Z185144800"
@@ -6618,8 +6735,8 @@
       "Becker, Matthias Witwe"
     ],
     "people": [
-      "Becker, Matthias Witwe",
-      "Bry, Johann Theodor <<de>>"
+      "Bry, Johann Theodor <<de>>",
+      "Becker, Matthias Witwe"
     ],
     "date": 1613,
     "marker_regions": [
@@ -6789,9 +6906,9 @@
       "R\u00f6\u00dflin, Johann Weyrich"
     ],
     "people": [
+      "Endter, Wolfgang",
       "R\u00f6\u00dflin, Johann Weyrich",
-      "Endter, Johann Andreas",
-      "Endter, Wolfgang"
+      "Endter, Johann Andreas"
     ],
     "date": 1659,
     "marker_regions": [
@@ -7035,8 +7152,8 @@
       "Hoffmann, Nikolaus"
     ],
     "people": [
-      "Hoffmann, Nikolaus",
-      "Bry, Johann Theodor <<de>>"
+      "Bry, Johann Theodor <<de>>",
+      "Hoffmann, Nikolaus"
     ],
     "date": 1617,
     "marker_regions": [
@@ -7189,10 +7306,10 @@
       "Lochner, Christoph"
     ],
     "people": [
-      "Lochner, Christoph",
-      "Hulsius, Levinus"
+      "Hulsius, Levinus",
+      "Lochner, Christoph"
     ],
-    "date": 1602,
+    "date": 1603,
     "marker_regions": [
       "TravelogueD17",
       "Europa",
@@ -7278,9 +7395,9 @@
       "Richter, Wolfgang"
     ],
     "people": [
-      "Richter, Wolfgang",
       "Bry, Johann Theodor <<de>>",
-      "Bry, Johann Israel <<de>>"
+      "Bry, Johann Israel <<de>>",
+      "Richter, Wolfgang"
     ],
     "date": 1606,
     "marker_regions": [
@@ -7317,8 +7434,8 @@
       "Becker, Matth\u00e4us"
     ],
     "people": [
-      "Hulsius, Maria",
-      "Becker, Matth\u00e4us"
+      "Becker, Matth\u00e4us",
+      "Hulsius, Maria"
     ],
     "date": 1608,
     "marker_regions": [
@@ -7383,8 +7500,8 @@
       "Kempfer, Erasmus"
     ],
     "people": [
-      "Hulsius, Maria",
-      "Kempfer, Erasmus"
+      "Kempfer, Erasmus",
+      "Hulsius, Maria"
     ],
     "date": 1612,
     "marker_regions": [
@@ -7405,6 +7522,42 @@
     }
   },
   {
+    "identifier": "AC06602256",
+    "barcodes": [
+      "Z168354908"
+    ],
+    "urls": [
+      "http://data.onb.ac.at/ABO/%2BZ168354908"
+    ],
+    "place_of_publication": "Frankfurt am Main",
+    "publishers": [
+      "Hulsius, Maria"
+    ],
+    "printers": [
+      "Becker, Matth\u00e4us"
+    ],
+    "people": [
+      "Becker, Matth\u00e4us",
+      "Hulsius, Maria"
+    ],
+    "date": 1608,
+    "marker_regions": [
+      "TravelogueD17",
+      "Afrika",
+      "Asien"
+    ],
+    "work_title": "",
+    "title_full": "Zehende Schiffart oder Reyse der Holl\u00e4nder vnnd Seel\u00e4nder in Ost Jndien beschehen vnder dem Admiral Cornelis Matelief dem Jungen/ so mit eylff grossen Schiffen Anno 1605. den 12. Maij au\u00df Hollandt abgeloffen vnd im Mertzen dieses 1608. nach gehaltener Schlacht vor Malacca wider mit zweyen Schiffen wol ist angekommen; Zusammen gebracht vnnd beschrieben au\u00df Niderl\u00e4ndischer Verzeichnu\u00df durch einen Liebhaber der Schiffahrten",
+    "entities": {
+      "locations": [
+        "Malacca"
+      ],
+      "people": [
+        "Cornelis Matelief"
+      ]
+    }
+  },
+  {
     "identifier": "AC05861582",
     "barcodes": [
       "Z168352006"
@@ -7420,8 +7573,8 @@
       "Kempfer, Erasmus"
     ],
     "people": [
-      "Hulsius, Maria",
-      "Kempfer, Erasmus"
+      "Kempfer, Erasmus",
+      "Hulsius, Maria"
     ],
     "date": 1613,
     "marker_regions": [
@@ -7671,8 +7824,8 @@
       "Becker, Katharina"
     ],
     "people": [
-      "Bry, Johann Theodor <<de>>",
-      "Becker, Katharina"
+      "Becker, Katharina",
+      "Bry, Johann Theodor <<de>>"
     ],
     "date": 1613,
     "marker_regions": [
@@ -8656,8 +8809,8 @@
       "Saur, Johannes"
     ],
     "people": [
-      "Roth, Franz Nicolaus",
-      "Saur, Johannes"
+      "Saur, Johannes",
+      "Roth, Franz Nicolaus"
     ],
     "date": 1609,
     "marker_regions": [
@@ -8698,8 +8851,8 @@
       "Saur, Johannes"
     ],
     "people": [
-      "Roth, Franz Nicolaus",
-      "Saur, Johannes"
+      "Saur, Johannes",
+      "Roth, Franz Nicolaus"
     ],
     "date": 1609,
     "marker_regions": [
