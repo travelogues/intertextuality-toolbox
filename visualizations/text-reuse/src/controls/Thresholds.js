@@ -55,7 +55,7 @@ export default class ThresholdControls extends EventEmitter {
       start: [ start, 1 ],  
       connect: true,
       behaviour: 'tap-drag',
-      tooltips: false,  
+      tooltips: true,  
       pips: {
         mode: 'range',
         density: 2

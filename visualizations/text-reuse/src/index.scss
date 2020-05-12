@@ -213,6 +213,14 @@ h2.label.places {
     height:7px;
   }
 
+  .noUi-tooltip {
+    display: none;
+  }
+
+  .noUi-active .noUi-tooltip {
+    display: block;
+  }
+
 }
 
 svg {
