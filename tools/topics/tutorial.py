@@ -2,6 +2,8 @@ from gensim.test.utils import common_texts
 from gensim.corpora.dictionary import Dictionary
 from gensim.models import LdaModel
 
+print(common_texts)
+
 # Create a corpus from a list of texts
 common_dictionary = Dictionary(common_texts)
 common_corpus = [common_dictionary.doc2bow(text) for text in common_texts]
