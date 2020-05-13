@@ -30,6 +30,7 @@ deren
 dergleichen
 diee
 dieer
+dieelb
 dieem
 dieen
 dief
@@ -45,6 +46,7 @@ dito
 dritt
 eben
 ehen
+einand
 elbt
 endlich
 erst
@@ -61,10 +63,13 @@ feinem
 feiner
 feyn
 folch
+fondern
 ganz
+geehen
 genannt
 gesehen
 geween
+gewefen
 gleich
 groe
 groen
@@ -83,6 +88,8 @@ kleinen
 knnen
 kommen
 laffen
+lassen
+mchten
 mehr
 nachen
 nahm
@@ -90,6 +97,7 @@ nahmen
 nehmen
 olch
 olcher
+olchen
 ondern
 onderlich
 sagt
@@ -131,6 +139,7 @@ weis
 wenig
 werd
 were
+wiederum
 wider
 wirdt
 wohl
