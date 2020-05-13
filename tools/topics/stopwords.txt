@@ -1,3 +1,5 @@
+acht
+ahen
 alfo
 allda
 allein
@@ -6,6 +8,8 @@ auff
 begeben
 bekamen
 bekommen
+bringen
+chon
 daher
 daelbt
 danach
@@ -31,6 +35,7 @@ dieselb
 disem
 diser
 dito
+ehen
 elbt
 endlich
 erst
@@ -60,12 +65,16 @@ kommen
 laffen
 mehr
 nachen
+nahm
 nahmen
+nehmen
 olch
 olcher
 ondern
+onderlich
 sagt
 schon
+sehen
 seit
 seiten
 selbig
@@ -73,8 +82,10 @@ seyn
 solch
 sollen
 sollt
+sonderlich
 statt
 thun
+uber
 uner
 unern
 under
@@ -85,6 +96,7 @@ vnd
 vnder
 vnter
 vner
+vnfer
 vnnd
 vns
 wann
@@ -102,9 +114,11 @@ wohl
 wollt
 wolt
 worden
+wren
 wurden
 wrde
 wurd
 zuvor
 zwei
 zwey
+zwichen
