@@ -1,7 +1,6 @@
 import sys
 from util.corpus import read_file
 from util.ngram_similarity import create_one_dictionary
-from util.coverage_map import CoverageMap
 import textdistance
 
 '''
@@ -25,9 +24,9 @@ MIN_PASSAGE_LENGTH = 70 # Discard all equivalent passages short than that
 Aligns equivalent passages in the two given text files,
 using n-grams of length n_gram_size as a basis.
 '''
-def align_files(file_a, file_b, outfile, ngram_size):
-    coverage_map = CoverageMap()
-
+def align_files(file_a, file_b, ngram_size):
+    aligned_passages = []
+    
     dict_a = create_one_dictionary(file_a, ngram_size, 0)
     dict_b = create_one_dictionary(file_b, ngram_size, 1)
 
@@ -40,7 +39,7 @@ def align_files(file_a, file_b, outfile, ngram_size):
     text_b = read_file(file_b)
 
     # expand all n-grams 
-    print('Expanding shared n-grams')
+    print(f'Expanding {len(shared_ngrams)} shared n-grams')
     ctr = 0
 
     for shared_ngram in shared_ngrams:
@@ -49,16 +48,15 @@ def align_files(file_a, file_b, outfile, ngram_size):
 
         for index_a in all_occurrences_a:
             for index_b in all_occurrences_b:
-                if not coverage_map.is_fully_covered(index_a, index_b, ngram_size):
-                    passages = expand(text_a, text_b, index_a, index_b, ngram_size)
-                    if len(passages['a']['text']) > MIN_PASSAGE_LENGTH:
-                        coverage_map.add_passages(passages)
+                passages = expand(text_a, text_b, index_a, index_b, ngram_size)
+                if len(passages['a']['text']) > MIN_PASSAGE_LENGTH:
+                        aligned_passages.append(passages)
             
         ctr += 1
-        sys.stdout.write(f'{ctr} of {len(shared_ngrams)}\r')
-        sys.stdout.flush()
+        # sys.stdout.write(f'{ctr} of {len(shared_ngrams)}\r')
+        # sys.stdout.flush()
 
-    coverage_map.write_to_file(outfile)
+    return aligned_passages
 
 '''
 Expands the shared ngram at the given index positions of text_a 
