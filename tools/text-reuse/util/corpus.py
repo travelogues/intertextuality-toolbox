@@ -14,8 +14,8 @@ def list_files_in_folders(paths):
   return flattened
 
 def clean_text(str):
-  ascii_only = re.sub('[^A-Za-z0-9 ]+', '', str)
-  return re.sub('\\s+', ' ', ascii_only)
+  ascii_only = re.sub('[^A-Za-z0-9\\n ]+', '', str)
+  return ascii_only.re.sub('\\s+', ' ', ascii_only)
 
 def read_file(f):
   with open(f, 'r') as file:

@@ -18,25 +18,25 @@ DOI: 10.31235/osf.io/7xpqe
 
 MAX_STRIKES = 10 # The higher this value, the more 'fuzzyness' is allowed between equivalent passages
 
-MIN_PASSAGE_LENGTH = 70 # Discard all equivalent passages short than that
+MIN_PASSAGE_LENGTH = 65 # Discard all equivalent passages short than that
 
 '''
 Aligns equivalent passages in the two given text files,
 using n-grams of length n_gram_size as a basis.
 '''
-def align_files(file_a, file_b, ngram_size):
+def align_text(text_a, text_b, ngram_size):
     aligned_passages = []
     
-    dict_a = create_one_dictionary(file_a, ngram_size, 0)
-    dict_b = create_one_dictionary(file_b, ngram_size, 1)
+    dict_a = create_one_dictionary(text_a, ngram_size, 0)
+    dict_b = create_one_dictionary(text_b, ngram_size, 1)
 
     ngrams_a = list(dict_a.keys())
     ngrams_b = set(dict_b.keys())
 
     shared_ngrams = list(filter(lambda x: x in ngrams_b, ngrams_a))
 
-    text_a = read_file(file_a)
-    text_b = read_file(file_b)
+    # text_a = read_file(file_a)
+    # text_b = read_file(file_b)
 
     # expand all n-grams 
     print(f'Expanding {len(shared_ngrams)} shared n-grams')

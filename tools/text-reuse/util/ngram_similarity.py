@@ -7,12 +7,12 @@ Partially based on the JavaScript code by Mees Gelein:
 https://github.com/MGelein/text-comparison
 '''
 
-def create_one_dictionary(file, n, idx, record_indices = True):
+def create_one_dictionary(text, n, idx, record_indices = True):
   sys.stdout.write(f'Creating dict {idx}\r')
   sys.stdout.flush()
 
   dict = {}
-  text = read_file(file)
+  # text = read_file(file)
 
   for idx in range(0, len(text)):
       gram = text[idx: idx + n].encode('ascii')
