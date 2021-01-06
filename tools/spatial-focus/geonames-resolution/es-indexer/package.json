@@ -11,7 +11,7 @@
   "author": "Rainer Simon <rainer.simon@ait.ac.at>",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "read-each-line-sync": "^1.0.5"
   }
 }
