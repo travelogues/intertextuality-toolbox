@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "d3": "^5.15.1",
+    "d3": "^7.6.1",
     "nouislider": "^14.2.0",
     "papaparse": "^5.2.0",
     "tiny-emitter": "^2.1.0"
